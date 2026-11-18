@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "#create:stone_types/deepslate",
+    "#create:stone_types/tuff",
+    "#create:stone_types/andesite",
+    "#create:stone_types/diorite",
+    "#create:stone_types/granite",
+    "#create:stone_types/limestone",
+
+    "#create:stone_types/asurine",
+    "#create:stone_types/crimsite",
+    "#create:stone_types/ochrum",
+    "#create:stone_types/veridium",
+    "#create:stone_types/scoria",
+
+    "#alchemancy:materials/create_slabs/andesite",
+    "#alchemancy:materials/create_slabs/asurine",
+    "#alchemancy:materials/create_slabs/crimsite",
+    "#alchemancy:materials/create_slabs/deepslate",
+    "#alchemancy:materials/create_slabs/diorite",
+    "#alchemancy:materials/create_slabs/granite",
+    "#alchemancy:materials/create_slabs/limestone",
+    "#alchemancy:materials/create_slabs/ochrum",
+    "#alchemancy:materials/create_slabs/scoria",
+    "#alchemancy:materials/create_slabs/tuff",
+    "#alchemancy:materials/create_slabs/veridium"
+  ]
+}

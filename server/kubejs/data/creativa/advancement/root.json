@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Tous les animaux"
+    },
+    "description": {
+      "translate": "Photographiez-les tous!"
+    },
+    "background": "minecraft:textures/block/oak_log.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_spyglass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

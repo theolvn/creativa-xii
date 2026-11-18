@@ -1,0 +1,14 @@
+{
+  "type": "createdieselgenerators:compression_molding",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "mold": "ae2:engineering_processor_press",
+  "results": [
+    {
+      "id": "ae2:printed_engineering_processor"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:creepers_crush"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:creepers_crush"
+    }
+  ]
+}

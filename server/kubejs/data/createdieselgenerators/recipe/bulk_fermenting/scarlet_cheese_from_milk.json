@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:milk",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "count": 1,
+      "id": "brewinandchewin:unripe_scarlet_cheese_wheel"
+    }
+  ]
+}

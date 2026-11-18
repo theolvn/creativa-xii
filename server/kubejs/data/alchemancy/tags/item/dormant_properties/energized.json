@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "create:linked_controller",
+    "create:redstone_contact",
+    "create:redstone_requester",
+    "create:redstone_link",
+    "create:linked_controller",
+    "create:transmitter",
+    "create:pulse_repeater",
+    "create:pulse_extender",
+    "create:pulse_timer",
+    "create:powered_latch",
+    "create:powered_toggle_latch",
+    "create:gantry_shaft",
+    "create:clutch",
+    "create:gearshift",
+    "create:adjustable_chain_gearshift",
+    "create:analog_lever",
+    "create:rose_quartz",
+    "create:rose_quartz_lamp",
+    "create:polished_rose_quartz",
+    "create:rose_quartz_block",
+    "create:rose_quartz_tiles",
+    "create:small_rose_quartz_tiles",
+    "create:stockpile_switch",
+    "create:nixie_tube",
+    "create:sequenced_gearshift",
+    {"id": "createaddition:redstone_relay", "required": false}
+  ]
+}

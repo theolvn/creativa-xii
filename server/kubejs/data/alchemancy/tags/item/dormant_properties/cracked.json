@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#create:crushed_raw_materials",
+    "#c:dusts/obsidian",
+    "create:cinder_flour"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "#c:ingots/electrum", "required": false},
+    {"id": "#c:nuggets/electrum", "required": false},
+    {"id": "#c:plates/electrum", "required": false},
+    {"id": "#c:wires/electrum", "required": false},
+    {"id": "#c:rods/electrum", "required": false},
+    {"id": "#c:storage_blocks/electrum", "required": false}
+  ]
+}

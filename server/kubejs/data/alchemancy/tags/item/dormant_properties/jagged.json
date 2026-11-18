@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "createaddition:barbed_wire", "required": false}
+  ]
+}

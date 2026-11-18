@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:haley_beer",
+      "amount": 1000
+    }
+  ]
+}

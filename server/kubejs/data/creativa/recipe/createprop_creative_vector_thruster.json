@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "createpropulsion:vector_thruster"
+  },
+  "result": {
+    "count": 1,
+    "id": "createpropulsion:creative_vector_thruster"
+  },
+  "sourceCost": 1000
+}

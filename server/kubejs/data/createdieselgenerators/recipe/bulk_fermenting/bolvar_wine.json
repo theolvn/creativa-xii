@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:red_taiga_grapejuice",
+      "amount": 1000
+    },
+    {
+      "tag": "mynethersdelight:hot_spice"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:kazbar_milan_wine",
+      "amount": 1000
+    }
+  ]
+}

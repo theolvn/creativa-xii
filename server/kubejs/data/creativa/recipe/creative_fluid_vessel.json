@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "create_connected:fluid_vessel"
+  },
+  "result": {
+    "count": 1,
+    "id": "create_connected:creative_fluid_vessel"
+  },
+  "sourceCost": 10000
+}

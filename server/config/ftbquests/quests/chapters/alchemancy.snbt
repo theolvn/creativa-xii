@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemancy"
+	group: "02FE661031A105D8"
+	icon: {
+		id: "alchemancy:alchemancy_catalyst"
+	}
+	id: "4E0970A4D3B85CF8"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AF1BEA9B3D94FB8"
+			rewards: [{
+				id: "3375FBDAA5200DC6"
+				item: {
+					components: {
+						"patchouli:book": "alchemancy:alchemancer_journal"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01A7FAB98834A503"
+				item: { count: 1, id: "alchemancy:blazebloom" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AF1BEA9B3D94FB8"]
+			id: "3375D134CBD4923F"
+			rewards: [
+				{
+					count: 3
+					id: "67F554ACE5BE0C01"
+					item: {
+						count: 1
+						id: "alchemancy:blazebloom"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5579F146C088A8E5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E04AA769E723BA0"
+				item: { count: 1, id: "alchemancy:alchemical_extract" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3375D134CBD4923F"]
+			icon_scale: 2.0d
+			id: "346C8AE3172A2B22"
+			rewards: [{
+				count: 4
+				id: "0622E00837B620F1"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "00DB231A6F356D87"
+				item: { count: 1, id: "alchemancy:alchemancy_forge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["346C8AE3172A2B22"]
+			icon_scale: 2.0d
+			id: "401CA4FA74248A5A"
+			rewards: [{
+				count: 4
+				id: "3DA5836AAD373E1E"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "104E5F38488622C3"
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["401CA4FA74248A5A"]
+			id: "3C77B67C6FDF6E88"
+			rewards: [{
+				count: 4
+				id: "7E88D06308DEBFAB"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "306DC1DB0A4E5DCB"
+				item: { count: 1, id: "alchemancy:infusion_codex" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["401CA4FA74248A5A"]
+			icon_scale: 2.0d
+			id: "3B47DB137E587D71"
+			rewards: [{
+				count: 4
+				id: "73871657F56F149A"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "1A534CE05184E3C3"
+				item: { count: 1, id: "alchemancy:infusion_pedestal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["401CA4FA74248A5A"]
+			icon_scale: 2.0d
+			id: "7003067AE5B22B07"
+			rewards: [{
+				count: 8
+				id: "2007E936134E1252"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "70FD1873633F9039"
+				item: { count: 1, id: "alchemancy:infusion_pedestal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	id: "1679C372DC4B9A1F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "75B88051A1FFBBA4"
+			item: {
+				count: 1
+				id: "minecraft:stone"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "475AA5E272813D69"
+			item: {
+				count: 1
+				id: "minecraft:granite"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "7142F8111CE8F5DA"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "4721E26F61C1B5D2"
+			item: {
+				count: 1
+				id: "minecraft:diorite"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "4D95B289156E0272"
+			item: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "3CC994DDA4CCA68B"
+			item: {
+				count: 1
+				id: "minecraft:tuff"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "547B6506275FD943"
+			item: {
+				count: 1
+				id: "quark:shale"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "05DE530AA3261D58"
+			item: {
+				count: 1
+				id: "create:limestone"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "2EBB3EE07C46B195"
+			item: {
+				count: 1
+				id: "quark:jasper"
+			}
+			random_bonus: 8
+		}
+	]
+}

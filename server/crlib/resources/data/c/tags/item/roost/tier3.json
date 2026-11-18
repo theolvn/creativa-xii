@@ -1,0 +1,193 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "chicken_roost:c_soulsand",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_ink",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_birchwood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_oakwood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_netherbrick",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_darkoak",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_acaciawood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_junglewood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_sprucewood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_quartz",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_glowstone",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_redstone",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_lapis",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_crimstonstem",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_warpedstem",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_netherrack",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_coal",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_tnt",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_glass",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_magenta",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_light_gray",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_tintedglass",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_livingrock",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_livingwood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_soulsoil",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_basalt",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_rabbithide",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_sponge",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_aluminium",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_sulfur",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_quartzenrichediron",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_invar",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_graphite",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_rubber",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_restoniacrystal",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_slag",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_paliscrystal",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_conductiveiron",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_crimstonnylium",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_warpednylium",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_asurine",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_ochrum",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_veridium",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_crimsite",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_moss",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_mangrovewood",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_cherrywood",
+      "required": false
+    }
+  ]
+}

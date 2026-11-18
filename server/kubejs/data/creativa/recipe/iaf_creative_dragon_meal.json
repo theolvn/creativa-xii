@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "iceandfire:dragon_meal"
+  },
+  "result": {
+    "count": 1,
+    "id": "iceandfire:creative_dragon_meal"
+  },
+  "sourceCost": 10000
+}

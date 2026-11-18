@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#alchemancy:materials/cardboard",
+    {"id": "createaddition:straw", "required": false}
+  ]
+}

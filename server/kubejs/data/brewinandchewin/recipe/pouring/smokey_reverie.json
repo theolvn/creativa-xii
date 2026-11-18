@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 1000,
+    "id": "kubejs:veterano_whiskey_wort"
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:smokey_reverie_whiskey_wort_bucket"
+  },
+  "unit": "millibuckets"
+}

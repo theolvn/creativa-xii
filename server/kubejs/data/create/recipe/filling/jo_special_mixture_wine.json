@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:domaine_emmalex_wine"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:jo_special_mixture"
+    }
+  ]
+}

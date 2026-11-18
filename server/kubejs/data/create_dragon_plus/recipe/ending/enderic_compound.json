@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:ending",
+  "ingredients": [
+    {
+      "tag": "c:ender_pearls"
+    }
+  ],
+  "results": [
+    {
+      "id": "oritech:enderic_compound"
+    }
+  ]
+}

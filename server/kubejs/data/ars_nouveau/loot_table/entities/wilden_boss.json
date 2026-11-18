@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "wilden_boss_eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:corrupted_eye"
+        }
+      ]
+    }
+  ]
+}

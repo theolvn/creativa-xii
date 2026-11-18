@@ -1,0 +1,23 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "ecologics:coconut_slice"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:cocoticity_wine",
+      "amount": 1000
+    }
+  ]
+}

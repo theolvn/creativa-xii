@@ -1,0 +1,1039 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starcatcher"
+	group: "7A78EBA14147321E"
+	icon: {
+		id: "starcatcher:starcatcher_rod"
+	}
+	id: "104A069BCFFC349A"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "32493B33EC93925D"
+			rewards: [
+				{
+					id: "2A56A8384C13857D"
+					item: {
+						count: 1
+						id: "starcatcher:starcatcher_guide"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AB8FB29350CB983"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1C8C311D09395622"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32493B33EC93925D"]
+			id: "386B56B8FFB71823"
+			rewards: [
+				{
+					id: "239B5FF91AA4FFF1"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3FCD3C2A9D9EAAEB"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61771C0D72662E62"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6113888FA0CC946F"
+				item: { count: 1, id: "starcatcher:tackle_box" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["386B56B8FFB71823"]
+			id: "66AE2D8B86BEF173"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A26D0DE969AC9F4"
+					table_id: 4837847304576742278L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4059808420FB8282"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7330CD0FBB9DCCF9"
+				item: { count: 1, id: "starcatcher:steady_bobber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["386B56B8FFB71823"]
+			id: "26007A3AC80D0953"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6639F03060B44817"
+					table_id: 7549255663790093118L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5E0490140610557A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33BD3743AEA9F6FC"
+				item: { count: 1, id: "starcatcher:amethyst_hook" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "75DA451A4A761ED4"
+			rewards: [{
+				count: 2
+				id: "636B08BC1172E552"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DAA553E0D1F618A"
+				item: { count: 1, id: "starcatcher:clam" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75DA451A4A761ED4"]
+			id: "32280892F9D74481"
+			rewards: [{
+				count: 4
+				id: "2C87C1B3BA9422F1"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DEE40805EEBEAFB"
+				item: { count: 1, id: "starcatcher:pearl" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "39E45F0FCB49081D"
+			rewards: [{
+				count: 2
+				id: "65DC7DF2AC7DE939"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1303B220086ED046"
+				item: { count: 1, id: "starcatcher:shiny_hook" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "21A044C431A87ECD"
+			rewards: [{
+				count: 2
+				id: "760D01A93A972F0E"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07794BC4FA738A23"
+				item: { count: 1, id: "starcatcher:gold_hook" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "002178031061124D"
+			rewards: [{
+				count: 2
+				id: "3098F42263B0CEE7"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0410806CAC9B094E"
+				item: { count: 1, id: "starcatcher:mossy_hook" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "3D17B4C4178D0BC9"
+			rewards: [{
+				count: 2
+				id: "642EC43FFC95A7AB"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3969C9AFAB67671B"
+				item: { count: 1, id: "starcatcher:stone_hook" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "7BA2510B56C5A9BC"
+			rewards: [{
+				count: 2
+				id: "4FAF751AAD7014F9"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A3AF07190D06415"
+				item: { count: 1, id: "starcatcher:split_hook" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "151316B4F2DDFE12"
+			rewards: [{
+				count: 2
+				id: "6BC02D689C93ADEE"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4A43808F7A88DE78"
+				item: { count: 1, id: "starcatcher:heavy_hook" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "61DD90D4F0579D1B"
+			rewards: [{
+				count: 2
+				id: "778E563FFD080C50"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "35AC482BE8162471"
+				item: { count: 1, id: "starcatcher:vanilla_hook" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "3BBBE08C55EFD89B"
+			rewards: [{
+				count: 2
+				id: "26717749F26D64C7"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2FA43893448967B7"
+				item: { count: 1, id: "starcatcher:copper_hook" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "0CEF01BC9141279F"
+			rewards: [{
+				count: 2
+				id: "43536E6FFA63D928"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0C18C076BEA812F1"
+				item: { count: 1, id: "starcatcher:echoing_hook" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26007A3AC80D0953"]
+			id: "3EC069EA864A6A86"
+			rewards: [{
+				count: 2
+				id: "69D2BCD01C82B071"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CE94A8E0EEDAB8A"
+				item: { count: 1, id: "starcatcher:frozen_hook" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["386B56B8FFB71823"]
+			id: "236947D59EFB7277"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "695F0295B6BB094B"
+					table_id: 2237109263391497255L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3A1FEECB12B27FE1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "506A197F3FCA99AA"
+				item: { count: 1, id: "starcatcher:worm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "48B90E86A6F12FEC"
+			rewards: [{
+				count: 2
+				id: "5D7258BB1611604F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "30B82E21782703FC"
+				item: { count: 1, id: "starcatcher:almighty_worm" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "6C63AD7B7562F574"
+			rewards: [{
+				count: 2
+				id: "6454DE85724B4C32"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3396A38382A97503"
+				item: { count: 1, id: "starcatcher:seeking_worm" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["386B56B8FFB71823"]
+			id: "261430294E00B3C1"
+			rewards: [{
+				count: 4
+				id: "3FBD7F4CE0437F8C"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5BFF77AED7F35965"
+				item: { count: 1, id: "selling_bin:selling_bin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["386B56B8FFB71823"]
+			id: "56F8536976860567"
+			rewards: [{
+				count: 4
+				id: "20D68AFF5201DEE3"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3D83D007AA16EF4B"
+				item: { count: 1, id: "starcatcher:tournament_stand" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "2378B362837E9404"
+			rewards: [
+				{
+					id: "1188DECCEB2E9B4F"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38301BBD3A98CA03"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5A133AE44D13DEF3"
+				item: { count: 1, id: "starcatcher:trophy_copper" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2378B362837E9404"]
+			id: "3BFBE2D679CE7BEE"
+			rewards: [
+				{
+					id: "21A441170DFACCBC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "332E568984F44CD9"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2430181EF962A0B8"
+				item: { count: 1, id: "starcatcher:trophy_iron" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3BFBE2D679CE7BEE"]
+			id: "2DD8D2EF5FE46150"
+			rewards: [
+				{
+					id: "0E3C674B6C576ADF"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D44E60665A33742"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5A8158E8197C0EA4"
+				item: { count: 1, id: "starcatcher:trophy_gold" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2DD8D2EF5FE46150"]
+			id: "2DFFA0F4346904F1"
+			rewards: [
+				{
+					id: "5ADB218BACE91229"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "027E2B488087D2B4"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5B8FBA980A23C586"
+				item: { count: 1, id: "starcatcher:trophy_emerald" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2DFFA0F4346904F1"]
+			id: "483E27FE0AB03942"
+			rewards: [
+				{
+					id: "2C9D2DA2CBC60B4C"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "474D5280926A4C62"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "16CF91AD3167F5CB"
+				item: { count: 1, id: "starcatcher:trophy_diamond" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			id: "653272738B389C27"
+			rewards: [{
+				count: 2
+				id: "72ACFFE8F167DF56"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00264824CD612DBE"
+				item: { count: 1, id: "starcatcher:letter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["653272738B389C27"]
+			id: "332EB8B55AD65E7B"
+			rewards: [{
+				count: 4
+				id: "0F5ECAD63EBCBA77"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00602E59F3FDA476"
+				item: { count: 1, id: "starcatcher:bottled_letter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "438D373E3A522CCD"
+			rewards: [{
+				count: 2
+				id: "400193B1DE7B4DA7"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6EE4522B8F64FB3E"
+				item: { count: 1, id: "starcatcher:clear_bobber" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "3724C8B6A47E75CE"
+			rewards: [{
+				count: 2
+				id: "0D499CED4BBDA933"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09298D92C750937E"
+				item: { count: 1, id: "starcatcher:dripstone_bobber" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "5251CB18F5DCFCC3"
+			rewards: [{
+				count: 2
+				id: "309F3B3279C8634F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "333B51081456F2C8"
+				item: { count: 1, id: "starcatcher:vanilla_bobber" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "3F4BFA72D29AF6A3"
+			rewards: [{
+				count: 2
+				id: "712C36D79B6ACD32"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "65E5DECB1547A3B7"
+				item: { count: 1, id: "starcatcher:leaf_bobber" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "35EC3DA2D771BD5A"
+			rewards: [{
+				count: 2
+				id: "44AAD2F812E8380D"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "61A3C39249D276A2"
+				item: { count: 1, id: "starcatcher:slimey_bobber" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "545CC5950156EA4C"
+			rewards: [{
+				count: 2
+				id: "1A0035C33947D3FB"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59F76D625B8EBEEA"
+				item: { count: 1, id: "starcatcher:glowing_bobber" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "23CF23C819BFB617"
+			rewards: [{
+				count: 2
+				id: "0CEB6B3D8D97A331"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1EB1CFF1D4EA6B6C"
+				item: { count: 1, id: "starcatcher:golden_bobber" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66AE2D8B86BEF173"]
+			id: "125DC468C8141203"
+			rewards: [{
+				count: 2
+				id: "6497489003851A78"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "73C7E646D26A9C41"
+				item: { count: 1, id: "starcatcher:cloud_bobber" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "410208E5FA010669"
+			rewards: [{
+				count: 2
+				id: "77E76EE2A7F602D8"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E91415465B8D21B"
+				item: { count: 1, id: "starcatcher:gunpowder_bait" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "48986E4E129974FB"
+			rewards: [{
+				count: 2
+				id: "2DA6C26C86BCBEDE"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "245C6E68C6201B60"
+				item: { count: 1, id: "starcatcher:cherry_bait" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "470D630FCB683006"
+			rewards: [{
+				count: 2
+				id: "356DE075B5ADC239"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "003926007E4C2130"
+				item: { count: 1, id: "starcatcher:lush_bait" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "08B9795DBFEF078D"
+			rewards: [{
+				count: 2
+				id: "3E147B77DD5688F8"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2AAC2C5FD8794105"
+				item: { count: 1, id: "starcatcher:sculk_bait" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "27E21B4C25F47D5C"
+			rewards: [{
+				count: 2
+				id: "749F1FF653BD4773"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1473BF7046331954"
+				item: { count: 1, id: "starcatcher:dripstone_bait" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "483A148655C97277"
+			rewards: [{
+				count: 2
+				id: "0205FEB576471946"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3958D261669B0BC1"
+				item: { count: 1, id: "starcatcher:murkwater_bait" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "25034CDB11AD108A"
+			rewards: [{
+				count: 2
+				id: "3B8473F89C2D95F4"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "386E724759DFAE0C"
+				item: { count: 1, id: "starcatcher:legendary_bait" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["236947D59EFB7277"]
+			id: "583DB2FD31058AE2"
+			rewards: [{
+				count: 2
+				id: "208F1553690562D4"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "296334C407D2461D"
+				item: { count: 1, id: "starcatcher:meteorological_bait" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "brewinandchewin:vodka",
+      "amount": 1000
+    }
+  ]
+}

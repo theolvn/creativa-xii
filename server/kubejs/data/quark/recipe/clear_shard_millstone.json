@@ -1,0 +1,26 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "quark:clear_shard"
+    },
+    {
+      "chance": 0.75,
+      "id": "quark:clear_shard"
+    },
+    {
+      "chance": 0.50,
+      "id": "quark:clear_shard"
+    },
+    {
+      "chance": 0.25,
+      "id": "quark:clear_shard"
+    }
+  ]
+}

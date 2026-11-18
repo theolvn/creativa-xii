@@ -1,0 +1,295 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dog_training"
+	group: "1DA520C636BEDEBC"
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "minecraft:bone"
+	}
+	id: "1A218F4867EB543E"
+	images: [{
+		height: 0.780058651026393d
+		id: "0D522917DB59ABC5"
+		image: "kubejs:item/domestication"
+		rotation: 0.0d
+		width: 7.0d
+		x: 0.0d
+		y: -1.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "679818C6717E88F9"
+			rewards: [{
+				count: 4
+				id: "66F3DFEEC9A1AD1A"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "71485C3CFC27D126"
+				item: { count: 1, id: "redomesticate:collar_tag" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679818C6717E88F9"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "41D044D5813D66AF"
+			rewards: [
+				{
+					count: 8
+					id: "3B124ADABD9F28BD"
+					item: {
+						count: 1
+						id: "farmersdelight:straw"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56B1748C8D8A3307"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "699BF3A8EC3EE521"
+				item: { count: 1, id: "redomesticate:feather_on_a_stick" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["679818C6717E88F9"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "4633B3D3902236CD"
+			rewards: [
+				{
+					id: "4CC891808D488651"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65A4CEE25076FF22"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17CBCACBDEB29DC1"
+				item: { count: 1, id: "redomesticate:wayward_lantern" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679818C6717E88F9"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "7A2A644F70F522BC"
+			rewards: [
+				{
+					id: "22F9AD1234A25D64"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cheesecake"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "08BBC6E7AEE4D1AE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77C3D0928AB3A48B"
+				item: { count: 1, id: "redomesticate:pet_bed_white" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679818C6717E88F9"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "5B5A62B73F2B96A0"
+			optional: true
+			rewards: [
+				{
+					id: "35FB7CA4E95980D9"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:void_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C17ECF8B3520D0D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15DE170EA9B65460"
+				item: { count: 1, id: "redomesticate:deed_of_ownership" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["679818C6717E88F9"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: false
+			id: "50227DE4347E0F5B"
+			rewards: [
+				{
+					id: "532965F806588F90"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B92E1746B455A80"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F99CEB592562355"
+				item: { count: 1, id: "redomesticate:drum" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "20B62F36996DF60C"
+			rewards: [
+				{
+					count: 4
+					id: "180881E810225180"
+					item: {
+						count: 1
+						id: "exposure:black_and_white_film"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1E59E67B3498A910"
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D74881C7ACADAB1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "26128248898CB724"
+					item: { count: 1, id: "exposure:camera" }
+					type: "item"
+				}
+				{
+					id: "7131D9CCE1B21231"
+					item: { count: 1, id: "exposure:color_film" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20B62F36996DF60C"]
+			id: "0B9C5C63D7FCD5D9"
+			rewards: [
+				{
+					count: 4
+					id: "7EA77A61F3583B57"
+					item: {
+						count: 1
+						id: "exposure:high_sensitivity_black_and_white_film"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AE8B6C483C0D5F9"
+					item: {
+						count: 1
+						id: "exposure:high_sensitivity_color_film"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1F41AF6A7707115F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2560929C92182CF4"
+				item: { count: 1, id: "exposure:album" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+}

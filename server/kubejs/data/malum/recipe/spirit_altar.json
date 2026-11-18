@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "tag": "malum:runewood_planks"
+    },
+    "Y": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "Z": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    " Y ",
+    "ZXZ",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "malum:spirit_altar"
+  }
+}

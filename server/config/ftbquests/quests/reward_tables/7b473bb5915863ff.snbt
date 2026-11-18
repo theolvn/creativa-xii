@@ -1,0 +1,52 @@
+{
+	id: "7B473BB5915863FF"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "6F2F9E0476EBAF26"
+			item: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "4144AA40AB05B534"
+			item: {
+				count: 1
+				id: "farm_and_charm:barley"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "5453F712B31C0F94"
+			item: {
+				count: 1
+				id: "farm_and_charm:wild_nettle"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "3336EB4FFDECF498"
+			item: {
+				count: 1
+				id: "brewery:hops"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "48E020744FE9760C"
+			item: {
+				count: 1
+				id: "farm_and_charm:oat"
+			}
+			random_bonus: 2
+		}
+	]
+}

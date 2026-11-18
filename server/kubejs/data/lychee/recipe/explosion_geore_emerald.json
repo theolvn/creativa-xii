@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in": "geore:emerald_cluster",
+    "post": [
+        "drop geore:emerald_shard",
+        "drop geore:emerald_shard /.5",
+        "drop geore:emerald_shard /.5",
+        "drop geore:emerald_shard /.5"
+    ]
+}

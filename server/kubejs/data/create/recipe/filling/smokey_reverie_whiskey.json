@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:veterano_whiskey"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewery:whiskey_smokey_reverie"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "oritech:deepslate_platinum_ore",
+    "post": [
+        "drop oritech:raw_platinum",
+        "drop oritech:raw_platinum /.5",
+        "drop oritech:raw_platinum /.25",
+        "drop oritech:raw_platinum /.25"
+    ]
+}

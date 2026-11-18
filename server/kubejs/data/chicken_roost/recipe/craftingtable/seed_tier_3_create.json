@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:chicken_food_tier_3"
+    }
+  ]
+}

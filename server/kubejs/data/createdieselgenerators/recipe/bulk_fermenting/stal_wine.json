@@ -1,0 +1,23 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:red_jungle_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:costa_del_perro_wine",
+      "amount": 1000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "twilightforest:thorn_rose"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "tool": {
+    "tag": "farmersdelight:tools/knives"
+  }
+}

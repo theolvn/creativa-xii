@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "mekanism:ultimate_bin"
+  },
+  "result": {
+    "count": 1,
+    "id": "mekanism:creative_bin"
+  },
+  "sourceCost": 10000
+}

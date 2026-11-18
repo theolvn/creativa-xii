@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "reagent": {
+    "item": "chicken_roost:chicken_food_tier_7"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_8"
+  },
+  "sourceCost": 8000
+}

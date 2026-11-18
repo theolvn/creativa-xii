@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:barley_beer",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:brandice_whiskey_wort"
+    }
+  ]
+}

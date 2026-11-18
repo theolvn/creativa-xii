@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "iceandfire:sapphire_ore",
+    "post": [
+        "drop iceandfire:sapphire_gem",
+        "drop iceandfire:sapphire_gem /.5",
+        "drop iceandfire:sapphire_gem /.5",
+        "drop iceandfire:sapphire_gem /.5"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:vino_di_caccia_wine"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:lilitu_wine"
+    }
+  ]
+}

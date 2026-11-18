@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "count": 1,
+      "item": "malum:imitation_flesh"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "chicken_roost:chicken_food_tier_5"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_6"
+  },
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ]
+}

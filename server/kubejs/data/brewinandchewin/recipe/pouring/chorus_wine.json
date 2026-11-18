@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 500,
+    "id": "kubejs:chorus_wine"
+  },
+  "container": {
+    "id": "vinery:wine_bottle",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "vinery:chorus_wine"
+  },
+  "unit": "millibuckets"
+}

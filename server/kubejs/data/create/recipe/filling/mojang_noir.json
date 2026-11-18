@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:mojang_noir"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:bottle_mojang_noir"
+    }
+  ]
+}

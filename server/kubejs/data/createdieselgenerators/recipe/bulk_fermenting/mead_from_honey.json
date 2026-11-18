@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:honey",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:mead",
+      "amount": 1000
+    }
+  ]
+}

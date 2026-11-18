@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#c:plates/iron",
+    "create:crushed_raw_iron",
+    "create:item_vault",
+    "create:propeller",
+    "create:whisk",
+    "create:empty_blaze_burner",
+    "create:blaze_burner",
+    "create:metal_bracket",
+    "create:industrial_iron_block",
+    "create:weathered_iron_block",
+    {"id": "create_enchantment_industry:blaze_enchanter", "required": false},
+    {"id": "create_enchantment_industry:blaze_forger", "required": false},
+    {"id": "#c:wires/iron", "required": false},
+    {"id": "#c:rods/iron", "required": false},
+    {"id": "createaddition:barbed_wire", "required": false},
+
+
+    "#alchemancy:materials/iron_windows"
+  ]
+}

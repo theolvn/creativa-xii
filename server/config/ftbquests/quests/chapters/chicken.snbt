@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chicken"
+	group: "02FE661031A105D8"
+	icon: {
+		id: "chicken_roost:roost"
+	}
+	id: "11F6D554A9709AED"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "56DE5B9208C4E5E9"
+			rewards: [
+				{
+					count: 2
+					id: "0F8FBAD4A63CD35C"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "625FE5D4DBE95C90"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A17DD6D0C5D04A7"
+				item: { count: 1, id: "chicken_roost:c_zombie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "6DDD2F8B80634D36"
+			rewards: [
+				{
+					count: 2
+					id: "42D27748EBD93726"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01CD3F38D020D24B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57AAE69A72DF078F"
+				item: { count: 1, id: "chicken_roost:c_source" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "686AA92F1453FF7C"
+			rewards: [{
+				count: 2
+				id: "3B6CD5BB6EECCEE9"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1AB6F1B0AD36A89A"
+				item: { count: 1, id: "chicken_roost:chicken_stick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "159039FF7EC4ABAF"
+			rewards: [{
+				count: 2
+				id: "36B5F8FA38CECFD2"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00AA8ADAA9286A5E"
+				item: { count: 1, id: "chicken_roost:breeder" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "477079EB5782FF04"
+			rewards: [{
+				count: 2
+				id: "131063B76F169BB0"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "48CD1DF68CC9F2E7"
+				item: { count: 1, id: "chicken_roost:trainer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "3B2A78EFC9D9F9DB"
+			rewards: [{
+				count: 2
+				id: "1CCE1E8143AF9C35"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3E92FBB138DDEE93"
+				item: { count: 1, id: "chicken_roost:soul_extractor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["686AA92F1453FF7C"]
+			id: "0E890D9A298B5AF0"
+			rewards: [{
+				count: 2
+				id: "29DD247F5FD2AFA3"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C1BB17A57BA2552"
+				item: { count: 1, id: "chicken_roost:roost" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["159039FF7EC4ABAF"]
+			id: "531074A1A458E00F"
+			rewards: [
+				{
+					count: 2
+					id: "459DA520C9DC9E8A"
+					item: {
+						count: 1
+						id: "chicken_roost:water_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6D893BB79D96A66E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BE26943106A054F"
+				item: { count: 1, id: "chicken_roost:c_water" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["159039FF7EC4ABAF"]
+			id: "37F0FB47AB01FB51"
+			rewards: [
+				{
+					count: 2
+					id: "2BA00902B2E6CC07"
+					item: {
+						count: 1
+						id: "chicken_roost:lava_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CE5D6C2F2B7EC5B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7382479774BD4413"
+				item: { count: 1, id: "chicken_roost:c_lava" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

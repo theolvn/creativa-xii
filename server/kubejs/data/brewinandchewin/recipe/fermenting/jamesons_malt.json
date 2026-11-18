@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:hops_beer"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "farm_and_charm:oat"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:valentines_whiskey_wort"
+  },
+  "temperature": 4,
+  "unit": "millibuckets"
+}

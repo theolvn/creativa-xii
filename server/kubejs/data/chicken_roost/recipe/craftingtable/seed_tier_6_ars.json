@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "ars_elemancy:tempest_essence"
+    },
+    {
+      "item": "ars_elemancy:lava_essence"
+    }
+  ],
+  "reagent": {
+    "item": "chicken_roost:chicken_food_tier_5"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_6"
+  },
+  "sourceCost": 6000
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:red_savanna_grapejuice"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:red_savanna_grapejuice"
+    }
+  ]
+}

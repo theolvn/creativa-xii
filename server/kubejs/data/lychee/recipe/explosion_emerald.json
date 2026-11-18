@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:emerald_ore",
+    "post": [
+        "drop minecraft:emerald",
+        "drop minecraft:emerald /.5",
+        "drop minecraft:emerald /.25",
+        "drop minecraft:emerald /.25"
+    ]
+}

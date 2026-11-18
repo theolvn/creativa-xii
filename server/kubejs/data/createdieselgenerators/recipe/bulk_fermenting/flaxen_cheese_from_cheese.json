@@ -1,0 +1,17 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:flaxen_cheese",
+      "amount": 1000
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "count": 1,
+      "id": "brewinandchewin:flaxen_cheese_wheel"
+    }
+  ]
+}

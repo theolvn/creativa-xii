@@ -1,0 +1,1105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld_xii"
+	group: "752CDE464613A1ED"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "1310968844EB7A29"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2EF918948189C3FA"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "4EF6EC651D42C611"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			id: "21286E0F1FAF5880"
+			tasks: [
+				{
+					id: "04F23555128112F8"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:dolphin_spawn_egg"
+					}
+					id: "23078E00B151927B"
+					observation_type: "entity_type"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:dolphin"
+					type: "observation"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21286E0F1FAF5880"]
+			id: "52794C4E8BBE5FAD"
+			tasks: [{
+				icon: {
+					id: "minecraft:oak_chest_boat"
+				}
+				id: "72B55482125F2618"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF918948189C3FA"]
+			id: "480239D1DE401218"
+			optional: true
+			tasks: [{
+				advancement: "supplementaries:adventure/road_sign"
+				criterion: ""
+				id: "3A73988C57CA9E3B"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["480239D1DE401218"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "1E08A4AD04D760F6"
+			rewards: [{
+				id: "1C104FD0D5CDF6C4"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_uncommon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56E2E1312A2AFF98"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E08A4AD04D760F6"]
+			id: "18CCE65212A45F9E"
+			tasks: [{
+				advancement: "bountiful:bountiful/bounty_taken"
+				criterion: ""
+				id: "08F0339E73256733"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E08A4AD04D760F6"]
+			id: "09A34CF9547F098F"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "2FA706B8E270C3B5"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E08A4AD04D760F6"]
+			id: "4DBAF2C8C091C9FE"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "51F8DFDBB7A3B8C4"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C4ABDAA88C6ED28"]
+			id: "3DC549208DECD233"
+			tasks: [{
+				advancement: "paraglider:paraglider"
+				criterion: ""
+				id: "716A393C9DB2C44D"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF918948189C3FA"]
+			id: "2C4ABDAA88C6ED28"
+			tasks: [{
+				id: "1876B4B9A21676D0"
+				structure: "totw_modded:regular"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52794C4E8BBE5FAD"]
+			id: "3395E781DC762EA5"
+			tasks: [{
+				id: "28F43586A1CA53FF"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			id: "6715DAFD253EB15D"
+			tasks: [{
+				icon: {
+					id: "minecraft:prismarine_bricks"
+				}
+				id: "267A762397051EEF"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6715DAFD253EB15D"]
+			id: "26979226E0DE2E6B"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "531A2D3D7820A9A5"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "3DA3B5846916B19E"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_ocean"
+				icon: {
+					id: "minecraft:water_bucket"
+				}
+				id: "3FBE595DDA7B4D52"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			id: "189CDCAC67CCB697"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "44E91CC60EBA3367"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			id: "4551D8E862ECBDE2"
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				id: "46784DF3474B388E"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "1CA6DAAB6C2E9FA5"
+			tasks: [{
+				id: "103EAF6BF0873140"
+				structure: "iceandfire:siren_island"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CA6DAAB6C2E9FA5"]
+			id: "05B9BF96AF7FCEC4"
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "1D49C2A861485EED"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4551D8E862ECBDE2"]
+			id: "30744B47BC374D0E"
+			tasks: [{
+				id: "00DA43E0CA01D1E7"
+				item: { count: 1, id: "iceandfire:hippocampus_slapper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["189CDCAC67CCB697"]
+			id: "51F2FE9DFA316256"
+			tasks: [{
+				id: "10437268135AF544"
+				item: { count: 1, id: "iceandfire:sea_serpent_arrow" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["189CDCAC67CCB697"]
+			id: "489D04D119A74A51"
+			tasks: [{
+				id: "46B5543F2FDC8048"
+				item: { count: 1, id: "iceandfire:tide_trident" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05B9BF96AF7FCEC4"]
+			id: "21A2ADDD587E619F"
+			tasks: [{
+				id: "686DE887976C6D6D"
+				item: { count: 1, id: "iceandfire:shiny_scales" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05B9BF96AF7FCEC4"]
+			id: "4939F43702153393"
+			tasks: [{
+				id: "6AF552B4B91518F6"
+				item: { count: 1, id: "iceandfire:siren_flute" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D318B160AA1584D"]
+			icon: {
+				id: "iceandfire:pixie_house_mushroom_red"
+			}
+			id: "0E6921F24E2F9CA6"
+			tasks: [{
+				id: "4AE47AFA2A8CC987"
+				structure: "iceandfire:pixie_village"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E6921F24E2F9CA6"]
+			id: "775D4EBAF13275BD"
+			tasks: [{
+				id: "33F4439ABAE0C4C0"
+				item: { count: 1, id: "iceandfire:pixie_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775D4EBAF13275BD"]
+			id: "2460C28F7E13D275"
+			tasks: [{
+				id: "62B3F46B99D671F8"
+				item: { count: 1, id: "iceandfire:pixie_wand" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["775D4EBAF13275BD"]
+			id: "310C9165EE41AD1E"
+			tasks: [
+				{
+					id: "1FFE78F85D0F6219"
+					item: { count: 1, id: "iceandfire:pixie_jar_empty" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/jar_pixie"
+					criterion: ""
+					id: "37B790BA36FAB45C"
+					type: "advancement"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3820BFDB234FDB35"]
+			icon: {
+				id: "ribbits:red_toadstool"
+			}
+			id: "2F6B79229D208AF7"
+			tasks: [{
+				id: "574D5927F5F0A26A"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59EA17DBE817425E"]
+			id: "6EE0D86686A6DA9C"
+			rewards: [{
+				id: "49F84F9D39E37985"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_uncommon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "quark:bottled_cloud"
+				}
+				id: "63C5124CA79C2D6A"
+				structure: "skyvillages:skyvillage"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "3820BFDB234FDB35"
+			rewards: [
+				{
+					id: "6406B8C42CDCE128"
+					item: {
+						count: 1
+						id: "cluttered:mini_flag_rainbow"
+					}
+					type: "item"
+				}
+				{
+					id: "159527FDEA078C4C"
+					item: {
+						count: 1
+						id: "simplehats:shrekears"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_swamp"
+				icon: {
+					id: "minecraft:mangrove_log"
+				}
+				id: "0B385BE4751C598E"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "4D318B160AA1584D"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_dark_forest"
+				icon: {
+					id: "minecraft:dark_oak_log"
+				}
+				id: "5FF2C59A111938E0"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3820BFDB234FDB35"]
+			id: "16D240731385883E"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "3BA4A3CF30F82840"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16D240731385883E"]
+			id: "209470F74AAED82B"
+			tasks: [{
+				id: "6D3005DA8A3A8736"
+				item: { count: 1, id: "iceandfire:stymphalian_feather_bundle" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16D240731385883E"]
+			id: "69CD06A75AF0B89C"
+			tasks: [{
+				id: "04F9A5FD981CA888"
+				item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "112BAC7043E8281C"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "1BB52274C212A218"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["112BAC7043E8281C"]
+			id: "52FD060A1B3C856C"
+			tasks: [{
+				id: "1B6A21155DF55C1C"
+				item: { count: 1, id: "iceandfire:hydra_heart" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["112BAC7043E8281C"]
+			id: "20AD32C7DBDF664C"
+			tasks: [{
+				id: "03A77E2327CA39DD"
+				item: { count: 1, id: "iceandfire:hydra_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "5BE11EDC3FF59BB8"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_desert"
+				icon: {
+					id: "minecraft:sand"
+				}
+				id: "02DB8F653FBF0F26"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "24F39EB4963A7972"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "2CD97C02E8640CF2"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "0C1FBA4EC3C8C666"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "487D7D6E5BE61330"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "7163C14B86481544"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_jungle"
+				icon: {
+					id: "minecraft:jungle_log"
+				}
+				id: "56F61124EBDF74F8"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "2748AD8229716B2B"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "#c:is_snowy"
+				icon: {
+					id: "minecraft:snow_block"
+				}
+				id: "2C951059C4887AB5"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "48C09FF7B2C3AA97"
+			tasks: [{
+				id: "08AE814F233F773C"
+				item: { count: 1, id: "alexsmobs:guster_eye" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48C09FF7B2C3AA97"]
+			id: "7669B6A55E285ACB"
+			tasks: [{
+				id: "347B859A0E646364"
+				item: { count: 1, id: "alexsmobs:gustmaker" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48C09FF7B2C3AA97"]
+			id: "5D4CA1416199235E"
+			tasks: [{
+				id: "47194B029E3083BA"
+				item: { count: 1, id: "alexsmobs:pocket_sand" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52794C4E8BBE5FAD"]
+			id: "1A40BA0A1998BF5A"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/skelewag"
+				criterion: ""
+				id: "1CD530D40DAF542C"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF918948189C3FA"]
+			id: "59EA17DBE817425E"
+			tasks: [{
+				advancement: "aeronautics:head_in_the_clouds"
+				criterion: ""
+				id: "313AB758AFA5B213"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "251EE1E90349FF27"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				biome: "minecraft:savanna"
+				icon: {
+					id: "minecraft:acacia_log"
+				}
+				id: "5F3FCE281400D127"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["251EE1E90349FF27"]
+			id: "0541D8E80A96A092"
+			tasks: [{
+				advancement: "minecraft:adventure/brush_armadillo"
+				criterion: ""
+				id: "40EC96427255D181"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E08A4AD04D760F6"]
+			id: "770A66B23CAA1B32"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "37696EEF1319D6D8"
+				item: { count: 1, id: "minecraft:cartography_table" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E08A4AD04D760F6"]
+			id: "439BD2B72034382A"
+			rewards: [{
+				id: "18CC710FE4174A4A"
+				item: {
+					count: 1
+					id: "bountiful:decree"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "guardvillagers:adventure/recruit_guard"
+				criterion: ""
+				id: "6540A308F7C3A1C4"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09A34CF9547F098F"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "1A284D5442585811"
+			tasks: [{
+				id: "1C5C43A456803BDF"
+				structure: "#minecraft:pillager_outpost"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D318B160AA1584D"]
+			icon: {
+				id: "minecraft:dark_oak_planks"
+			}
+			id: "7C7E5C5F2E6A7057"
+			tasks: [{
+				id: "33A73BDB9358C27A"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C7E5C5F2E6A7057"]
+			id: "03B3C7E374F080F6"
+			tasks: [{
+				id: "73633C7FDB407BF8"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2748AD8229716B2B"]
+			id: "13C611849CBCC4BC"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "755EFC11FB128376"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["251EE1E90349FF27"]
+			id: "6D71D4E185AFD082"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/acacia_blossom"
+				criterion: ""
+				id: "2306B4E1E7F12D36"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			icon: {
+				id: "cataclysm:stone_tiles"
+			}
+			id: "7E9BADAD93FFA8F5"
+			tasks: [{
+				id: "58251E15482182A5"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E9BADAD93FFA8F5"]
+			id: "65DA79EC9EF04E2B"
+			tasks: [{
+				id: "2652C1EC97B4E959"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3DA3B5846916B19E"]
+			icon: {
+				id: "cataclysm:azure_seastone_bricks"
+			}
+			id: "33DF2280A5A6EC6C"
+			tasks: [{
+				id: "3888669EF41EFE93"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2748AD8229716B2B"]
+			icon: {
+				id: "cataclysm:frosted_stone_bricks"
+			}
+			id: "140F7A7AC00F024E"
+			tasks: [{
+				id: "18BD0A2BFC601A85"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["140F7A7AC00F024E"]
+			id: "5C34FA6B5C9E4F94"
+			tasks: [{
+				id: "54BEC658932AFA4E"
+				item: { count: 1, id: "cataclysm:strange_key" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			id: "549ADFB854BC0613"
+			tasks: [{
+				id: "6626165C687EBB2A"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["549ADFB854BC0613"]
+			id: "2794C98C5790E58C"
+			tasks: [{
+				id: "4E636085DF2A5820"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			icon: {
+				id: "minecraft:polished_blackstone_bricks"
+			}
+			id: "354AAC27017C587F"
+			tasks: [{
+				id: "465CB03AB0390390"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["354AAC27017C587F"]
+			id: "3E80DFAA493C7B10"
+			tasks: [{
+				id: "620C12FDADC26904"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3E80DFAA493C7B10"]
+			id: "40605D699280758B"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "79150C2691A8D64D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59EA17DBE817425E"]
+			id: "021552DF7FDE8F39"
+			tasks: [{
+				id: "06C7EA226D21A192"
+				item: { count: 1, id: "quark:bottled_cloud" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["533005E640032330"]
+			id: "001AB2E97985B61F"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "0230079578073687"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "533005E640032330"
+			tasks: [{
+				icon: {
+					id: "minecraft:chiseled_sandstone"
+				}
+				id: "695477C76DC10828"
+				structure: "#betterdeserttemples:better_desert_temples"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "45814D2E901628C8"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "308FD9D571CD1AB5"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			icon: {
+				id: "minecraft:moss_block"
+			}
+			id: "0A7B25A17F048881"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				id: "15A8FE7BA4B385F4"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			icon: {
+				id: "minecraft:dripstone_block"
+			}
+			id: "48406061E248A23B"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				id: "1D40DF951AD42968"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			icon: {
+				id: "minecraft:oak_planks"
+			}
+			id: "7E56A12D81C183A2"
+			tasks: [{
+				id: "73081470A3A42EEC"
+				structure: "#bettermineshafts:better_mineshafts"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			id: "62B36713B5C3AEB0"
+			tasks: [{
+				icon: {
+					id: "minecraft:sculk"
+				}
+				id: "53FF17424B2EF3C1"
+				structure: "#minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62B36713B5C3AEB0"]
+			id: "58B8173225DC2F0B"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "6605AE0BE622B006"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62B36713B5C3AEB0"]
+			id: "64B99988806EF937"
+			tasks: [{
+				dimension: "abyss:abyss"
+				id: "024B322FAB53CE02"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45814D2E901628C8"]
+			icon: {
+				id: "minecraft:bedrock"
+			}
+			id: "3CDB6032D0796C13"
+			tasks: [{
+				id: "06981F40EB34403B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0A7B25A17F048881"]
+			id: "65A613298EB244B8"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "6B920B379ABD562F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2794C98C5790E58C"]
+			id: "4B4BA2EB0A71CE98"
+			tasks: [{
+				id: "3224BF52486AF789"
+				item: { count: 1, id: "cataclysm:remnant_skull" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9BADAD93FFA8F5"]
+			id: "3DF9A70E470D9AC8"
+			tasks: [{
+				id: "5666CD87E086EC48"
+				item: { count: 1, id: "cataclysm:abyssal_egg" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["251EE1E90349FF27"]
+			id: "4CD6806DA1D0DEA9"
+			tasks: [{
+				advancement: "integrated_villages:mediterranean_village"
+				criterion: ""
+				id: "65CDB9E545FD2FC1"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BE11EDC3FF59BB8"]
+			id: "40BF91E6E6FE2E17"
+			tasks: [{
+				advancement: "integrated_villages:oasis_village"
+				criterion: ""
+				id: "67244073F78B8D4E"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+}

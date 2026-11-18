@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:steam_whistle",
+    "#create:toolboxes",
+    {"id": "#alchemancy:materials/electrum", "required": false}
+  ]
+}

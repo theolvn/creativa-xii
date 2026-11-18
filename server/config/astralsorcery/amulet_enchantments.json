@@ -1,0 +1,446 @@
+[
+  {
+    "enchantment": "redomesticate:amphibious",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:animated",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:aqua_affinity",
+    "weight": 2
+  },
+  {
+    "enchantment": "malum:ascension",
+    "weight": 1
+  },
+  {
+    "enchantment": "farmersdelight:backstabbing",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:bane_of_arthropods",
+    "weight": 5
+  },
+  {
+    "enchantment": "piglinproliferation:bang",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:blast_protection",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:blazing_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexsmobs:board_return",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:breach",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:bubbling",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:capacitor",
+    "weight": 1
+  },
+  {
+    "enchantment": "create:capacity",
+    "weight": 10
+  },
+  {
+    "enchantment": "deeperdarker:catalysis",
+    "weight": 4
+  },
+  {
+    "enchantment": "redomesticate:chain_lightning",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:channeling",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:charisma",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:deflection",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:defusal",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:density",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:depth_strider",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:disc_jockey",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:discharge",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:efficiency",
+    "weight": 10
+  },
+  {
+    "enchantment": "gaze:enmity",
+    "weight": 1000
+  },
+  {
+    "enchantment": "dungeons_arise:ensnaring",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:feather_falling",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:fire_aspect",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:fire_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:fireproof",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:flame",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:fortune",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:frost_fang",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:frost_walker",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:gluttonous",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:haunted",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:healing_aura",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:health_boost",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:health_siphon",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:herding",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:immunity_frame",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:impaling",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:infinity",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:intimidation",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:knockback",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexsmobs:lavawax",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:linked_inventory",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:lolths_curse",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:looting",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:loyalty",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:luck_of_the_sea",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:lure",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:magnetic",
+    "weight": 5
+  },
+  {
+    "enchantment": "ars_nouveau:mana_boost",
+    "weight": 5
+  },
+  {
+    "enchantment": "ars_nouveau:mana_regen",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:mending",
+    "weight": 2
+  },
+  {
+    "enchantment": "ars_elemental:mirror_shield",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:muffled",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:multishot",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:ore_scenting",
+    "weight": 5
+  },
+  {
+    "enchantment": "betterarcheology:penetrating_strike",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:piercing",
+    "weight": 10
+  },
+  {
+    "enchantment": "redomesticate:poison_resistance",
+    "weight": 5
+  },
+  {
+    "enchantment": "create:potato_recovery",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:power",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:projectile_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:protection",
+    "weight": 10
+  },
+  {
+    "enchantment": "redomesticate:psychic_wall",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:punch",
+    "weight": 2
+  },
+  {
+    "enchantment": "dungeons_arise:purification",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:quick_charge",
+    "weight": 5
+  },
+  {
+    "enchantment": "createrailgrinding:railgrind_enchantment",
+    "weight": 10
+  },
+  {
+    "enchantment": "ars_nouveau:reactive",
+    "weight": 1
+  },
+  {
+    "enchantment": "malum:rebound",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:rejuvenation",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:replenishing",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:respiration",
+    "weight": 2
+  },
+  {
+    "enchantment": "deeperdarker:reverberation",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:riptide",
+    "weight": 2
+  },
+  {
+    "enchantment": "astralsorcery:scorching_heat",
+    "weight": 1
+  },
+  {
+    "enchantment": "deeperdarker:sculk_smite",
+    "weight": 5
+  },
+  {
+    "enchantment": "alexsmobs:serpentfriend",
+    "weight": 2
+  },
+  {
+    "enchantment": "redomesticate:shadow_hands",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:sharpness",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:silk_touch",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:smite",
+    "weight": 5
+  },
+  {
+    "enchantment": "betterarcheology:soaring_winds",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:soul_speed",
+    "weight": 1
+  },
+  {
+    "enchantment": "ars_elemental:soulbound",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:speedster",
+    "weight": 5
+  },
+  {
+    "enchantment": "ars_additions:spellweave",
+    "weight": 30
+  },
+  {
+    "enchantment": "malum:spirit_plunder",
+    "weight": 1
+  },
+  {
+    "enchantment": "supplementaries:stasis",
+    "weight": 2
+  },
+  {
+    "enchantment": "alexsmobs:straddle_jump",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:sweeping_edge",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:swift_sneak",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:tethered_teleport",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:thorns",
+    "weight": 1
+  },
+  {
+    "enchantment": "redomesticate:total_recall",
+    "weight": 5
+  },
+  {
+    "enchantment": "betterarcheology:tunneling",
+    "weight": 2
+  },
+  {
+    "enchantment": "piglinproliferation:turning",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:unbreaking",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:vampire",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:void_cloud",
+    "weight": 5
+  },
+  {
+    "enchantment": "dungeons_arise:voltaic_shot",
+    "weight": 1
+  },
+  {
+    "enchantment": "deeperdarker:volume",
+    "weight": 5
+  },
+  {
+    "enchantment": "redomesticate:warping_bite",
+    "weight": 5
+  },
+  {
+    "enchantment": "malum:weavers_haste",
+    "weight": 1
+  },
+  {
+    "enchantment": "malum:weavers_propagation",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:wind_burst",
+    "weight": 2
+  }
+]

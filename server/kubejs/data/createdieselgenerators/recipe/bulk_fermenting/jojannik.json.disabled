@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:barley_beer",
+      "amount": 1000
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:jojannik_whiskey_wort",
+      "amount": 1000
+    }
+  ]
+}

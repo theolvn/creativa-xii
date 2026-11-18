@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "magiik91",
+      "uniqueId": "043f6fc4-a71c-42e0-b2ab-1fb472bec7b9"
+    },
+    "time": 1792529886871,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/aNHW5pyB2u"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+	id: "43237C7DD2E0B386"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "0F13C5B40E7822C2", item: { count: 1, id: "starcatcher:bobber" } }
+		{ id: "0087267FA9BD381B", item: { count: 1, id: "starcatcher:steady_bobber" } }
+		{ id: "23AC0025E12544FD", item: { count: 1, id: "starcatcher:clear_bobber" } }
+		{ id: "1154D9BB499627F9", item: { count: 1, id: "starcatcher:dripstone_bobber" } }
+		{ id: "7584B038EA418F24", item: { count: 1, id: "starcatcher:vanilla_bobber" } }
+		{ id: "19ACEC4E66D168BD", item: { count: 1, id: "starcatcher:leaf_bobber" } }
+		{ id: "06243AB955FD7B1C", item: { count: 1, id: "starcatcher:slimey_bobber" } }
+		{ id: "7D3C90116790F6F9", item: { count: 1, id: "starcatcher:glowing_bobber" } }
+		{ id: "2B9AC2677EF349E0", item: { count: 1, id: "starcatcher:golden_bobber" } }
+		{ id: "39001226EF7865DA", item: { count: 1, id: "starcatcher:cloud_bobber" } }
+	]
+}

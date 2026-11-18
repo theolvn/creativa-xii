@@ -1,0 +1,24 @@
+{
+    "type": "oritech:assembler",
+    "ingredients": [
+        {
+        "item": "create:brass_sheet"
+        },
+        {
+        "item": "createaddition:copper_spool"
+        },
+        {
+        "item": "createaddition:capacitor"
+        },
+        {
+        "item": "oritech:nickel_ingot"
+        }
+    ],
+    "results": [
+        {
+            "count": 1,
+            "id": "createaddition:electric_motor"
+        }
+    ],
+    "time": 48
+}

@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_jungle_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:villagers_fright",
+      "amount": 1000
+    }
+  ]
+}

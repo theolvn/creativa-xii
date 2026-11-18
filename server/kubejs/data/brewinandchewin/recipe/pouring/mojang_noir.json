@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 500,
+    "id": "kubejs:mojang_noir"
+  },
+  "container": {
+    "id": "vinery:wine_bottle",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "vinery:bottle_mojang_noir"
+  },
+  "unit": "millibuckets"
+}

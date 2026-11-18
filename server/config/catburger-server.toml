@@ -1,0 +1,101 @@
+#Whether the follower render settings of a player are copied to their pets; the server walks every level and entity on every config change, which can lag with many players and mobs, enable with care
+petConfigSyncEnabled = false
+#Whether mobs can actively wear followers
+mobActiveWearEnabled = false
+
+#Death protection cooldown, applies to every follower
+[DeathProtectionCooldown]
+	#Ticks before death protection can trigger again, 0 disables the cooldown
+	# Default: 36000
+	# Range: > 0
+	cooldownDuration = 36000
+	#Waking up from sleep resets the cooldown
+	resetCooldownOnWakeUp = true
+
+#Settings for each follower
+[Followers]
+
+	#Follower that restores food and protects from death while worn
+	[Followers.CatBurger]
+
+		#Effects that trigger repeatedly while the follower is worn
+		[Followers.CatBurger.TickEffects]
+			#Ticks between restorations, 0 restores every tick
+			# Default: 1200
+			# Range: > 0
+			foodLevelRestorationInterval = 1200
+			#Amount restored each time
+			# Default: 1
+			# Range: 0 ~ 20
+			foodLevelRestorationAmount = 1
+			#Restoration stops once it reaches this value
+			# Default: 18
+			# Range: 1 ~ 20
+			foodLevelRestorationLimit = 18
+
+		#Death protection while a follower is worn
+		[Followers.CatBurger.DeathProtectionEffect]
+			#Trigger when the wearer takes fatal damage
+			deathProtectionEnabled = true
+			#Health is restored as a percentage of max health, otherwise to a fixed value
+			useHealthPercentage = true
+			#Health is restored to this percentage of max health
+			# Default: 100.0
+			# Range: 0.0 ~ 100.0
+			restoreHealthPercentage = 100.0
+			#In fixed value mode, restored to this value
+			# Default: 20
+			# Range: > 0
+			restoreHealth = 20
+			#Restored to this value
+			# Default: 20
+			# Range: 0 ~ 20
+			restoreFoodLevel = 20
+			#Restored to this value
+			# Default: 20
+			# Range: 0 ~ 20
+			restoreSaturation = 20
+
+	#Follower that applies effects while worn and protects the wearer from death
+	[Followers.Blub]
+
+		#Effects that trigger repeatedly while the follower is worn
+		[Followers.Blub.TickEffects]
+			#Ticks between refreshes, 0 refreshes every tick; keep it well below the effect duration or the effect expires and flickers
+			# Default: 100
+			# Range: > 0
+			tickEffectInterval = 100
+			#Effects granted on each refresh, one entry per line as effect|duration|amplifier, e.g. minecraft:night_vision|400|0
+			effects = ["minecraft:night_vision|400|0"]
+
+		#Death protection while a follower is worn
+		[Followers.Blub.DeathProtectionEffect]
+			#Trigger when the wearer takes fatal damage
+			deathProtectionEnabled = true
+			#Health is restored as a percentage of max health, otherwise to a fixed value
+			useHealthPercentage = true
+			#Health is restored to this percentage of max health
+			# Default: 100.0
+			# Range: 0.0 ~ 100.0
+			restoreHealthPercentage = 100.0
+			#In fixed value mode, restored to this value
+			# Default: 20
+			# Range: > 0
+			restoreHealth = 20
+
+			#Effects applied to nearby mobs when death protection triggers
+			[Followers.Blub.DeathProtectionEffect.RadiusEffects]
+				#Radius in blocks around the wearer; which creatures are affected is set by the toggles below
+				# Default: 10.0
+				# Range: 0.0 ~ 64.0
+				radius = 10.0
+				#Whether the wearer itself is affected
+				affectSelf = false
+				#Whether players are affected
+				affectPlayers = false
+				#Whether tamed pets are affected, meaning any creature with an owner
+				affectPets = false
+				#Whether other mobs are affected, meaning creatures that are neither the wearer, nor players, nor tamed pets
+				affectOtherMobs = true
+				#Effects applied to every affected mob, one entry per line as effect|duration|amplifier, e.g. minecraft:weakness|100|0
+				effects = ["minecraft:weakness|100|0", "minecraft:slowness|200|0"]

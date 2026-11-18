@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "CDC",
+        " B "
+    ],
+    "key": {
+        "T": {
+            "item": "alexsmobs:skreecher_soul"
+        },
+        "B": {
+            "item": "minecraft:crossbow"
+        },
+        "C": {
+            "item": "oritech:platinum_ingot"
+        },
+		"D": {
+            "item": "supplementaries:rope"
+        }
+    },
+    "result": {
+        "id": "alexsmobs:squid_grapple",
+        "count": 1
+    }
+}

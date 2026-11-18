@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "efe",
+    "dad",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "supplementaries:cage"
+    },
+    "b": {
+      "item": "minecraft:soul_campfire"
+    },
+    "c": {
+      "item": "minecraft:soul_sand"
+    },
+    "d": {
+      "item": "minecraft:furnace"
+    },
+    "e": {
+      "item": "chicken_roost:chicken_stick"
+    },
+    "f": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "chicken_roost:soul_extractor",
+    "count": 1
+  }
+}

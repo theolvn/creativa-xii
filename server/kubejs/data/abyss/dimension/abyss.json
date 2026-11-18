@@ -1,0 +1,57 @@
+{
+  "type": "abyss:abyss_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "abyss:abyss_noise_settings",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "abyss:abyss_biome",
+          "parameters": {
+            "temperature": [
+              -0.5,
+              0.5
+            ],
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyss:warp_biome",
+          "parameters": {
+            "temperature": [
+              -2,
+              -0.5
+            ],
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyss:basalt_biome",
+          "parameters": {
+            "temperature": [
+              0.5,
+              2
+            ],
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

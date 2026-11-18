@@ -1,0 +1,23 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:wheat_beer"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "tag": "c:eggs"
+    },
+    []
+  ],
+  "result": {
+    "id": "brewery:beer_elemental_spawn_egg"
+  },
+  "temperature": 4,
+  "unit": "millibuckets"
+}

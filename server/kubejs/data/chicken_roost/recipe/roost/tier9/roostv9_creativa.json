@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": { 
+    "tag": "c:seeds/tier9orup"
+  },
+  "chicken": {
+      "item": "chicken_roost:c_creativa"
+    },
+  "time": 200,
+  "output": {
+    "item": "kubejs:creativa_alloy"
+  }
+}

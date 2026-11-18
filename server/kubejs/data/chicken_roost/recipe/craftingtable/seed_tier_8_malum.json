@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 1,
+      "item": "malum:imitation_heart"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "chicken_roost:chicken_food_tier_7"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_8"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    }
+  ]
+}

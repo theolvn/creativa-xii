@@ -1,0 +1,179 @@
+ServerEvents.recipes(event => {
+    // motor
+    event.remove({ output: 'oritech:motor' })
+    event.replaceInput(
+        {
+            mod: 'oritech',
+            input: 'oritech:motor'
+        },
+        'oritech:motor',
+        'createaddition:electric_motor'
+    );
+    // crafter
+    event.replaceInput(
+        {
+            mod: 'oritech',
+            input: 'minecraft:crafter'
+        },
+        'minecraft:crafter',
+        'create:mechanical_crafter'
+    );
+
+    // processing unit
+    event.replaceInput(
+        {
+            mod: 'oritech',
+            input: 'oritech:processing_unit'
+        },
+        'oritech:processing_unit',
+        'ae2:logic_processor'
+    );
+
+    // advanced computing engine
+    event.replaceInput(
+        {
+            mod: 'oritech',
+            input: 'oritech:advanced_computing_engine'
+        },
+        'oritech:advanced_computing_engine',
+        'ae2:engineering_processor'
+    );
+
+    // silicon wafer
+    event.replaceInput(
+        {
+            mod: 'oritech',
+            input: 'oritech:silicon_wafer'
+        },
+        'oritech:silicon_wafer',
+        'ae2:printed_silicon'
+    );
+    
+    event.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+            "item": "minecraft:redstone"
+            },
+            {
+            "item": "ae2:printed_logic_processor"
+            },
+            {
+            "item": "ae2:printed_silicon"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "ae2:logic_processor"
+            }
+        ],
+        "time": 48
+    });
+    event.custom({
+        "type": "oritech:atomic_forge",
+        "ingredients": [
+            {
+            "item": "minecraft:redstone"
+            },
+            {
+            "item": "ae2:printed_logic_processor"
+            },
+            {
+            "item": "ae2:printed_silicon"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "ae2:logic_processor"
+            }
+        ],
+        "time": 5
+    });
+    event.custom({
+        "type": "oritech:atomic_forge",
+        "ingredients": [
+            {
+            "item": "minecraft:redstone"
+            },
+            {
+            "item": "ae2:printed_calculation_processor"
+            },
+            {
+            "item": "ae2:printed_silicon"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "ae2:calculation_processor"
+            }
+        ],
+        "time": 5
+    });
+    event.custom({
+        "type": "oritech:atomic_forge",
+        "ingredients": [
+            {
+            "item": "minecraft:redstone"
+            },
+            {
+            "item": "ae2:printed_engineering_processor"
+            },
+            {
+            "item": "ae2:printed_silicon"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "ae2:engineering_processor"
+            }
+        ],
+        "time": 5
+    });
+    event.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+            "item": "ae2:logic_processor"
+            },
+            {
+            "item": "ae2:fluix_crystal"
+            },
+            {
+            "item": "ae2:fluix_crystal"
+            },
+            {
+            "item": "oritech:platinum_ingot"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "oritech:flux_gate"
+            }
+        ],
+        "time": 48
+    });
+
+    // raw silicon (supprimer toutes les recettes)
+
+});
+
+ServerEvents.tags('item', event => {
+    // fluxite (retirer le block de fluxite, verifier si des recettes sont pas trop op)
+    event.add('c:gems/fluix', 'oritech:fluxite')
+    // biosteel
+    event.removeAllTagsFrom('oritech:biosteel_ingot')
+    // plutonium pellet
+    event.add('c:pellets/plutonium', 'oritech:plutonium_pellet')
+});
+
+// RecipeViewerEvents.removeEntries('item', event => {
+//   event.remove('oritech:motor')
+//   event.remove('oritech:processing_unit')
+//   event.remove('oritech:advanced_computing_engine')
+//   event.remove('oritech:silicon_wafer')
+// })

@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "reagent": {
+    "item": "malum:blazing_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "iceandfire:summoning_crystal_fire"
+  },
+  "sourceCost": 1000
+}

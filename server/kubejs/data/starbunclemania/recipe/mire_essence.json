@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "sauce:source_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    }
+  ],
+  "results": [
+    {
+      "id": "ars_elemancy:mire_essence"
+    }
+  ]
+}

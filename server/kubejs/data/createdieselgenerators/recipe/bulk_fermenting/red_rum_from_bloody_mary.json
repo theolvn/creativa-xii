@@ -1,0 +1,29 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:bloody_mary",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:shroomlight"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:red_rum",
+      "amount": 1000
+    }
+  ]
+}

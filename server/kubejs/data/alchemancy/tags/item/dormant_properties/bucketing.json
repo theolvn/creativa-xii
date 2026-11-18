@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create:fluid_tank",
+    "create:creative_fluid_tank",
+    "create:hose_pulley",
+    "create:item_drain",
+    "create:spout",
+    {"id": "create_enchantment_industry:printer", "required": false},
+    {"id": "create_dragons_plus:fluid_hatch", "required": false}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:scarlet_cheese",
+      "amount": 1000
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "count": 1,
+      "id": "brewinandchewin:unripe_scarlet_cheese_wheel"
+    }
+  ]
+}

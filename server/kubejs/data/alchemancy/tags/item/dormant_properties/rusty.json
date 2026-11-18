@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "create:weathered_iron_block",
+    "create:weathered_iron_window",
+    "create:weathered_iron_window_pane"
+  ],
+  "remove": [
+  	"create:waxed_copper_shingles",
+    "create:waxed_exposed_copper_shingles",
+    "create:waxed_weathered_copper_shingles",
+    "create:waxed_oxidized_copper_shingles",
+
+    "create:waxed_copper_shingle_stairs",
+    "create:waxed_exposed_copper_shingle_stairs",
+    "create:waxed_weathered_copper_shingle_stairs",
+    "create:waxed_oxidized_copper_shingle_stairs",
+
+    "create:waxed_copper_shingle_slab",
+    "create:waxed_exposed_copper_shingle_slab",
+    "create:waxed_weathered_copper_shingle_slab",
+    "create:waxed_oxidized_copper_shingle_slab",
+
+    "create:waxed_copper_tiles",
+    "create:waxed_exposed_copper_tiles",
+    "create:waxed_weathered_copper_tiles",
+    "create:waxed_oxidized_copper_tiles",
+
+    "create:waxed_copper_tile_stairs",
+    "create:waxed_exposed_copper_tile_stairs",
+    "create:waxed_weathered_copper_tile_stairs",
+    "create:waxed_oxidized_copper_tile_stairs",
+
+    "create:waxed_copper_tile_slab",
+    "create:waxed_exposed_copper_tile_slab",
+    "create:waxed_weathered_copper_tile_slab",
+    "create:waxed_copper_tile_slab"
+  ]
+}

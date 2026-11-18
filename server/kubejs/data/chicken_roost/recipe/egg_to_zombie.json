@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 12000,
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "max_charge_rate": 360,
+  "results": [
+    {
+      "id": "chicken_roost:c_zombie"
+    }
+  ]
+}

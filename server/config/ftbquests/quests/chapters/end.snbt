@@ -1,0 +1,456 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "752CDE464613A1ED"
+	icon: {
+		id: "minecraft:end_stone"
+	}
+	id: "45E6C205936FAC1A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			icon_scale: 2.0d
+			id: "3EC51F1BC7E77ABE"
+			rewards: [
+				{
+					count: 2
+					id: "0FE9BD3E8586B585"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "374E052C7579758B"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "37A6AEF4A0E97ECA"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC51F1BC7E77ABE"]
+			hide_until_deps_complete: true
+			id: "2FECA48AFC6B5D64"
+			rewards: [
+				{
+					count: 4
+					id: "2EEE1410C1333873"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3C60FA5938586B08"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0BAD0569D19D32F2"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EC51F1BC7E77ABE"]
+			hide_until_deps_complete: true
+			id: "78B9092A137B4AF5"
+			rewards: [
+				{
+					count: 4
+					id: "103C5AFBF69F517B"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0E5CDBF5E7DE0EF0"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "2BB27E401BEEA713"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["646BBE0FA21A12E6"]
+			hide_until_deps_complete: true
+			id: "6B41973CBA822DAF"
+			rewards: [
+				{
+					id: "29375E7A34652CAD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78F6D225F0CF8FF8"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "313523C00C1E04CA"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EC51F1BC7E77ABE"]
+			id: "646BBE0FA21A12E6"
+			rewards: [
+				{
+					id: "67832D2B06B610E3"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "0D66DF1BA47D27F2"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5804D613CF8BB9B8"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "3A1A9136DBA5D5B8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["646BBE0FA21A12E6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "5E1EBB756C291781"
+			rewards: [{
+				count: 2
+				id: "350BE7A46F568031"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04B698BF3D5753F2"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E1EBB756C291781"]
+			id: "207C28D3DAD4EEB9"
+			rewards: [{
+				count: 8
+				id: "4EC11DB5888D1753"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A328157857A29C"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E1EBB756C291781"]
+			id: "65D0BCAF6C58CA1C"
+			rewards: [
+				{
+					count: 2
+					id: "20959D15E943E335"
+					item: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4DAED4DA49B33B85"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4D12E082E52DE092"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["646BBE0FA21A12E6"]
+			hide_until_deps_complete: true
+			id: "2C601CCAF4D7B617"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+				id: "2974705C22056A89"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EA2677238451F80"]
+			hide_until_deps_complete: true
+			id: "2E8F436FCA0A2045"
+			rewards: [
+				{
+					id: "7A39453385FF6B82"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "756443D58A0539EE"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "497C978D84F09B64"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "459338783CB338D4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E8F436FCA0A2045"]
+			hide_until_deps_complete: true
+			id: "79FD1B4D72DD6A84"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/dimensional_carver"
+				criterion: ""
+				id: "4B70E539E5EF69FB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79FD1B4D72DD6A84"]
+			hide_until_deps_complete: true
+			id: "2E647895E3A1DF4C"
+			rewards: [
+				{
+					id: "0A8C01A9F8037B01"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "5D6DDDA3F8B000B0"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4BBE068A9CBDAB14"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/farseer"
+				criterion: ""
+				id: "535306C8C6C8C188"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C601CCAF4D7B617"]
+			hide_until_deps_complete: true
+			id: "5EA2677238451F80"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/mysterious_worm"
+				criterion: ""
+				id: "7979F82B1BE93CC6"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["646BBE0FA21A12E6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:void_infused_end_stone_bricks"
+			}
+			id: "4ED2EA1C0B8435BD"
+			rewards: [
+				{
+					count: 2
+					id: "378D8AD761537D94"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E653C6B38BDE25B"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "cataclysm:void_infused_end_stone_bricks"
+				}
+				id: "5201DF61A82F6178"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4ED2EA1C0B8435BD"]
+			id: "08043200317F43BC"
+			rewards: [
+				{
+					id: "5FE5CCFF83CABDFC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "43B7FE12BA066FA1"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "780D7F00DE3D6CAA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+}

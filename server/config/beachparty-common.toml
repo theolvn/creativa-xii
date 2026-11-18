@@ -1,0 +1,12 @@
+spawnPalms = false
+spawnSeashells = false
+spawnSandwaves = false
+
+[messageInABottle]
+	allowSpawning = false
+	# Default: 2
+	# Range: > 1
+	maxCount = 2
+	# Default: 6000
+	# Range: > 20
+	spawnInterval = 6000

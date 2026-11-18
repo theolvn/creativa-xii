@@ -1,0 +1,2766 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech_xii"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "oritech:foundry_block"
+	}
+	id: "43F692B3C74DE3CF"
+	images: [
+		{
+			height: 2.0d
+			id: "59C1BE7D6846A092"
+			image: "oritech:block/uranium_crystal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			id: "715E6F4B8008926B"
+			image: "minecraft:block/amethyst_cluster"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "000B2EC1B8BFA2EA"
+			rewards: [
+				{
+					id: "7E3E75BB43AF11F7"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2276172D6437519E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2599DCDA974C1369"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32085003F21DB0C6"
+				"204932611471B374"
+			]
+			id: "0908C78B099AA78C"
+			rewards: [
+				{
+					count: 2
+					id: "6AF95198B8A9C10E"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63BFF52969B2048A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7761BC54614FA6C9"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62C507E3B6D5E11A"]
+			id: "014E9A90A562BCFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "759FEE89F6A803C4"
+					table_id: 8553984462037727165L
+					type: "random"
+				}
+				{
+					id: "18659593DF7C8F7F"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+				{
+					id: "00C5DA44EDB7B6B1"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "159D1FCEFC2BB556"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "20C58AEEB4554B62"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "067148EDF5A4A47C"
+			rewards: [
+				{
+					id: "30DCE2EB0C683C0A"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CA8639299DF03AF"
+					table_id: 8553984462037727165L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "7F3855483192FBAB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5E82400EB0961FAA"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E0C25F9C94BB240"]
+			id: "204932611471B374"
+			rewards: [{
+				count: 4
+				id: "1A8523B4B3C0133F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A40764E1F2E3259"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["617CEFB2A24E13FA"]
+			id: "32085003F21DB0C6"
+			rewards: [
+				{
+					count: 2
+					id: "386EB708F3574109"
+					item: {
+						count: 1
+						id: "oritech:polymer_resin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67C108E5717FA4CF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32EF70437E378EBE"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "0E0C25F9C94BB240"
+			rewards: [
+				{
+					count: 2
+					id: "2CA2C6A6AEE8EF3E"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25436A85072D25E5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "282CF8435537F09C"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["067148EDF5A4A47C"]
+			id: "62C507E3B6D5E11A"
+			rewards: [
+				{
+					count: 2
+					id: "65D465677776CDCC"
+					item: {
+						count: 1
+						id: "oritech:raw_nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "4A381AAC25A48B5A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "78EE8118728D1A37"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "023E51296CFFFF9F"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"535AE087794186EC"
+				"037BE4843D7CD134"
+			]
+			id: "15F68202F4DB1BA9"
+			rewards: [
+				{
+					id: "0070AF1CDAA90B4A"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					id: "47CC53F1630CD5FA"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1EEF0F06F33BDE90"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1377B0123FAD3160"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "41AFFF581191BE89"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			id: "0EBA2D5EE1244018"
+			rewards: [
+				{
+					count: 2
+					id: "21A4841A199A76B4"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1EB26CDD2EE6BF58"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "36152A79323D8E3E"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "5F007C568F91CA40"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32085003F21DB0C6"
+				"204932611471B374"
+			]
+			id: "1D21CFB8E41505BD"
+			rewards: [
+				{
+					id: "546DD0503D8009F3"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "584A77D3110EF04C"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					type: "item"
+				}
+				{
+					id: "17E515116A6701FE"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D7F051A39770B42"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "044AB6059205087F"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D21CFB8E41505BD"]
+			id: "0127489B29BDA9C6"
+			rewards: [
+				{
+					count: 4
+					id: "716EE5B7B50AC4A5"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C025428C83CFC87"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F5F42DC4B13A183"
+				item: { count: 1, id: "oritech:super_ai_chip" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0127489B29BDA9C6"]
+			id: "17F5682EB0CB902A"
+			rewards: [
+				{
+					count: 2
+					id: "0A1FFE35038109E6"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2324AE88732142E9"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BC8CDE8E768A7DA"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F5682EB0CB902A"]
+			id: "6A637F193FD82425"
+			rewards: [
+				{
+					count: 2
+					id: "08BE38796A5E8298"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5957BF023357D19F"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "631DD80AE70E6EE1"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "24F218829E708FF2"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0127489B29BDA9C6"]
+			id: "79977D58B9A21429"
+			rewards: [
+				{
+					count: 2
+					id: "0886EFDF41E17490"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B2F22CC9C2D6E90"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3270AEAF4D28765F"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "75EB35A91C1E43D8"
+				item: { count: 1, id: "oritech:drone_port_block" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0127489B29BDA9C6"]
+			id: "5B9A9B3C6C102105"
+			rewards: [
+				{
+					count: 2
+					id: "30C859B6C7D8C679"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A6B27737B41BD94"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0CC0C980301275C5"
+				item: { count: 1, id: "oritech:enchantment_catalyst_block" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9A9B3C6C102105"]
+			id: "6FCCC692EE9EE3B0"
+			rewards: [
+				{
+					count: 4
+					id: "2619B0D898E59DAD"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0FC29BA4237C2DEB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76BF5F7811937DD5"
+				item: { count: 1, id: "oritech:enchanter_block" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9A9B3C6C102105"]
+			id: "604CA27684E5E59C"
+			rewards: [
+				{
+					count: 2
+					id: "3548954ED407FFE5"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F1E1406EC6E159C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2268C9476888ADF7"
+				item: { count: 1, id: "oritech:spawner_controller_block" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["014E9A90A562BCFE"]
+			id: "535AE087794186EC"
+			rewards: [
+				{
+					id: "41B55CBC51BAF227"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "45A0142952C37B48"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "541C0CE914918E80"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			id: "1F005489D2D5DB9E"
+			rewards: [
+				{
+					id: "03425B93D2FF8314"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77F9018B1BB1847B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "113C8F8FE7D3065A"
+				item: { count: 1, id: "oritech:pump_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "3601B306E41CB33C"
+			rewards: [
+				{
+					count: 4
+					id: "0D67970B4DA9B8AD"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					id: "7940CD905557BA09"
+					item: {
+						count: 1
+						id: "minecraft:snow_golem_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7710B48966A0818E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D0D66F32FD5FF66"
+				item: { count: 1, id: "oritech:cooler_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "6CF7C96C7920AC01"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A67A678F70627DE"
+					table_id: 3659598006680751635L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "50D89531659EA3A8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68DD410B2091DAD8"
+				item: { count: 1, id: "oritech:treefeller_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F005489D2D5DB9E"]
+			id: "7EE24DF17627D409"
+			rewards: [
+				{
+					id: "2FF08D6777AC31E4"
+					item: {
+						count: 1
+						id: "oritech:still_oil_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "505E07B79F17B456"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "419DE460F5FD3532"
+				item: { count: 1, id: "oritech:refinery_block" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "0CE0988DFAEC39D7"
+			rewards: [
+				{
+					id: "4F9525149809A326"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6BB93F198BA965A3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CCDCD93884753AF"
+				item: { count: 1, id: "oritech:powered_furnace_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "620D74066BAC21C3"
+			rewards: [
+				{
+					count: 8
+					id: "5A402633B0E461DB"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55FD39A2283BF31D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D424C2943CA7886"
+				item: { count: 1, id: "oritech:fertilizer_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32085003F21DB0C6"]
+			id: "076BDA9340B21C77"
+			rewards: [
+				{
+					count: 2
+					id: "08F82396B219B5D3"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "126EB3FDB304D390"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "150539C75ED7A773"
+				item: { components: { "oritech:energy": 1000000L }, count: 1, id: "oritech:small_storage_block" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "2488DCC4CA6059D8"
+			rewards: [
+				{
+					count: 2
+					id: "2F0B9099CDA917DD"
+					item: {
+						count: 1
+						id: "oritech:uranium_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3BAC81BE6B20C9E8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A88D932D7019555"
+				item: { count: 1, id: "oritech:plutonium_dust" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			id: "617CEFB2A24E13FA"
+			rewards: [
+				{
+					count: 2
+					id: "1A00E3D5B462D026"
+					item: {
+						count: 1
+						id: "oritech:packed_wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5011AB02B5E78708"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CD5DCCBAB9B508A"
+					item: { count: 1, id: "oritech:polymer_resin" }
+					type: "item"
+				}
+				{
+					id: "538A94C5123B6F64"
+					item: { count: 1, id: "oritech:raw_biopolymer" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076BDA9340B21C77"]
+			id: "125B8745F76EDE93"
+			rewards: [
+				{
+					count: 4
+					id: "76B6AF4A531F3DD9"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72DB7D69CA07D154"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55BA190B08235DF9"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"125B8745F76EDE93"
+				"617CEFB2A24E13FA"
+			]
+			id: "20705CF227A3218E"
+			rewards: [
+				{
+					count: 2
+					id: "64DDD39DD73048F6"
+					item: {
+						count: 1
+						id: "oritech:raw_biopolymer"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BF6EB371D0B9234"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7EC2AC75EBAC695B"
+				item: { count: 1, id: "oritech:bio_generator_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["125B8745F76EDE93"]
+			id: "4A5803C287258D59"
+			rewards: [{
+				id: "72575C77D7700A59"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4AF2026897379ACB"
+				item: { count: 1, id: "oritech:lava_generator_block" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"125B8745F76EDE93"
+				"7EE24DF17627D409"
+			]
+			id: "71560C27F734D084"
+			rewards: [
+				{
+					id: "26D2A8AF1924C989"
+					item: {
+						count: 1
+						id: "oritech:still_oil_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32183CA0B71B4CE6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0B771F197CE0C06E"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2488DCC4CA6059D8"]
+			id: "2BAE788F5BD6CA67"
+			rewards: [
+				{
+					count: 2
+					id: "7A14FBD8F2BB6126"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9502A913701EDB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "702C3E6F1625CA66"
+				item: { count: 1, id: "oritech:plutonium_pellet" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "3300EA107C928046"
+			rewards: [{
+				count: 2
+				id: "13D9B4BD606150AF"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07CF3A858841714C"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3300EA107C928046"]
+			id: "4BA2E7BBE143430F"
+			rewards: [
+				{
+					count: 4
+					id: "10563B6B2D738DFF"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2DAD2F6973D70124"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D489686606D8FF6"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BA2E7BBE143430F"]
+			id: "2FADB652630B0E6F"
+			rewards: [
+				{
+					count: 4
+					id: "1EF5D7BD79A5E802"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "410BDEBBADB651BD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "303F67167837A188"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FADB652630B0E6F"]
+			id: "07D5E3C450FD5475"
+			rewards: [
+				{
+					count: 2
+					id: "4F7D4A5D523E0DDE"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4014DA85B88BBA54"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "71F01E94B42174D8"
+				item: { count: 1, id: "oritech:machine_core_4" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07D5E3C450FD5475"]
+			id: "3938332915A1F6FF"
+			rewards: [
+				{
+					count: 4
+					id: "251DB320458ABA2E"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "521EFA29A7A1EF7D"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "52764041CD208348"
+				item: { count: 1, id: "oritech:machine_core_5" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3938332915A1F6FF"]
+			id: "0AB1607D0C9E77EA"
+			rewards: [
+				{
+					count: 8
+					id: "55088ABB38DF2531"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C577A18DFF9A790"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "52CE83671F335E4E"
+				item: { count: 1, id: "oritech:machine_core_6" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AB1607D0C9E77EA"]
+			id: "2E5902986F861C6A"
+			rewards: [
+				{
+					count: 2
+					id: "6161FE3C28E5830F"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "723D1EC29C3A370C"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31A72308795468E2"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BEEE7C365D634D9"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "2455876CD3F3105B"
+			rewards: [{
+				count: 2
+				id: "7FE3C9E6C49F6557"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52213CFC1F83452D"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "037B20DBAEF5CFE2"
+			rewards: [{
+				count: 2
+				id: "4EC7FDDFC58A60E7"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E4F505A3B2B86EB"
+				item: { count: 1, id: "oritech:capacitor_addon_extender" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "2BD2743A166A5198"
+			rewards: [
+				{
+					count: 2
+					id: "705F1FD2EA9A1C97"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "681542AB7B1588EE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "381E11A40A2A9D63"
+				item: { count: 1, id: "oritech:shrinker_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "3424AB0A519F59DA"
+			rewards: [
+				{
+					count: 2
+					id: "344B00A600219C3B"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1537507E8A473DBD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1AE90D0AA24D50C4"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "765F3BCD786B8E0A"
+			rewards: [
+				{
+					count: 2
+					id: "3950F5A8E74319B1"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "741CB71EA89954DA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "42B540D34D760AE8"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D21CFB8E41505BD"
+				"22F76BB432E47143"
+			]
+			hide_dependency_lines: true
+			id: "4496A57067C11D63"
+			rewards: [
+				{
+					count: 2
+					id: "191152F3E379D27C"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "78E01D5FECDEA1A2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0EF0F6C0080778B5"
+				item: { count: 1, id: "oritech:machine_ultimate_addon" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "78F3376308A1490B"
+			rewards: [
+				{
+					count: 2
+					id: "7A2FD9524D0A9042"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "755B06F98A5F86A0"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "41A338800BCEAC4E"
+				item: { count: 1, id: "oritech:quarry_addon" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1D21CFB8E41505BD"
+				"15F68202F4DB1BA9"
+			]
+			hide_dependency_lines: true
+			id: "5A9330D8C8104F16"
+			rewards: [
+				{
+					count: 4
+					id: "6FEC52D660BE0B1E"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E7EF3FD28ACA6B1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73F0209BA6B550F4"
+				item: { count: 1, id: "oritech:machine_processing_addon" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			id: "256DDF9B38EF3B89"
+			rewards: [{
+				count: 2
+				id: "15187CF6175CDF8B"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "78EDC775E0CB1B43"
+				item: { count: 1, id: "oritech:machine_fluid_addon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0908C78B099AA78C"]
+			id: "588DD4F97843F285"
+			rewards: [{
+				count: 2
+				id: "62084A8E8E47AA49"
+				item: {
+					count: 1
+					id: "oritech:plastic_sheet"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5DE741443CCD7BB2"
+				item: { count: 1, id: "oritech:machine_yield_addon" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "7F38AA7C6E6E86CE"
+			rewards: [
+				{
+					count: 2
+					id: "77A3FEDC28450729"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25CFA4CBBD024A6F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4374758D24BC4033"
+				item: { count: 1, id: "oritech:crop_filter_addon" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "2F907865A08FBD96"
+			rewards: [
+				{
+					count: 2
+					id: "1C3BD44D027AB39C"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "46066E1FF8E89BBA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7BC7647534EFF85F"
+				item: { count: 1, id: "oritech:machine_hunter_addon" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["067148EDF5A4A47C"]
+			hide_dependency_lines: true
+			id: "66CCA00958268FF6"
+			rewards: [
+				{
+					count: 2
+					id: "00DAEC7D5C9C7C38"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FF73021C148BC8A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64918CE974861413"
+				item: { count: 1, id: "oritech:machine_capacitor_addon" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "4403EC5185C5129C"
+			rewards: [
+				{
+					count: 2
+					id: "6D056222BD510C08"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "054D1F78A2C3225C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "308BF30EFF26DB78"
+				item: { count: 1, id: "oritech:machine_acceptor_addon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "1E5CC7B4A76F4000"
+			rewards: [
+				{
+					count: 2
+					id: "39C26AC4454B94FA"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A4A5C3194417B4A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76F2AD4C665B8DF3"
+				item: { count: 1, id: "oritech:machine_inventory_proxy_addon" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["125B8745F76EDE93"]
+			id: "1A5691FFA7B5622D"
+			rewards: [{
+				count: 2
+				id: "02AA6179FC25E031"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7A746AE9CECF3C8A"
+				item: { count: 1, id: "oritech:steam_boiler_addon" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["067148EDF5A4A47C"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "683A1B91B9E4D963"
+			rewards: [
+				{
+					count: 4
+					id: "0C8B2493AD8863F2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D6962986BB5E6D8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "55F6324A39D01CBB"
+				item: { count: 1, id: "oritech:machine_redstone_addon" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EBA2D5EE1244018"]
+			id: "06CAC87244F96A42"
+			rewards: [
+				{
+					count: 2
+					id: "51B87B34BCE6F884"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63498EE089FDD557"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D29E3F938C79F61"
+				item: { count: 1, id: "oritech:machine_silk_touch_addon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "02A4B9D4959E59EB"
+			rewards: [
+				{
+					count: 2
+					id: "473007888FF46C5B"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "285F1793879E2F09"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "121D62A952E832CD"
+				item: { count: 1, id: "oritech:machine_burst_addon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2BAE788F5BD6CA67"]
+			id: "5EA4ECE482F9ABF4"
+			rewards: [{
+				count: 4
+				id: "382123DDABBD9BA3"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B3B810259DA4D64"
+				item: { count: 1, id: "oritech:nuke" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			id: "023AFFDB30F73ADA"
+			rewards: [
+				{
+					id: "7BFC2583582B0A1C"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B8E05C2447AF0B5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A8C9A26038E8DCF"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "62249AA5B8FAC6B2"
+					item: { count: 1, id: "oritech:framed_fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "6121E986AE8AD2C5"
+					item: { count: 1, id: "oritech:fluid_pipe_duct_block" }
+					type: "item"
+				}
+				{
+					id: "0FB87E3E625AA838"
+					item: { count: 1, id: "oritech:small_tank_block" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "5313FC64C37A86AB"
+			rewards: [
+				{
+					count: 4
+					id: "7409EAB4C9F4B5EE"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72210CA30CD9D234"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "090CAF11267797D6"
+					item: { count: 1, id: "oritech:energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "50E77F9D2725DD4E"
+					item: { count: 1, id: "oritech:framed_energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "557F0642D79B3B10"
+					item: { count: 1, id: "oritech:energy_pipe_duct_block" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "07E0ADBC1EEEA81D"
+			rewards: [
+				{
+					count: 2
+					id: "1E10E095B5D8C9AF"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "65E5597C36A609C9"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "156395CE446F77A5"
+					item: { count: 1, id: "oritech:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "664ED1593ED0C3D2"
+					item: { count: 1, id: "oritech:transparent_item_pipe" }
+					type: "item"
+				}
+				{
+					id: "517FCE75D3632D68"
+					item: { count: 1, id: "oritech:framed_item_pipe" }
+					type: "item"
+				}
+				{
+					id: "20D19BB1584C85BE"
+					item: { count: 1, id: "oritech:item_pipe_duct_block" }
+					type: "item"
+				}
+				{
+					id: "4E86BE96EAF028C4"
+					item: { count: 1, id: "oritech:item_filter_block" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "066FB7998F1B8E30"
+			rewards: [
+				{
+					count: 2
+					id: "522712E78BD7B37A"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7819C29C68C61694"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42E73B7CAA2B5827"
+				item: { count: 1, id: "oritech:pipe_booster_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BAE788F5BD6CA67"]
+			id: "23DCBBC488D99DE6"
+			rewards: [
+				{
+					id: "18546FE26FB9D98E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49E9736832D5EC66"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2DFF5013AEA5E9D2"
+					item: { count: 1, id: "oritech:reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 63L
+					id: "417443FC34E01CF0"
+					item: { count: 1, id: "oritech:reactor_wall" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2407100E4ADD3B72"
+					item: { count: 1, id: "oritech:reactor_heat_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "04CF449A1878FBE3"
+					item: { count: 1, id: "oritech:reactor_vent" }
+					type: "item"
+				}
+				{
+					id: "47C28B3773904982"
+					item: { count: 1, id: "oritech:reactor_rod" }
+					type: "item"
+				}
+				{
+					id: "25BF2DDFBBFCAF37"
+					item: { count: 1, id: "oritech:reactor_energy_port" }
+					type: "item"
+				}
+				{
+					id: "5287E3CA3D0A4875"
+					item: { count: 1, id: "oritech:reactor_fuel_port" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "59358C526AF94509"
+			rewards: [
+				{
+					count: 2
+					id: "02C3719D656C375A"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0602D79907E47A1F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5E7D5CA1019A420A"
+				item: { count: 1, id: "oritech:augment_application_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59358C526AF94509"]
+			id: "1BAF9E0C5CC6566E"
+			rewards: [
+				{
+					count: 2
+					id: "1BA906CB594FEDA3"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "647D5F8C4A3832D3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "515EA52A86E66BC6"
+				item: { count: 1, id: "oritech:simple_augment_station" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1BAF9E0C5CC6566E"]
+			id: "2F683EE260D9CA1B"
+			rewards: [
+				{
+					count: 2
+					id: "3BD3536F41F06AAE"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D4BAA0B012BFDD5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36865207022E829C"
+				item: { count: 1, id: "oritech:advanced_augment_station" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BAF9E0C5CC6566E"]
+			id: "1F375C98B072D8D7"
+			rewards: [
+				{
+					count: 2
+					id: "0C8EC6B17FE71E2C"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CD3EC9E0BEFD1F4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D84435E20DD15DF"
+				item: { count: 1, id: "oritech:arcane_augment_station" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["125B8745F76EDE93"]
+			id: "5E7D324C254F58A4"
+			rewards: [
+				{
+					count: 2
+					id: "593599061B1E18FD"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51566D8229B9AF89"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "147ABBC109535E9E"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EE24DF17627D409"]
+			id: "654D498E6817B373"
+			rewards: [{
+				count: 2
+				id: "2CC0EEE3F8681264"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CD104043F4119FE"
+				item: { count: 1, id: "oritech:refinery_module_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5313FC64C37A86AB"]
+			hide_dependency_lines: true
+			id: "2BF88E2AA05EAD2E"
+			rewards: [
+				{
+					count: 2
+					id: "34ABC2806846FA7C"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A46CE68F6ED8938"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42AFF13A875F09B3"
+				item: { count: 1, id: "oritech:charger_block" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "2E28E3F454E96115"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BD5B987A33DD93E"
+					table_id: 852686633003629982L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C6ABD3A9706557"
+					table_id: 4654045466971178575L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "29A3A305279B1B95"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0309520ED7C77A88"
+				item: { count: 1, id: "oritech:placer_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "733B1621BD23B8DB"
+			rewards: [
+				{
+					id: "1E66AE666383EB97"
+					item: {
+						count: 1
+						id: "oritech:crop_filter_addon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D72A0FDAC386344"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "575358E07D6CAE12"
+				item: { count: 1, id: "oritech:destroyer_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EE24DF17627D409"]
+			hide_dependency_lines: true
+			id: "567F60C8FBC7CAE7"
+			rewards: [
+				{
+					count: 2
+					id: "0FCA09DB6C286B03"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B3F969724334DF2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E05398C0AC5F0D1"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "3D342F05CB79D627"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2717F07D3B42B083"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "0796DC4AE6FAC3C9"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "7E011CC8D6B570F7"
+			rewards: [
+				{
+					count: 2
+					id: "0369D4E20ADB21FE"
+					item: {
+						count: 1
+						id: "oritech:enderic_compound"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54D3B3505EE0376D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A4CA5FDA6F56DD3"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+				{
+					id: "231A945BEA3EE10D"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F68202F4DB1BA9"]
+			hide_dependency_lines: true
+			id: "3F077AC6B2786F5F"
+			rewards: [
+				{
+					count: 2
+					id: "317307875333292B"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3CC7BB50A93232AD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A889642A7D76843"
+				item: { count: 1, id: "oritech:electric_mace" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D21CFB8E41505BD"]
+			hide_dependency_lines: true
+			id: "774639A7C566693D"
+			rewards: [
+				{
+					count: 2
+					id: "50EF94AB01151BF9"
+					item: {
+						count: 1
+						id: "oritech:prometheum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42298EF37AE8D634"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26D65FCC10F15741"
+					item: { count: 1, id: "oritech:promethium_axe" }
+					type: "item"
+				}
+				{
+					id: "01B5609ADE7FC884"
+					item: { count: 1, id: "oritech:promethium_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0EBA2D5EE1244018"
+				"22F76BB432E47143"
+			]
+			hide_dependency_lines: true
+			id: "76704C69B7DE4147"
+			rewards: [
+				{
+					count: 2
+					id: "3C6EB890263ED0F5"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40DFF6906529A523"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E0E8EC56B31D719"
+				item: { count: 1, id: "oritech:portable_laser" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D21CFB8E41505BD"]
+			id: "22F76BB432E47143"
+			rewards: [
+				{
+					id: "5DE73217ACA50C89"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F45475BDEED9638"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0F17E34B8385340D"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "11B7E401D5D4B3BF"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "751FC001FEC48120"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "17F68E1CBE861721"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["014E9A90A562BCFE"]
+			id: "037BE4843D7CD134"
+			rewards: [
+				{
+					count: 2
+					id: "1C1B2A709661C7C6"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01F5106A78BB5019"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7ACE0ABDA7465D8B"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+	]
+}

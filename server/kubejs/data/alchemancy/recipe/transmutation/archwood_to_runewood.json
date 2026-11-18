@@ -1,0 +1,12 @@
+{
+  "type": "alchemancy:item_transmutation",
+
+  "catalyst": {
+    "tag": "c:logs/archwood"
+  },
+
+  "result": {
+    "count": 1,
+    "id": "malum:runewood_log"
+  }
+}

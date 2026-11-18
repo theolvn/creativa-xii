@@ -1,0 +1,29 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    },
+    {
+      "item": "ars_nouveau:wilden_horn"
+    },
+    {
+      "item": "ars_nouveau:wilden_spike"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "deeperdarker:reinforced_echo_shard"
+    }
+  ],
+  "reagent": {
+    "item": "chicken_roost:chicken_food_tier_6"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_7"
+  },
+  "sourceCost": 7000
+}

@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "create:extendo_grip"
+  },
+  "result": {
+    "count": 1,
+    "id": "create:handheld_worldshaper"
+  },
+  "sourceCost": 10000
+}

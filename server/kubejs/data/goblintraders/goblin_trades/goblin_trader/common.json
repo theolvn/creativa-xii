@@ -1,0 +1,47 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "simplehats:hatbag_common"
+      },
+      "payment_item": {
+        "count": 4,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 2,
+        "id": "clavis:lock_pick"
+      },
+      "payment_item": {
+        "count": 8,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 8,
+        "id": "supplementaries:rope"
+      },
+      "payment_item": {
+        "count": 2,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    }
+  ]
+}

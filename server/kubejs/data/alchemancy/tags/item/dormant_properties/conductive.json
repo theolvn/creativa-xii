@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "create:copper_backtank",
+    "create:potato_cannon",
+    "create:fluid_pipe",
+    "create:mechanical_pump",
+    "create:smart_fluid_pipe",
+    "create:fluid_valve",
+    "#create:valve_handles",
+    "create:fluid_tank",
+    "create:hose_pulley",
+    "create:item_drain",
+    "create:spout",
+    "create:portable_fluid_interface",
+    "create:steam_engine",
+    "create:steam_whistle",
+    "create:copper_casing",
+    "create:copper_door",
+    "create:copper_diving_helmet",
+    "create:copper_diving_boots",
+    {"id": "create_dragons_plus:fluid_hatch", "required": false},
+    {"id": "create_enchantment_industry:experience_hatch", "required": false},
+    {"id": "#alchemancy:materials/electrum", "required": false},
+    {"id": "createaddition:capacitor", "required": false},
+    {"id": "createaddition:connector", "required": false},
+    {"id": "createaddition:small_light_connector", "required": false},
+    {"id": "createaddition:large_connector", "required": false},
+    {"id": "createaddition:portable_energy_interface", "required": false}
+  ]
+}

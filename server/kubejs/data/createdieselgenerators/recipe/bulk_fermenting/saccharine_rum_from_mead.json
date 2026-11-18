@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:mead",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:melon"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:saccharine_rum",
+      "amount": 1000
+    }
+  ]
+}

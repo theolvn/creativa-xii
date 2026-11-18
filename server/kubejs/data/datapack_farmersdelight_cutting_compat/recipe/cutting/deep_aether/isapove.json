@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "deep_aether:isapove"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "tool": {
+    "tag": "farmersdelight:tools/knives"
+  }
+}

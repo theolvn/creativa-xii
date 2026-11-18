@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create:linked_controller",
+    "create:contraption_controls",
+    "create:controls",
+    "create:deployer",
+    "create:extendo_grip",
+    "create:desk_bell"
+  ]
+}

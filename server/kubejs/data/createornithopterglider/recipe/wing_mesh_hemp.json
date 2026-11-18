@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "nirvana:hemp_cloth"
+    }
+  },
+  "result": {
+    "id": "createornithopterglider:wing_mesh",
+    "count": 2
+  }
+}

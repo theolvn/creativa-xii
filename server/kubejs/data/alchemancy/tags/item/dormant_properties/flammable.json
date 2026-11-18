@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#alchemancy:materials/cardboard",
+    {"id": "createaddition:biomass", "required": false},
+    {"id": "createaddition:biomass_pellet", "required": false},
+    {"id": "createaddition:biomass_pellet_block", "required": false},
+    {"id": "createaddition:seed_oil_bucket", "required": false},
+    {"id": "createaddition:bioethanol_bucket", "required": false}
+  ]
+}

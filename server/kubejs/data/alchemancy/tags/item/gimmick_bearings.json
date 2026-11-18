@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create:clockwork_bearing",
+    "create:windmill_bearing"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "vinery:apple_wine"
+    },
+    {
+      "item": "vinery:chenet_wine"
+    },
+    {
+      "item": "vinery:bolvar_wine"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:bacchus_utimate_wine",
+      "amount": 1000
+    }
+  ]
+}

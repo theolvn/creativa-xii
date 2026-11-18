@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "cgs:steel_sheet"
+        },
+        "B": {
+            "tag": "quark:shards"
+        },
+        "C": {
+            "item": "mekanism:ingot_osmium"
+        },
+        "D": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "pattern": [
+        " AAA ",
+        "ABCBA",
+        "ACDCA",
+        "ABCBA",
+        " AAA "
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:steel_casing"
+    },
+    "show_notification": false
+}

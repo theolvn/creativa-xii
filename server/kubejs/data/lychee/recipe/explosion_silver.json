@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "iceandfire:silver_ore",
+    "post": [
+        "drop iceandfire:raw_silver",
+        "drop iceandfire:raw_silver /.5",
+        "drop iceandfire:raw_silver /.5",
+        "drop iceandfire:raw_silver /.5"
+    ]
+}

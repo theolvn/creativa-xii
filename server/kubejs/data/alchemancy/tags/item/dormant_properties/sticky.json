@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:sticky_mechanical_piston",
+    "create:sticker",
+    "create:honey_bucket",
+    "create:honeyed_apple",
+    "create:super_glue"
+  ]
+}

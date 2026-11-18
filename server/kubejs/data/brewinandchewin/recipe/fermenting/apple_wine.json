@@ -1,0 +1,23 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:apple_juice"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:apple_wine"
+  },
+  "unit": "millibuckets"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:blaze_burner",
+    "create:blaze_cake",
+    {"id": "create_enchantment_industry:blaze_enchanter", "required": false},
+    {"id": "create_enchantment_industry:blaze_forger", "required": false}
+  ]
+}

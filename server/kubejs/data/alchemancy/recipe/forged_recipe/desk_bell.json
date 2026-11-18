@@ -1,0 +1,16 @@
+{
+  "type": "alchemancy:forged_item",
+
+  "properties": [
+    "alchemancy:musical"
+  ],
+
+  "catalyst": {
+    "item": "create:golden_sheet"
+  },
+
+  "result": {
+    "count": 1,
+    "id": "create:desk_bell"
+  }
+}

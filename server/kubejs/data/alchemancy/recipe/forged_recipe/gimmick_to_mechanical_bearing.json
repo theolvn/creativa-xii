@@ -1,0 +1,16 @@
+{
+  "type": "alchemancy:forged_item",
+
+  "properties": [
+    "alchemancy:warped"
+  ],
+
+  "catalyst": {
+    "tag": "alchemancy:gimmick_bearings"
+  },
+
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_bearing"
+  }
+}

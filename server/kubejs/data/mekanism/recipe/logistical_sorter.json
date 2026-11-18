@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "cgs:steel_sheet"
+        },
+        "B": {
+            "tag": "c:circuits/basic"
+        },
+        "C": {
+            "item": "create:smart_fluid_pipe"
+        }
+    },
+    "pattern": [
+        "AAA",
+        "BCB",
+        "AAA"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:logistical_sorter"
+    }
+}

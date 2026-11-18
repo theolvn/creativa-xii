@@ -1,0 +1,23 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:red_grapejuice",
+      "amount": 1000
+    },
+    {
+      "tag": "c:seeds/tier1orup"
+    },
+    {
+      "tag": "c:souls/tier1andup"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:chateau_blackal_wine",
+      "amount": 1000
+    }
+  ]
+}

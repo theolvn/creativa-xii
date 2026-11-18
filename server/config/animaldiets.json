@@ -1,0 +1,465 @@
+{
+  "_comment": "One entry per animal, keyed by entity ID (e.g. \"minecraft:cow\"). New animals are added with their detected diet the first time they are seen. Every key inside an entry is optional: anything left out uses the value from animalweights.json. Example: \"minecraft:strider\": {\"diet\": \"NETHER\", \"maxWeight\": 4, \"weightGainChance\": 0.25}.",
+  "_comment_diet": "What the animal needs nearby to gain weight, on top of light and open space. HERBIVORE: water and grazing ground. CARNIVORE: water. OMNIVORE: water or grazing ground. AQUATIC: water. NETHER: lava and nylium or netherrack (light is optional), and it only gains weight in the Nether unless netherAnimalsGainAnywhere is on. Leave it out to let the mod detect it. Possible inputs: HERBIVORE, CARNIVORE, OMNIVORE, AQUATIC, NETHER.",
+  "_comment_minWeight": "Lowest weight this animal can drop to. Whole number, 0 or higher.",
+  "_comment_maxWeight": "Highest weight this animal can reach. Higher weight means more drops and XP. Whole number, at least minWeight + 1.",
+  "_comment_defaultWeight": "Weight this animal starts at. Whole number between minWeight and maxWeight.",
+  "_comment_sickThreshold": "At or below this weight the animal is sick: it gets a tint and particles, and cannot breed. Whole number.",
+  "_comment_weightTickIntervalTicks": "How often this animal's weight is rechecked, in game ticks. 20 ticks = 1 second. Minimum 20.",
+  "_comment_weightGainChance": "Chance from 0.0 to 1.0 for this animal to gain weight when its habitat is good.",
+  "_comment_weightMinorLossChance": "Chance from 0.0 to 1.0 for this animal to lose weight when its habitat is poor.",
+  "_comment_weightSevereLossChance": "Chance from 0.0 to 1.0 for this animal to lose weight when its habitat is very poor.",
+  "alexsmobs:alligator_snapping_turtle": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:anaconda": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:anteater": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:bald_eagle": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:banana_slug": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:bison": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:blue_jay": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:cachalot_whale": {
+    "diet": "AQUATIC"
+  },
+  "alexsmobs:caiman": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:cockroach": {
+    "diet": "CARNIVORE"
+  },
+  "alexsmobs:crocodile": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:crow": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:elephant": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:emu": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:flutter": {
+    "diet": "OMNIVORE"
+  },
+  "alexsmobs:fly": {
+    "diet": "CARNIVORE"
+  },
+  "alexsmobs:froststalker": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:gazelle": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:gelada_monkey": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:gorilla": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:grizzly_bear": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:hummingbird": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:jerboa": {
+    "diet": "OMNIVORE"
+  },
+  "alexsmobs:kangaroo": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:laviathan": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:leafcutter_ant": {
+    "diet": "OMNIVORE"
+  },
+  "alexsmobs:maned_wolf": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:mantis_shrimp": {
+    "diet": "AQUATIC"
+  },
+  "alexsmobs:moose": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:mungus": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:orca": {
+    "diet": "AQUATIC"
+  },
+  "alexsmobs:platypus": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:potoo": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:raccoon": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:rain_frog": {
+    "diet": "OMNIVORE"
+  },
+  "alexsmobs:rattlesnake": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:rhinoceros": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:roadrunner": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:seagull": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:seal": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:shoebill": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:skunk": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:snow_leopard": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:sunbird": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:tarantula_hawk": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:tasmanian_devil": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:terrapin": {
+    "diet": "AQUATIC"
+  },
+  "alexsmobs:toucan": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:tusklin": {
+    "diet": "HERBIVORE"
+  },
+  "alexsmobs:warped_toad": {
+    "diet": "HERBIVORE"
+  },
+  "ars_elemental:summon_bee": {
+    "diet": "OMNIVORE"
+  },
+  "ars_elemental:summon_camel": {
+    "diet": "OMNIVORE"
+  },
+  "ars_elemental:summon_skelehorse": {
+    "diet": "OMNIVORE"
+  },
+  "ars_elemental:summon_strider": {
+    "diet": "OMNIVORE"
+  },
+  "ars_nouveau:animated_block": {
+    "diet": "OMNIVORE"
+  },
+  "ars_nouveau:nook": {
+    "diet": "OMNIVORE"
+  },
+  "ars_nouveau:summon_horse": {
+    "diet": "OMNIVORE"
+  },
+  "ars_nouveau:summon_wolf": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_andesite": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_basalt": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_birchwood": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_black": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_blue": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_bone": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_chorusfruit": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_darkoak": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_endstone": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_flint": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_glowberries": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_gravel": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_green": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_junglewood": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_magenta": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_netherrack": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_oakwood": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_purple": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_quartz": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_red": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_redstone": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_rotten": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_sand": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_snow": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_soulsand": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_soulsoil": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_spidereye": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_sprucewood": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_stone": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_string": {
+    "diet": "CARNIVORE"
+  },
+  "chicken_roost:c_sugar": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_sweetberries": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_tuff": {
+    "diet": "HERBIVORE"
+  },
+  "chicken_roost:c_white": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_yellow": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_zinc": {
+    "diet": "OMNIVORE"
+  },
+  "chicken_roost:c_zombie": {
+    "diet": "OMNIVORE"
+  },
+  "deeperdarker:sculk_snapper": {
+    "diet": "CARNIVORE"
+  },
+  "ecologics:coconut_crab": {
+    "diet": "OMNIVORE"
+  },
+  "ecologics:penguin": {
+    "diet": "HERBIVORE"
+  },
+  "ecologics:squirrel": {
+    "diet": "HERBIVORE"
+  },
+  "friendsandfoes:crab": {
+    "diet": "HERBIVORE"
+  },
+  "friendsandfoes:glare": {
+    "diet": "OMNIVORE"
+  },
+  "friendsandfoes:mauler": {
+    "diet": "HERBIVORE"
+  },
+  "friendsandfoes:moobloom": {
+    "diet": "HERBIVORE"
+  },
+  "friendsandfoes:penguin": {
+    "diet": "HERBIVORE"
+  },
+  "iceandfire:amphithere": {
+    "diet": "HERBIVORE"
+  },
+  "iceandfire:cockatrice": {
+    "diet": "HERBIVORE"
+  },
+  "iceandfire:deathworm": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:dragon_skull": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:fire_dragon": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:hippocampus": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:hippogryph": {
+    "diet": "HERBIVORE"
+  },
+  "iceandfire:ice_dragon": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:lightning_dragon": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:mob_skull": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:pixie": {
+    "diet": "OMNIVORE"
+  },
+  "iceandfire:sea_serpent": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:armadillo": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:axolotl": {
+    "diet": "AQUATIC"
+  },
+  "minecraft:bee": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:camel": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:camel_husk": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:cat": {
+    "diet": "CARNIVORE"
+  },
+  "minecraft:chicken": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:cow": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:donkey": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:fox": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:frog": {
+    "diet": "CARNIVORE"
+  },
+  "minecraft:goat": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:hoglin": {
+    "diet": "NETHER"
+  },
+  "minecraft:horse": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:llama": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:mooshroom": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:mule": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:nautilus": {
+    "diet": "AQUATIC"
+  },
+  "minecraft:panda": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:parrot": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:pig": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:polar_bear": {
+    "diet": "CARNIVORE"
+  },
+  "minecraft:rabbit": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:sheep": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:skeleton_horse": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:strider": {
+    "diet": "NETHER"
+  },
+  "minecraft:trader_llama": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:turtle": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:wolf": {
+    "diet": "CARNIVORE"
+  },
+  "minecraft:zombie_horse": {
+    "diet": "OMNIVORE"
+  },
+  "quark:crab": {
+    "diet": "OMNIVORE"
+  },
+  "quark:foxhound": {
+    "diet": "CARNIVORE"
+  },
+  "quark:shiba": {
+    "diet": "HERBIVORE"
+  },
+  "quark:toretoise": {
+    "diet": "CARNIVORE"
+  },
+  "vinery:mule": {
+    "diet": "OMNIVORE"
+  }
+}

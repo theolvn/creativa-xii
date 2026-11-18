@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "category": "misc",
+  "group": "fluxnetworks",
+  "pattern": [
+    "fof",
+    "oeo",
+    "fof"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:echo_shard"
+    },
+    "f": {
+      "item": "ae2:fluix_dust"
+    },
+    "e": {
+      "item": "ae2:fluix_pearl"
+    }
+  },
+  "result": {
+    "id": "fluxnetworks:flux_core",
+    "count": 4
+  }
+}

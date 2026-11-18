@@ -1,0 +1,18 @@
+{
+  "type": "alchemancy:forged_item",
+
+  "infusables": [
+    {
+      "item": "alchemancy:macroscopic_lens"
+    }
+  ],
+
+  "catalyst": {
+    "item": "create:brass_funnel"
+  },
+
+  "result": {
+    "count": 1,
+    "id": "create:brass_tunnel"
+  }
+}

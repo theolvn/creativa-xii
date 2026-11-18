@@ -1,0 +1,103 @@
+{
+	id: "32C980FF68EF0E13"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 8
+			id: "0E2BC145B65604F4"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 8
+			id: "4A4A1CE5CACB1AB4"
+			item: {
+				count: 1
+				id: "minecraft:spruce_log"
+			}
+		}
+		{
+			count: 8
+			id: "7221F588B94BEEC2"
+			item: {
+				count: 1
+				id: "minecraft:birch_log"
+			}
+		}
+		{
+			count: 8
+			id: "4BB94F4B1E4515F0"
+			item: {
+				count: 1
+				id: "minecraft:jungle_log"
+			}
+		}
+		{
+			count: 8
+			id: "67CF9EE28F38CFB8"
+			item: {
+				count: 1
+				id: "minecraft:acacia_log"
+			}
+		}
+		{
+			count: 8
+			id: "3AE6343622891AF2"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_log"
+			}
+		}
+		{
+			count: 8
+			id: "4A10EC94F47C6C21"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_log"
+			}
+		}
+		{
+			count: 8
+			id: "5C7FEC09CB485748"
+			item: {
+				count: 1
+				id: "minecraft:cherry_log"
+			}
+		}
+		{
+			count: 8
+			id: "333BEBD811F2DC6B"
+			item: {
+				count: 1
+				id: "minecraft:pale_oak_log"
+			}
+		}
+		{
+			count: 8
+			id: "6323318FA5A21E4E"
+			item: {
+				count: 1
+				id: "quark:azalea_log"
+			}
+		}
+		{
+			count: 8
+			id: "148559008B8F3DDF"
+			item: {
+				count: 1
+				id: "quark:blossom_log"
+			}
+		}
+		{
+			count: 8
+			id: "40B446A52CEF6C04"
+			item: {
+				count: 1
+				id: "ecologics:coconut_log"
+			}
+		}
+	]
+}

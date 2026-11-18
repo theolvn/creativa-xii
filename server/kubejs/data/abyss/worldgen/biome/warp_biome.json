@@ -1,0 +1,77 @@
+{
+  "has_precipitation": false,
+  "temperature": -2,
+  "temperature_modifier": "none",
+  "downfall": 0.4,
+
+  "effects": {
+    "sky_color": 1609321,
+    "fog_color": 1609321,
+    "water_color": 1609321,
+    "water_fog_color": 1609321
+  },
+
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+
+  "features": [
+    [],
+    [],
+    [
+      "abyss:osmium_deep_down",
+      "abyss:osmium_down",
+      "abyss:osmium_middle",
+      "abyss:osmium_up",
+      "abyss:platinum_deep_down",
+      "abyss:platinum_down",
+      "abyss:platinum_middle",
+      "abyss:platinum_up",
+      "abyss:fluorite_deep_down",
+      "abyss:fluorite_down",
+      "abyss:fluorite_middle",
+      "abyss:fluorite_up"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark",
+      "minecraft:twisting_vines",
+      "minecraft:warped_forest_vegetation",
+      "minecraft:nether_sprouts"
+    ],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": []
+  },
+
+  "spawn_costs": {}
+}

@@ -1,0 +1,14 @@
+{
+        "type": "chicken_roost:roost_output",
+        "food": {
+            "tag": "c:seeds/tier2orup"
+          },
+          "chicken": {
+            "item": "chicken_roost:c_cinnabar"
+          },
+        "time": 40,
+        "output": {
+          "item": "minecraft:cinnabar"
+        }
+
+      }

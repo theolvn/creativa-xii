@@ -1,0 +1,991 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "reptiles"
+	group: "1DA520C636BEDEBC"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/axolotl"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3AED854414C108B1"
+	images: [
+		{
+			height: 1.0d
+			id: "361ABD193C212495"
+			image: "kubejs:item/turtles"
+			rotation: 0.0d
+			width: 5.08955223880597d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 0.8524926686217009d
+			id: "4CE9A5F5CE5A2187"
+			image: "kubejs:item/amphibians"
+			rotation: 0.0d
+			width: 5.7d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 0.8690127077223851d
+			id: "2784E8643AD0CE5E"
+			image: "kubejs:item/crocodilians"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.5d
+			y: -2.9d
+		}
+		{
+			height: 1.0d
+			id: "658C18CA3C628D5F"
+			image: "kubejs:item/lizards"
+			rotation: 0.0d
+			width: 4.990243902439024d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.5532746823069405d
+			id: "28CC4F48379E36E7"
+			image: "kubejs:item/snakes"
+			rotation: 0.0d
+			width: 7.0d
+			x: -3.5d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			id: "5E261917135FF1CE"
+			image: "minecraft:block/big_dripleaf_top"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			id: "4356CBA4F306AEE4"
+			image: "minecraft:block/small_dripleaf_stem_top"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			id: "50B8584A67683DFD"
+			image: "minecraft:block/small_dripleaf_stem_top"
+			order: -10
+			rotation: 180.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "428536271A237927"
+			image: "minecraft:block/water_still"
+			order: -50
+			rotation: 0.0d
+			width: 50.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "2138FBB9CEE9F14D"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: -42.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "237B364B1E825EAA"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: 0.5d
+			y: -42.5d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "148946969785DB2D"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: 43.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "6D6FC5773708D3DF"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: 0.5d
+			y: 42.5d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "555C462E6F53BD11"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: -42.0d
+			y: 42.5d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "5CBF2561AE51CE17"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: 43.0d
+			y: 42.5d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "044D9D950F5B3456"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: 43.0d
+			y: -42.5d
+		}
+		{
+			alpha: 150
+			color: 5795373
+			height: 50.0d
+			id: "504B1B30492972AB"
+			image: "minecraft:block/water_overlay"
+			rotation: 0.0d
+			width: 50.0d
+			x: -42.0d
+			y: -42.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/caimanblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B11667C2AB98D24"
+			rewards: [
+				{
+					count: 3
+					id: "62BA6A559E74B619"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0E3ECE01694D2339"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4617BCE9C4B29D03"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:caiman"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/crocodileblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "40BE14F7E50DF8BB"
+			rewards: [
+				{
+					count: 3
+					id: "195BCD7A449799C6"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5EAEAC561EF67929"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6529DD4136ADE717"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/anacondablack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5511C66271C35E12"
+			rewards: [
+				{
+					count: 3
+					id: "3D9900FC7894D335"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "299831575A7D495F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49474BCF84C3AC7F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:anaconda"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/rattlesnakeblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5CAA063F6262405A"
+			rewards: [
+				{
+					count: 3
+					id: "07453F6F65A16F28"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "73C00D57328CFDB3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3373B916A695B3BD"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rattlesnake"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/frogblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2C61CFB79AD6AAB1"
+			rewards: [
+				{
+					count: 2
+					id: "78B7B0B05CB10A1B"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4EBCC9664D412B68"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EEF191A41D49F03"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:frog"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/rain_frogblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "02E99B18C54AE771"
+			rewards: [
+				{
+					count: 2
+					id: "668E617CCA49FC4F"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56B2013577D39F4A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "044AB976DF7BB16B"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rain_frog"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/axolotlblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4313786DA54F9BD3"
+			rewards: [
+				{
+					count: 2
+					id: "0D5529853E6FD446"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BAE5BA4E61DD9C0"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41C35C9E21834F37"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:axolotl"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/alligator_snapping_turtleblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2FCC74BE7C4A33DA"
+			rewards: [
+				{
+					count: 4
+					id: "1F1460A8194D2FD8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D8A6BE9E51331A4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A195E3AA290B43D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/terrapinblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "517FD93CDE765BB0"
+			rewards: [
+				{
+					count: 4
+					id: "75BB2E721D29D3C2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FC0DC6DA14919F1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6959E53B71AE0788"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:terrapin"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CAA063F6262405A"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/rattlesnake"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C0862BA96B36FA9"
+			tasks: [{
+				id: "5DE314A8A48469ED"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5511C66271C35E12"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/anaconda"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3988ACD3DEDFE315"
+			tasks: [{
+				id: "7B48C862A937B450"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B11667C2AB98D24"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/caiman"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6FF6F062D6D8F255"
+			tasks: [{
+				id: "0F0563E7D6351AFF"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40BE14F7E50DF8BB"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/crocodile"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49E544D7C42E55B0"
+			tasks: [{
+				id: "2FD11830C9A4A813"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["517FD93CDE765BB0"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/terrapin"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "72F777CB3D3D52A8"
+			tasks: [{
+				id: "465EF5DB9AC5C519"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FCC74BE7C4A33DA"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/alligator_snapping_turtle"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5FF71089AAED7A85"
+			tasks: [{
+				id: "40F41856898BCFB3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C61CFB79AD6AAB1"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/frog"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "373396232BE1BA99"
+			tasks: [{
+				id: "6293A2188671656E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02E99B18C54AE771"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/rain_frog"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2446962BCEBEE481"
+			tasks: [{
+				id: "5A86BF978E2ABF0B"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4313786DA54F9BD3"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/axolotl"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "32F73DF2282E61E2"
+			tasks: [{
+				id: "533D184F109F70BC"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/komodo_dragonblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05950B324743994F"
+			rewards: [
+				{
+					count: 2
+					id: "7A0B4F437CBB3C4F"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1242392F6C28407B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56D3CD2FB5618EB9"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05950B324743994F"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/komodo_dragon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B630C614A07295B"
+			tasks: [{
+				id: "5AEC346D0F90FEA3"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5511C66271C35E12"
+				"5CAA063F6262405A"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "16C589437CAF318D"
+			rewards: [
+				{
+					id: "7DEF78015A906AE7"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "593FFD4A8F6882A4"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "50A6AB5A66D285AE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C4E30C90454490A"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2B11667C2AB98D24"
+				"40BE14F7E50DF8BB"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			icon: {
+				id: "alexsmobs:crocodile_chestplate"
+			}
+			id: "6DCC3E71B4507766"
+			rewards: [
+				{
+					id: "000E0D7698550E17"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "48A0C164BD0E9C83"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2CA19D8F1AEB5DAB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "712BD1E220B56C97"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FCC74BE7C4A33DA"
+				"517FD93CDE765BB0"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "6D1BC13F810462BA"
+			rewards: [
+				{
+					id: "63519862D9CD6F01"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "103732EFD2CE58FE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "64C2823BC377C525"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05D43922055106C9"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05950B324743994F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "7986C2A83AEE0CC5"
+			rewards: [
+				{
+					id: "11D467459874DFB9"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "350B04671FB9049D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D759B51F219081C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "191A93351ABAC3D2"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2C61CFB79AD6AAB1"
+				"4313786DA54F9BD3"
+				"02E99B18C54AE771"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "5A00384FAC1FF660"
+			rewards: [
+				{
+					id: "4EB32FA1A4D0C138"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "3058F03610C5F811"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "409991364F20690E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45148CC2605AFB42"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+}

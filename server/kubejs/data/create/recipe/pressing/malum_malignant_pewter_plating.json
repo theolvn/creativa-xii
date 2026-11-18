@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:malignant_pewter_plating"
+    }
+  ]
+}

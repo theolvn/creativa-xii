@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "mekanism:osmium_ore",
+    "post": [
+        "drop mekanism:raw_osmium",
+        "drop mekanism:raw_osmium /.5",
+        "drop mekanism:raw_osmium /.25",
+        "drop mekanism:raw_osmium /.25"
+    ]
+}

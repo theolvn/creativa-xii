@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "oritech:still_oil"
+    }
+  ],
+  "heatRequirement": "heated",
+  "results": [
+    {
+      "id": "createdieselgenerators:asphalt_block",
+      "count": 4
+    }
+  ]
+}

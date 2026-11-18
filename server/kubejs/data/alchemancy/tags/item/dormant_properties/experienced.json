@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "create:experience_nugget",
+    "create:experience_block",
+    {"id": "create_enchantment_industry:experience_bucket", "required": false},
+    {"id": "create_enchantment_industry:experience_lantern", "required": false},
+    {"id": "create_enchantment_industry:super_experience_block", "required": false},
+    {"id": "create_enchantment_industry:super_experience_nugget", "required": false},
+    {"id": "create_enchantment_industry:enchanting_template", "required": false},
+    {"id": "create_enchantment_industry:super_enchanting_template", "required": false},
+    {"id": "create_enchantment_industry:experience_cake", "required": false},
+    {"id": "create_enchantment_industry:experience_cake_slice", "required": false},
+    {"id": "create_enchantment_industry:experience_hatch", "required": false}
+  ]
+}

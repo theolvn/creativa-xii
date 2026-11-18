@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "minecraft:sculk"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:raw_brilliance"
+  }
+}

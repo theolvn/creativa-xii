@@ -1,0 +1,125 @@
+{
+	id: "6B6EF88BE975141D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "3EE9AC78BAC13AA1"
+			item: {
+				count: 1
+				id: "ars_nouveau:abjuration_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "69CEBE962FED3AD3"
+			item: {
+				count: 1
+				id: "ars_nouveau:conjuration_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "0B823669BE4FE00B"
+			item: {
+				count: 1
+				id: "ars_nouveau:air_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "7EF4A442B6EE67E3"
+			item: {
+				count: 1
+				id: "ars_nouveau:earth_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			auto: "enabled"
+			count: 2
+			id: "38CA2513D010FD84"
+			item: {
+				count: 1
+				id: "ars_nouveau:fire_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "74508185008E31B9"
+			item: {
+				count: 1
+				id: "ars_nouveau:manipulation_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "7DA8E80C8028FCB3"
+			item: {
+				count: 1
+				id: "ars_nouveau:water_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "24131FAE673387CE"
+			item: {
+				count: 1
+				id: "sauce:anima_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "328124076F70592F"
+			item: {
+				count: 1
+				id: "ars_elemancy:silt_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "5E1157E17F1472B2"
+			item: {
+				count: 1
+				id: "ars_elemancy:mire_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "01585E166D2BA572"
+			item: {
+				count: 1
+				id: "ars_elemancy:lava_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "0BE2CA45055EF9FA"
+			item: {
+				count: 1
+				id: "ars_elemancy:cinder_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "4ABE997ADE90A67C"
+			item: {
+				count: 1
+				id: "ars_elemancy:vapor_essence"
+			}
+			random_bonus: 4
+		}
+	]
+}

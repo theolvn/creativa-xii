@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "reagent": {
+    "item": "iceandfire:sapphire_gem"
+  },
+  "result": {
+    "count": 1,
+    "id": "iceandfire:summoning_crystal_ice"
+  },
+  "sourceCost": 1000
+}

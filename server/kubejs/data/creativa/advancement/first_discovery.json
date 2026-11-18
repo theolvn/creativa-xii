@@ -1,0 +1,29 @@
+{
+  "parent": "creativa:root",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "pig"
+    },
+    "description": {
+      "translate": "pig"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "scanned_zombie": {
+      "trigger": "fieldguide:scan_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  }
+}

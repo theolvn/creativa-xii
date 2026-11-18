@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "ice",
+  "cookTime": 200,
+  "input": {
+    "item": "alchemancy:alchemical_extract"
+  },
+  "blood": {
+    "item": "supplementaries:lumisene_bottle"
+  },
+  "result": {
+    "id": "minecraft:dragon_breath"
+  }
+}

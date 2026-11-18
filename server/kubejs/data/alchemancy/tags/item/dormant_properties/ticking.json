@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:cuckoo_clock",
+    "create:mysterious_cuckoo_clock",
+    "create:clockwork_bearing",
+    "create:pulse_timer"
+  ]
+}

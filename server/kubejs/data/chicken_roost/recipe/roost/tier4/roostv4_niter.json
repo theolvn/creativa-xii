@@ -1,0 +1,14 @@
+{
+        "type": "chicken_roost:roost_output",
+        "food": {
+            "tag": "c:seeds/tier4orup"
+          },
+          "chicken": {
+            "item": "chicken_roost:c_niter"
+          },
+        "time": 100,
+        "output": {
+          "item": "cgs:niter"
+        }
+
+      }

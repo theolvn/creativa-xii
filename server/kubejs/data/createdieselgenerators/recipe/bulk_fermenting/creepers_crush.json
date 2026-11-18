@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_savanna_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:creepers_crush",
+      "amount": 1000
+    }
+  ]
+}

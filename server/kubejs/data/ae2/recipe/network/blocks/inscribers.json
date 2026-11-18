@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "create:iron_sheet"
+    },
+    "b": {
+      "item": "create:deployer"
+    },
+    "c": {
+      "item": "ae2:fluix_crystal"
+    }
+  },
+  "pattern": [
+    "aba",
+    "c c",
+    "aba"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:inscriber"
+  }
+}

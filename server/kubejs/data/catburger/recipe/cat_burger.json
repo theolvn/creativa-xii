@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "someassemblyrequired:burger_bun_bottom"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "catburger:cat_burger"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:bread"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:salmon"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:porkchop"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:chicken"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:cooked_beef"
+    },
+    {
+      "chance": 2.0,
+      "id": "farmersdelight:bacon"
+    },
+    {
+      "id": "farmersdelight:chicken_cuts"
+    },
+    {
+      "id": "farmersdelight:salmon_slice"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "farm_and_charm:cat_food"
+        }
+      ],
+      "results": [
+        {
+          "id": "farm_and_charm:cat_food"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "farm_and_charm:cat_food"
+        },
+        {
+          "item": "redomesticate:collar_tag"
+        }
+      ],
+      "results": [
+        {
+          "id": "farm_and_charm:cat_food"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "farm_and_charm:cat_food"
+        },
+        {
+          "item": "someassemblyrequired:burger_bun_top"
+        }
+      ],
+      "results": [
+        {
+          "id": "farm_and_charm:cat_food"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "farm_and_charm:cat_food"
+  }
+}

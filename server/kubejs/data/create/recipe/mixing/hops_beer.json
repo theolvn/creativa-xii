@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:hops_beer"
+    }
+  ]
+}

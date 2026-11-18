@@ -1,0 +1,14 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "mekanism:fluorite_ore",
+    "post": [
+        "drop mekanism:fluorite_gem",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50",
+        "drop mekanism:fluorite_gem /.50"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "deeperdarker:otherside",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "deeperdarker:deeplands",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "erosion": 0.0,
+            "humidity": 0,
+            "offset": 0.0,
+            "temperature": 0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "deeperdarker:echoing_forest",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "erosion": 0.0,
+            "humidity": 0.7,
+            "offset": 0.0,
+            "temperature": 0.7,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "deeperdarker:blooming_caverns",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "erosion": 0.0,
+            "humidity": 0.7,
+            "offset": 0.0,
+            "temperature": -0.7,
+            "weirdness": 0.0
+          }
+        },
+		{
+          "biome": "deeperdarker:overcast_columns",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "erosion": 0.0,
+            "humidity": -0.7,
+            "offset": 0.0,
+            "temperature": 0.7,
+            "weirdness": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "deeperdarker:otherside"
+  }
+}

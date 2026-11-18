@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "createdieselgenerators:crude_oil_bucket"
+    }
+  },
+  "result": {
+    "id": "oritech:still_oil_bucket"
+  }
+}

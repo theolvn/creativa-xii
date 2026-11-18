@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "oritech:basic_generator_block"
+    },
+    "c": {
+      "item": "oritech:advanced_battery"
+    },
+    "f": {
+      "item": "ae2:fluix_crystal"
+    },
+    "s": {
+      "item": "oritech:flux_gate"
+    },
+    "a": {
+      "item": "mekanismgenerators:solar_panel"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "fcf",
+    "sbs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:big_solar_panel_block"
+  }
+}

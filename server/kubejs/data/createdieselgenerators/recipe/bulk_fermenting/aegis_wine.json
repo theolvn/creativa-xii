@@ -1,0 +1,23 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_taiga_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "iceandfire:silver_ingot"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:chateau_kaer_morhen_wine",
+      "amount": 1000
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	icon: {
+		id: "minecraft:dragon_head"
+	}
+	id: "4DA67A35DD5D7EDA"
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "2FD0081F5A79E0B2"
+		image: "creativa:textures/quests/sauvez_drakonheim.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 1.25d
+		y: -7.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["16541B91E5FC941C"]
+			id: "59056EB41BB911E2"
+			rewards: [
+				{
+					id: "7EE45055645A85FC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "14640F09A6623CD6"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E3AEA19051A96CC"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "576C2810945CAE0E"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56F0EB9BD08C99FE"]
+			id: "2910761FDEC45B2E"
+			rewards: [
+				{
+					id: "56D4D69FD97DFE98"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "65C30BC411223F02"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "578F97BF953E61D3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2D71B853E96E6B22"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1754ED17E0DAC001"]
+			id: "7D6DF12D52BC0E7A"
+			rewards: [
+				{
+					id: "5702F4CFE8890A8F"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "781D08229F6316E7"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C18A592CE73774F"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "75EA4A2C3C811380"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["098E1AAA381E8BD9"]
+			id: "7C4123A740374F0E"
+			rewards: [
+				{
+					id: "4A2AB7A0EF25B178"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "21E846E0F990F6F1"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A961965D869E049"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "15F8C9D4E1D53F54"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14EC48CB6E55B172"]
+			id: "211B9EFF2E614FA2"
+			rewards: [
+				{
+					id: "49683FAE550C1EBE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "504BB3DB8987CBA0"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2BDB78C383518372"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "00B0E8E4CAAED996"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C34F82181A43804"]
+			id: "5A9C07183ABE2881"
+			rewards: [
+				{
+					id: "3F351022790F828B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "0AF59D5D3B12B4A5"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0DC6E5F853282303"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5C32EB7A1891C3EC"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CD418A645D00AAD"]
+			id: "01E69CC230C082A7"
+			rewards: [
+				{
+					id: "7436155C378285C3"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "56860409BE7DAA5E"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "76E49CBCCE7D5A50"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2386D260D81DE29A"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54BAF8EEC71EEAF0"]
+			id: "4B0D10B833153BB4"
+			rewards: [
+				{
+					id: "0D03F26519BF792B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "52F739A52AC89131"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "426052D602B10FB3"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D7E5A282EA31E4F"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5614C0E67C47A189"]
+			id: "1268E170BB19EA68"
+			rewards: [
+				{
+					id: "40A912427AE76CA5"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "082D3D48408DD6E6"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3AF17EF6B0621309"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "59AF1D74F065EF8B"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["429C1F361A316207"]
+			id: "144A1E93E7B9067A"
+			rewards: [
+				{
+					id: "121367088F1F104D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "0B54DB40FF53841B"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D25FFFCD09BCA10"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "36611C4C53C573DF"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4029EA2B67288145"]
+			id: "6D44058C03AE5311"
+			rewards: [
+				{
+					id: "49AD240BDEDAC991"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "4CC0EC04FC300F34"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "282AB10DCD4BD280"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "464B0FDABD23B938"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17BA01E3D67821B1"]
+			id: "4D3B91E249C50262"
+			rewards: [
+				{
+					id: "284F6D2EE5679BBE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "16DC31B051B5CB6D"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2531E6C113CB4374"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "269ADBDB2BF09983"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "4029EA2B67288145"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "220FEDB882C3830C"
+				item: { count: 1, id: "mowzies_cataclysm:wrought_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "14EC48CB6E55B172"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "529BD3388AA9F17E"
+				item: { count: 1, id: "mowzies_cataclysm:sun_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "56F0EB9BD08C99FE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "289F42501E06292A"
+				item: { count: 1, id: "mowzies_cataclysm:frostmaw_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "17BA01E3D67821B1"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "41170B591032A195"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "5C34F82181A43804"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "760055D7995ECB2E"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "429C1F361A316207"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5B19E00DE7BF744E"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "098E1AAA381E8BD9"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3482C11EA9369CD1"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "1754ED17E0DAC001"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "ars_additions:ritual_locate_structure"
+				}
+				id: "7F36EDA6AAC34E2D"
+				structure: "idas:ars_nouveau/archmages_tower"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "1CD418A645D00AAD"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4C7153D905FB7D0D"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "16541B91E5FC941C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4CBAF965A3F13253"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "5614C0E67C47A189"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4A2C00A7A93C9414"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "54BAF8EEC71EEAF0"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "1D5CAA4F75C257FC"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6D44058C03AE5311"
+				"211B9EFF2E614FA2"
+				"2910761FDEC45B2E"
+				"7D6DF12D52BC0E7A"
+				"5A9C07183ABE2881"
+				"144A1E93E7B9067A"
+				"7C4123A740374F0E"
+				"4D3B91E249C50262"
+				"01E69CC230C082A7"
+				"59056EB41BB911E2"
+				"1268E170BB19EA68"
+				"4B0D10B833153BB4"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			icon_scale: 0.75d
+			id: "63F46ABEBCF69546"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "72E6D44246F1B33D"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.25d
+		}
+	]
+}

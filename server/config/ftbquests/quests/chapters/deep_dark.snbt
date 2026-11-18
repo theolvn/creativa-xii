@@ -1,0 +1,602 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_dark"
+	group: "752CDE464613A1ED"
+	icon: {
+		id: "minecraft:sculk"
+	}
+	id: "1F011C3E3A64422B"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["276969CE8E393286"]
+			hide_until_deps_complete: true
+			id: "669DA09C31BDA781"
+			rewards: [
+				{
+					id: "49B284D7BD57FBA1"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F29408E8B7440ED"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1903CC3D98788D0B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "aeronautics:ghostbuster"
+				criterion: ""
+				id: "6166920828F0A910"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			hide_until_deps_complete: true
+			id: "1D06CCA78CC92511"
+			rewards: [
+				{
+					id: "000C3008F7C0C6B6"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					id: "4688C61BB0B3119E"
+					item: {
+						count: 1
+						id: "alexsmobs:skreecher_soul"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "190773494A1D5464"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/skreecher"
+				criterion: ""
+				id: "1A199624FAD4E214"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D06CCA78CC92511"]
+			id: "35025F5B84B86FEE"
+			rewards: [
+				{
+					count: 2
+					id: "3E054F6478F0B28D"
+					item: {
+						count: 1
+						id: "alexsmobs:skreecher_soul"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "68B074D35E44A2AA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/sculk_boomer"
+				criterion: ""
+				id: "16DBF40A6FCCC1D7"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			id: "36255131567CE5C2"
+			rewards: [
+				{
+					count: 3
+					id: "0806D738D52DD9D5"
+					item: {
+						count: 1
+						id: "mekanism:raw_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0535BAE3448E6740"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B42554B15D1DAD7"
+				item: { count: 1, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			id: "638A81EE026BECDE"
+			rewards: [
+				{
+					count: 6
+					id: "006DA89F4F078D3C"
+					item: {
+						count: 1
+						id: "mekanism:fluorite_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3145F2D88F35F9AA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1932FF151E8BB046"
+				item: { count: 1, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			id: "11CC5A7E7C5E49D2"
+			rewards: [
+				{
+					count: 3
+					id: "3E16F58E533A4738"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "626D4F0272CE597A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B26113B3EA8BC6A"
+				item: { count: 1, id: "oritech:raw_platinum" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D06CCA78CC92511"]
+			id: "5C2585A4E8616738"
+			rewards: [
+				{
+					count: 2
+					id: "0DA1825490F0999A"
+					item: {
+						count: 1
+						id: "alexsmobs:skreecher_soul"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4AACF324C8099FBB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73A4FFE791DB9704"
+				item: { count: 1, id: "alexsmobs:squid_grapple" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:sculk"
+			}
+			id: "2A4EABB6D1C176D3"
+			rewards: [
+				{
+					count: 3
+					id: "2A715086E25192B4"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5761E4BB66FD09CE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					id: "minecraft:sculk"
+				}
+				id: "5D1F4CD8A6E910C1"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A4EABB6D1C176D3"]
+			icon: {
+				id: "minecraft:reinforced_deepslate"
+			}
+			id: "44B7521F3DC04387"
+			rewards: [
+				{
+					count: 2
+					id: "3EC2DDC84BA5AD48"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7BF7DA6225C265BC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
+				id: "1961C1CABD980FA0"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44B7521F3DC04387"]
+			id: "33821A3CD4C7DFE3"
+			rewards: [
+				{
+					id: "38CAC81D6F8F154D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4330E7A30A431F2D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "389B1748E5FCED13"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33821A3CD4C7DFE3"]
+			id: "276969CE8E393286"
+			rewards: [
+				{
+					id: "64F8774024D1F659"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11DB383D5C190551"
+					item: {
+						count: 1
+						id: "quark:torch_arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "57A3AFF14CE5881E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					id: "deeperdarker:sculk_stone"
+				}
+				id: "7A92BF63C7840B59"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "deeperdarker:sculk_stone_bricks"
+			}
+			id: "2C7A17C55C227A69"
+			rewards: [{
+				count: 8
+				id: "49859F4D0B6ED2B6"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "deeperdarker:sculk_stone_bricks"
+				}
+				id: "24B38EF17B08F696"
+				structure: "#deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C7A17C55C227A69"]
+			id: "682C22EB29B4CC1D"
+			rewards: [
+				{
+					id: "71FE31CE12037A8B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3341E20193B31DC0"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02C48ADC5420D863"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "30EAFCFA3EC7EA9F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["682C22EB29B4CC1D"]
+			id: "72F8EC6C4ABBDE9F"
+			rewards: [
+				{
+					id: "350A58E9EC04CB72"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "386630412AEAD30C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42C26B254F6FBE4C"
+				item: { count: 1, id: "deeperdarker:sonorous_staff" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["682C22EB29B4CC1D"]
+			id: "6BC95EDA25FDCACF"
+			rewards: [
+				{
+					id: "771706B6EAE31009"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "100B825CCD3C7319"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "399F454600639466"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["276969CE8E393286"]
+			hide_until_deps_complete: true
+			id: "4CE6C0C4492F01D0"
+			rewards: [
+				{
+					count: 2
+					id: "491CD38CC479FE7F"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					id: "2DAD25D988B6BF6E"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2FC289E09592590F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CEDEBF7336965BD"
+				item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["669DA09C31BDA781"]
+			id: "688BE5BE8AF64A98"
+			rewards: [
+				{
+					count: 4
+					id: "61C861C5627F13BA"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2D6C4D0302046742"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E50E85ED6A65873"
+				item: { count: 1, id: "createornithopterglider:elytra_piece" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+}

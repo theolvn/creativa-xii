@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#c:raw_materials/zinc",
+    "#c:ingots/zinc",
+    "#c:nuggets/zinc",
+    "#c:storage_blocks/zinc",
+    "#c:ingots/zinc",
+    "create:crushed_raw_zinc",
+    "#c:ores/zinc",
+    "#c:storage_blocks/raw_zinc",
+    {"id": "#c:plates_zinc", "required": false}
+  ]
+}

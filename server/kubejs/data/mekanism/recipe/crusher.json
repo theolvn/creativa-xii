@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "B": {
+            "item": "create:crushing_wheel"
+        },
+        "C": {
+            "tag": "c:circuits/basic"
+        },
+        "R": {
+            "tag": "c:dusts/redstone"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "RCR",
+        "BXB",
+        "RCR"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:crusher"
+    }
+}

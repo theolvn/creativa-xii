@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "vinery:savanna_grapes_white"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "kubejs:white_savanna_grapejuice"
+    }
+  ]
+}

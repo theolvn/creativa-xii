@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:wheat_beer",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:flutchov_whiskey_wort"
+    }
+  ]
+}

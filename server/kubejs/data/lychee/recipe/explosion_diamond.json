@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:diamond_ore",
+    "post": [
+        "drop minecraft:diamond",
+        "drop minecraft:diamond /.5",
+        "drop minecraft:diamond /.25",
+        "drop minecraft:diamond /.25"
+    ]
+}

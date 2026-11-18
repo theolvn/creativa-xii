@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "chicken_roost:chicken_essence_tier_3"
+    },
+    {
+      "count": 1,
+      "item": "malum:alchemical_calx"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "chicken_roost:chicken_food_tier_3"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_4"
+  },
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 8
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    }
+  ]
+}

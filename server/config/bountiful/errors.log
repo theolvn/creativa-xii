@@ -1,0 +1,144 @@
+WRN: Pool 'chef_rews' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'chef_rews'.
+* Did you mean to use the pool name 'fletcher_rews' instead of 'chef_rews'?
+* Otherwise, please add 'chef_rews' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'ars_additions_rew' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'ars_additions_rew'.
+* Did you mean to use the pool name 'ars_additions_rew_codex' instead of 'ars_additions_rew'?
+* Otherwise, please add 'ars_additions_rew' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'discs' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'discs'.
+* Did you mean to use the pool name 'ars_additions_rew_codex' instead of 'discs'?
+* Otherwise, please add 'discs' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'mob_drop' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'mob_drop'.
+* Did you mean to use the pool name 'mapper_objs' instead of 'mob_drop'?
+* Otherwise, please add 'mob_drop' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'sculk' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'sculk'.
+* Did you mean to use the pool name 'sophisticatedbackpacks_upgrade' instead of 'sculk'?
+* Otherwise, please add 'sculk' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'carpenter_objs' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'carpenter_objs'.
+* Did you mean to use the pool name 'sophisticatedbackpacks_upgrade' instead of 'carpenter_objs'?
+* Otherwise, please add 'carpenter_objs' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'carpenter_rews' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'carpenter_rews'.
+* Did you mean to use the pool name 'ars_additions_rew_codex' instead of 'carpenter_rews'?
+* Otherwise, please add 'carpenter_rews' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Pool 'chef_objs' has been loaded, but is not attached to any existing data! This is probably a configuration error.
+* If you intended to add this data to an existing Pool, please use an existing Pool name instead of 'chef_objs'.
+* Did you mean to use the pool name 'fletcher_objs' instead of 'chef_objs'?
+* Otherwise, please add 'chef_objs' to a Decree.
+* NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Decree 'alexsmobs' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'ars_nouveau' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: ars_nouveau_any_basic.ars_nouveau_red_archwood_sapling (64000.0), ars_nouveau_any_basic.ars_nouveau_fire_essence (64000.0) total up to: 128000.0
+* Top Objs: ars_nouveau_any_basic.ars_nouveau_red_archwood_sapling (64000.0) total up to: 64000.0
+WRN: Decree 'artifacts' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: rarities.amethyst_shard (48000.0) total up to: 48000.0
+WRN: Decree 'buildinggadgets2' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_craft' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_fluid' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_gen' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_logistic' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_motion' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'create_other' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'farmersdelight' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'gateways' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'iceandfire' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'malum' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'mowziesmobs' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'quark' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'sophisticatedbackpacks' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'sophisticatedstorage' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'waystones' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: rarities.amethyst_shard (48000.0), rarities.prismarine_crystals (18000.0) total up to: 66000.0
+* Top Objs: resources.glass_colorless (48000.0) total up to: 48000.0
+WRN: Decree 'starcatcher' top value rewards cannot be matched with equivalent objectives. This will result in uneven bounties. Consider adding more high value objectives or lowering the value of your rewards.
+* Top Rewards: _all_rews.prismarine_crystals (12000.0), _all_rews.supp_safe (12000.0) total up to: 24000.0
+* Top Objs: starcatcher_objs.legendary_fish (10000.0) total up to: 10000.0
+WRN: Bountiful reward pool entry is not valid!: quark_any.quark_crafter
+WRN: * entry failed type validation: (quark_any.quark_crafter - quark:crafter) details: {
+    "type": "minecraft:item",
+    "content": "quark:crafter",
+    "unitWorth": 1000.0,
+    "weightMult": 0.03125,
+    "amount": {
+        "min": 1,
+        "max": 14
+    }
+}
+WRN: Bountiful reward pool entry is not valid!: waystones.waystones_portstone
+WRN: * entry failed type validation: (waystones.waystones_portstone - waystones:portstone) details: {
+    "type": "minecraft:item",
+    "content": "waystones:portstone",
+    "unitWorth": 1000.0,
+    "weightMult": 0.04,
+    "amount": {
+        "min": 1,
+        "max": 1
+    }
+}
+WRN: Bountiful reward pool entry is not valid!: waystones.waystones_white_sharestone
+WRN: * entry failed type validation: (waystones.waystones_white_sharestone - waystones:white_sharestone) details: {
+    "type": "minecraft:item",
+    "content": "waystones:white_sharestone",
+    "unitWorth": 1000.0,
+    "weightMult": 0.04,
+    "amount": {
+        "min": 1,
+        "max": 1
+    }
+}
+WRN: Bountiful reward pool entry is not valid!: resources.glass_colorless
+WRN: * entry failed type validation: (resources.glass_colorless - extrabounties:glass_colorless) details: {
+    "type": "minecraft:item_tag",
+    "content": "extrabounties:glass_colorless",
+    "unitWorth": 750.0,
+    "weightMult": 0.14285714285714285,
+    "amount": {
+        "min": 8,
+        "max": 64
+    }
+}

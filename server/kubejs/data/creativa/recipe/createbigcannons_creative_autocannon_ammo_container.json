@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "createbigcannons:autocannon_ammo_container"
+  },
+  "result": {
+    "count": 1,
+    "id": "createbigcannons:creative_autocannon_ammo_container"
+  },
+  "sourceCost": 1000
+}

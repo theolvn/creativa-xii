@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:red_grapejuice"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "tag": "c:seeds/tier1orup"
+    },
+    {
+      "tag": "c:souls/tier1andup"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:chateau_blackal_wine"
+  },
+  "unit": "millibuckets"
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/brass",
+    "#c:nuggets/brass",
+    "#c:storage_blocks/brass",
+    "#c:ingots/brass",
+    "#c:plates/brass",
+    {"id": "#c:rods/brass", "required": false},
+
+    "create:brass_hand",
+    "create:crafter_slot_cover",
+
+    "create:brass_ladder",
+    "create:brass_bars",
+    "create:brass_scaffolding",
+    "create:brass_door"
+  ]
+}

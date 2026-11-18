@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create:stone_types/calcite",
+    "#alchemancy:materials/create_slabs/calcite"
+  ]
+}

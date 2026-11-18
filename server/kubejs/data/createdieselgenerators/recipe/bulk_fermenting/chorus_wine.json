@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:red_taiga_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:chorus_wine",
+      "amount": 1000
+    }
+  ]
+}

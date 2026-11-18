@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 1000,
+    "id": "kubejs:valentines_whiskey_wort"
+  },
+  "container": {
+    "id": "minecraft:bucket",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:jamesons_malt_whiskey_wort_bucket"
+  },
+  "unit": "millibuckets"
+}

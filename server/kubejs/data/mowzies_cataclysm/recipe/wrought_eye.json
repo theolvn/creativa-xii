@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CBC",
+    "BAB",
+    "CDC"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:spider_eye"
+    },
+    "B":
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    "C":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "D":
+    {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "id": "mowzies_cataclysm:wrought_eye",
+    "count": 1
+  }
+}

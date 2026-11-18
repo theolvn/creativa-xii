@@ -1,0 +1,292 @@
+{
+	chapter.004F28C5C85F467B.title: "Ad Astra"
+	chapter.00E59A3B38CB7EEA.title: "Tension Insensée"
+	chapter.07210DDF872160BA.title: "Énergétique appliquée 2"
+	chapter.100C477F4E63F20A.title: "Créer"
+	chapter.1883B79BDB2AAE5D.title: "Ciels Bleus"
+	chapter.1B175B2C955D8395.title: "Allthemodium"
+	chapter.220BE62A7F8EA359.title: "Enchantement d'Apotheosis"
+	chapter.23983F4DC524B14B.title: "Mekanism"
+	chapter.282448C70744895F.title: "Forbidden et Arcanus"
+	chapter.29EFE8220836C79A.title: "&aChapitre 2&r: &6L'Étoile ATM"
+	chapter.306DBE1EBB85D02E.title: "L'Ère de l'Électrique"
+	chapter.3202C575456F57D2.title: "Botanique"
+	chapter.37A28F4697946CB4.title: "Basse Tension"
+	chapter.37A5A4A81CCB67E5.title: "Haute Tension"
+	chapter.37BC0E99F564D560.title: "Ère de la vapeur"
+	chapter.403105E8F21D82C7.title: "Étapes"
+	chapter.415BA265E2C00859.title: "Débuter"
+	chapter.435C9D14D471D326.title: "Ère de la vapeur"
+	chapter.489F28A71282B3E7.title: "Tension Extrême"
+	chapter.48DB721214AA88E0.title: "Puissance d'implosion"
+	chapter.49AD0D610C009D2F.title: "EnderIO"
+	chapter.560EF4C38DEACA03.title: "EvilCraft"
+	chapter.574AC3A76DC03364.title: "Moyenne Tension"
+	chapter.5C764279146E5E66.title: "Agriculture Mystique"
+	chapter.5D8E83698AEF1092.title: "&bFeu &fEt &cGlace"
+	chapter.60A9BBC993EB2FD2.title: "Blood Magic"
+	chapter.6693050B0EE71CEB.title: "Équipement Apotheosis"
+	chapter_group.02FE661031A105D8.title: "Magie"
+	chapter_group.15E5B587D291A4AA.title: "Outils et équipement"
+	chapter_group.1AC60211DE7427FC.title: "Stockage"
+	chapter_group.1DA67E79B40AB130.title: "GregTech™"
+	chapter_group.22FB35B0FEF1343D.title: "Outils et Armes"
+	chapter_group.295BE417292024EC.title: "Industrialisation Moderne"
+	chapter_group.2B51AC12041E3F89.title: "Technologie"
+	chapter_group.5A4775CCD6D26C80.title: "Exploration"
+	chapter_group.6614EE2378B8AFB9.title: "Ressources"
+	chapter_group.68BDE5700A9B0002.title: "Outils et Équipements"
+	file.0000000000000001.title: "Tous les Mods Version 10"
+	quest.0152938EE5651409.quest_desc: ["Cette quête a été créée par le personnel de &6AllTheMods&r ou un contributeur de la communauté &2Community contributor&r pour être utilisée dans les modpacks AllTheMods.\\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous droits réservés&r, cette quête ne peut être utilisée dans aucun pack public non publié par l'équipe &6AllTheMods&r sans autorisation explicite.\\n\\nCette quête est intentionnellement masquée. Si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.019CA0E35F888222.title: "&eModule de restock avancée"
+	quest.01EC5DB1A4A25B0B.quest_desc: ["&aLes &aportails&r sont un moyen facile d'obtenir des &amonstres passifs&r et des récompenses! \\\\n\\\\nBon, d'accord, ce n'est peut-être pas si facile que ça. Vous devrez combattre des vagues de &cmonstres&r. De plus, vous aurez besoin d'un &aŒil d'Ender&r ou d'une &5Perle d'Ender&r pour y parvenir. \\\\n\\\\nMais cela en vaut la peine ! \\\\n\\\\nDifférents &aportails&r offrent différentes récompenses et différents &cmonstres&r."]
+	quest.0298A17C2AAC5765.title: "&bModule d'empillement Niveau 3"
+	quest.030DCC13171C3E16.quest_desc: [
+		"Unlike other quests in this chapter, this one does not focus on any particular items. Do you have too many keybinds, but don't have enough physical keys on your keyboard for all of them. Are you tired of constantly changing rarely used keys to other bindings? Is it too hard to remember what each key does? Allow me to introduce Keybind Bundles!\\n\\n&lCreating Bundles&r\\n\\nTo create a new bundle, go to Options, then to Controls, then open the Keybinds screen and under the KeyBind Bundles category (which should be the first) click the &lAdd key bundle&r button, and then enter a name for your bundle.\\nAfter that, click the Edit button on the bundle. In the new screen hover over the radial menu in the middle and click on Add entry. This will open the keybinds screen again but now each keybind has a select button. Here you can select the bindings you want to add to the bundle. After selecting the bindings you may edit each entry in the radial menu and give it a custom name and item icon. Exit the edit menu by pressing escape and bind the bundle to a key."
+		"{@pagebreak}"
+		"&lUsing Bundles&r\\n\\nWhile in-game you can press and hold the key you assigned to bring up the radial menu. Hover and left click over an entry to trigger that keybind. It's that simple!\\nYou can also bookmark a key mapping by right clicking it. Once bookmarked, pressing the key assigned to the bundle will immediately trigger that mapping without opening the radial menu. When a key is bookmarked, the radial menu can be opened again by holding the &lRadial menu modifier&r, which is &lLeft alt&r by default. The current bookmarked key will be highlighted red in the radial menu."
+	]
+	quest.030DCC13171C3E16.quest_subtitle: "Menus radiaux pour les raccourcis clavier"
+	quest.051E0C85E7B71CE0.quest_desc: ["Je vais supposer que tu as été miner, n'est-ce pas ? C'est Minecraft après tout.\\n\\nTu trouveras une tonne de nouveaux minerais qui pourraient te déconcerter, mais tu peux te contenter des matériaux classiques pour commencer !\\n\\nLe cuivre est abondant et a de nombreuses utilisations pour des choses comme les &aMarteaux à Minerai&r ou les &eDrawer Upgrades&r, alors assure-toi d'en prendre beaucoup !\\n\\nLe fer est probablement l'un des minerais les plus importants que tu voudras obtenir chaque fois que tu en rencontreras. Le monde de Minecraft moddé fonctionne essentiellement avec du fer."]
+	quest.051E0C85E7B71CE0.title: "l'Âge du &9Metal&r "
+	quest.0790D3BB481162A6.quest_desc: [
+		"Vous avez besoin d'une table de craft portable? Que diriez-vous d'un établi portable ? "
+		""
+		"&l&8l'Artisanat sur un bâton&r ajoute la version portable de votre établi favorit! Cela est a avoir des le debut du jeu."
+	]
+	quest.0790D3BB481162A6.quest_subtitle: "Moins de placement, plus de fabrication"
+	quest.0790D3BB481162A6.title: "l'Artisanat... sur un bâton!"
+	quest.0C856BBB1679A7DD.quest_desc: ["Sur cette page, vous trouverez quelques objets utiles et des informations pour vous aider dans votre périple!"]
+	quest.0C856BBB1679A7DD.quest_subtitle: "Et d'autres objets utiles!"
+	quest.0C856BBB1679A7DD.title: "Conseils et Astuces!"
+	quest.0C93D7A607AB8B83.quest_desc: ["Pour revendiquer des chunks, ouvrez votre carte en appuyant sur &6M&r, puis cliquez sur l'icône &aClaim Map&r dans le coin supérieur gauche.\\n\\nPour revendiquer un chunk, cliquez gauche et faites glisser pour revendiquer.\\n\\nPour charger de force un chunk, maintenez la touche Maj/Shift enfoncée et cliquez gauche sur le chunk. Si cela est fait correctement, vous verrez des lignes à travers le chunk."]
+	quest.0E9CE6241CDBC420.quest_desc: ["La &9Pompe à distance&r est si spécial il obtient son propre Mod! \\n\\nLa &9Pompe&r collectera &9les sources d'eau&r placé en dessous d'elle et la remplacera par de la pierre. \\nElle a besoin d'energie pour fonctionner correctement, mais ça en vaut la peine, elle a également un très grand rayon d'action! \\n\\nL'&9Eau&r collecter devra etre sortie de la pompe par un tuyaux."]
+	quest.0E9CE6241CDBC420.title: "&l&9Pompe à distance"
+	quest.0F026D5A17CCCF51.quest_desc: ["&dLes objets en Netherite&r sont encore meilleurs dans l'ensemble, et ne brûleront pas dans la lave ! Toi par contre, si, même en portant l'armure. Ne tente pas l'expérience.\\n\\nCes objets peuvent être utilisés pour fabriquer certains des meilleurs outils et armures du jeu."]
+	quest.0F026D5A17CCCF51.title: "&dNiveau Netherite&r"
+	quest.0F3D51FFD2FE8DCB.quest_desc: [
+		"Avec une Pioche de Niveau Diamand, vous serez en capacité de miner de l'&dObsidienne&r. L'Obsidienne peut être utilisée pour créer un portail vers le &cNether&r.\\n\\nLe cadre du portail peut avoir de nombreuses tailles différentes, mais la plupart optent pour la forme de 'Porte' de base. Il s'agit d'une forme creuse de 4x5 utilisant un minimum de 10 Obsidiennes. Vous n'êtes pas obligé d'utiliser de l'Obsidienne pour les coins, juste pour le cadre du portail lui-même !\\n"
+		"{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1}"
+	]
+	quest.0F3D51FFD2FE8DCB.title: "&cVers le Nether&r !"
+	quest.0F8F37D7E12078F5.quest_subtitle: "Terminez tous les conseils!"
+	quest.0F8F37D7E12078F5.title: "Conseils pour être bien équipé"
+	quest.110BF3A2BE85F911.quest_desc: ["Cette quête a été créée par le personnel de &6AllTheMods&r ou un contributeur de la communauté &2Community contributor&r pour être utilisée dans le modpacks AllTheMods. \\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous les Droits son Réservé&r, cette quête ne peut être utilisée dans aucun pack public non publié par l'équipe &6AllTheMods Team&r sans autorisation explicite. \\n\\nCette quête est intentionnellement masquée. Si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.11D57C768032E3F7.title: "&eModule d'aimant avancée"
+	quest.15CD4BFDC56E9510.title: "&eModule d'échange d'outils avancée"
+	quest.1827DEEA2DF1B144.title: "Nourriture et Agriculture"
+	quest.1985CFD1F0425E88.title: "&eModule de collecte avancée"
+	quest.1A739D36D5E3B1AD.title: "&eModule de nourriture avancée"
+	quest.1E1EB7DC19DDCFB7.quest_desc: ["Pour creer des Armes et de l'armure en Netherite, vous devrez trouver le &6Netherite Smithing Template&r dans des coffres situés à l'intérieur des Bastions.\\n\\nCes derniers peuvent être combinés avec un lingot de &cNetherite&r et un outil ou une pièce d'armure en Diamant dans une &aSmithing Table&r pour les améliorer en &cNetherite&r.\\n\\nAstuce : N'utilisez pas tous vos modèles en une seule fois ! Vous pouvez créer des copies en utilisant la recette pour en créer un autre."]
+	quest.1E1EB7DC19DDCFB7.title: "&6Netherite Template&r"
+	quest.217DB12EA32E1724.title: "&bCrystal d'infusion"
+	quest.219A5BDA5A01A420.title: "&4Crystal d'infusion Infini"
+	quest.219AA017149C36E2.quest_desc: ["Les tapis piégés tuent instantanément tous les marchands errants qui apparaissent à proximité.!\\n\\nCe sont peut-être les meilleurs articles de tout le pack."]
+	quest.219AA017149C36E2.quest_subtitle: "Plus jamais de marchands ennuyeux!"
+	quest.21A90474590FCDB8.title: "\"Four\""
+	quest.24C9BA6DC32CFAD9.quest_desc: ["Le charbon est votre première véritable source d'énergie. Si vous en manquez et que vous ne trouvez pas de charbon, une alternative serait d'utiliser du charbon de bois."]
+	quest.24C9BA6DC32CFAD9.quest_subtitle: "Faites fondre vos bûches"
+	quest.26988E22BD019628.title: "&eModule du haut fourneau automatique"
+	quest.282CE3A088AE5CFB.quest_desc: ["Je vais supposer que tu as deja fait du craft., Pas vrai? C'est Minecraft après tout.\\n\\nBien sûr, vous pourriez fabriquer dans votre inventaire en utilisant la grille de fabrication 2x2, mais cela ne vous mènera pas loin. Nous devons donc améliorer cela en fabriquant un établi!"]
+	quest.282CE3A088AE5CFB.title: "Intégrer l'artisanat dans Minecraft"
+	quest.2837E05AD0B67189.quest_desc: ["l'Écouvillons est la facon que je préferre pour obtenir des oeufs, Pour cela vous devrez utilisé le Mob Grinding Utils . Il suffit de faire un clic droit sur un monstre avec le coton-tige puis de fabriquer de la nourriture pour poulets avec celui-ci, des graines, et un seau contenant n'importe quel type de « fluide XP ». Peu importe le type de « fluide XP » que vous utilisez pour cela. Une fois que vous avez cela, donnez-le à manger à un poulet. Malheureusement, le poulet ne survivra pas à la procédure, mais bon, vous aurez des œufs de spawn!"]
+	quest.2837E05AD0B67189.quest_subtitle: "Une sollution pour obtenir des oeuf de spawn"
+	quest.28E60192912BEBAD.quest_desc: ["En &l&2Vanilla&r, pour faires des affaires avec eux cela peut parfois devenir frustrant. Le commerce cyclique n'est pas facile du tout, et les professions peuvent parfois être difficiles à gérer.\\n\\n&l&2Easy Villagers&r est un mod qui permet de simplifier et rendre plus facile tout ca! Pour commencer, Vous pouvez attraper un villageois en cliquant dessus avec le bouton droit de la souris tout en étant en mode furtif. Ils peuvent ensuite être facilement placés dans le monde, ou dans des blocs spécifiques du mod « &l&2Easy Villager&r » !\\n\\nVous pouvez rechercher « &d@EasyVillagers&r » dans JEI pour voir les blocs proposés par le mod !"]
+	quest.28E60192912BEBAD.quest_subtitle: "Les Villageois, devienne plus facile"
+	quest.28E60192912BEBAD.title: "&l&2Simple Villageois"
+	quest.2AEBE3F28996A6ED.quest_desc: ["Avec nos nouveaux métaux, nous pouvons améliorer notre Four en utilisant le mod &aIron Furnaces&r !\\n\\nLes Fours en Fer (Fours du mod lui-même, pas seulement la version en fer) vous permettent d'ajouter des &aAugments&r pour améliorer la vitesse d'un Four, changer sa fonction, et bien plus encore !\\n\\nCes Fours facilitent l'automatisation en vous permettant de tirer ou pousser automatiquement depuis les côtés en utilisant la configuration à gauche de l'interface."]
+	quest.2AEBE3F28996A6ED.title: "&aAmélioration des Fours&r !"
+	quest.2CCAA7C0FEDEB573.quest_desc: ["Si vous êtes comme la plupart des gens, c'est cette puissance que vous recherchez. Tout ce que vous avez à faire est de la placer aussi haut que possible et d'obtenir de l'énergie gratuite. "]
+	quest.2CCAA7C0FEDEB573.title: "La puissance du Vent"
+	quest.2EC9668ED4EA47CB.quest_desc: ["Cette quête ne nécessite que de fabriquer un outil ou une pièce d'armure en Diamant, mais il est probablement préférable d'obtenir un ensemble complet !\\n\\nLes outils en Diamant offrent une grande durabilité, et l'armure offre une excellente protection dans l'ensemble.\\n\\nPour fabriquer les meilleurs outils et armures du jeu, vous aurez besoin de matériel en Diamant comme base !"]
+	quest.2EC9668ED4EA47CB.title: "&9Se préparer&r"
+	quest.2F4458E9921DEB86.title: "&aTuyau de gaz"
+	quest.2F9B0C642A6BE30C.title: "&fSac à dos en Fer"
+	quest.2FC15D3916DBF4E4.title: "&eModule du Vide avancée"
+	quest.32ECD93A8F2FAB8F.quest_desc: ["Les &6Jetpacks&r sont un moyen de transport très apprécié. \\n\\nPour commencer à les fabriquer, vous aurez besoin d'un jetpack en bois ! Celui-ci peut être amélioré jusqu'à devenir un jetpack créatif. \\n\\nIl existe plusieurs versions, mais elles fonctionnent toutes de la même manière. Elles peuvent toutes être placées dans votre emplacement de plastron, votre sac à dos ou votre sac à dos curio. \\n\\nElles ont toutes besoin d'énergie pour fonctionner, vous pouvez utiliser n'importe quel chargeur d'objet pour les recharger ! Elles utilisent l'énergie pour voler et oui, vous tomberez si vous êtes à court d'énergie. \\nPour voler, vous devez allumer votre moteur (V), puis maintenir la barre d'espace enfoncée pour monter et la relâcher pour descendre. \\n\\nSi vous n'aimez pas tomber, vous pouvez activer le mode Hover (non lié). Une fois activé, vous volerez à la même altitude et pourrez monter (barre d'espace) ou descendre (Maj). \\n\\nPour régler votre vitesse de vol, modifiez votre accélérateur. Par défaut, vous pouvez le réduire avec (,) et l'augmenter avec (.)."]
+	quest.32ECD93A8F2FAB8F.title: "&l&6Jetpacks en Fer"
+	quest.33433A443B65D252.title: "&bTuyau de fluide"
+	quest.346860B8EBC4C28C.quest_desc: ["Maintenant que vous avez toute cette lave, que ferez-vous avec ? Plus de puissance en début de partie ! "]
+	quest.346860B8EBC4C28C.title: "Puissance de la Lave"
+	quest.36836AD948F96B9F.title: "&eTuyau d'item"
+	quest.36BCE35215B2B6E9.title: "&eModule du fumoir automatique"
+	quest.3708A4780ACEB34E.quest_desc: [
+		"Dans ce modpack, les quêtes sont facultatives. Les mods ne sont pas bloqués derrière l'achèvement de quêtes!"
+		""
+		"Les lignes de quêtes individuelles en dehors de la ligne principale des quêtes sont censées servir de guides pour les mods. Si vous souhaitez suivre la progression, assurez-vous de consulter la ligne principale des quêtes!"
+		""
+		"La plupart des quêtes dans le pack sont également créées par &2AlfredGG&r. Les quêtes demandent beaucoup de travail, donc si vous souhaitez le soutenir, vous pouvez cliquer sur son image de joueur ci-dessous!"
+	]
+	quest.378BF828DC931F0C.quest_desc: ["Personnellement, je déteste devoir courir jusqu'à un bloc juste pour fabriquer. C'est là qu'intervient l'&2Établi sur un Bâton&r !\\n\\nCet objet fonctionne comme une &aTable de Craft Portable&r !\\n\\nAstuce : Vous pouvez également le mettre dans votre emplacement &aFabrication sur un bâton&r et définir un &bRaccourci&r dans les paramètres <controle/assignation des touches/fabrication sur un baton> pour l'ouvrir !"]
+	quest.378BF828DC931F0C.title: "Artisanat, mais sur un Bâton"
+	quest.378C95C18798D413.quest_desc: ["Un moyen rapide de passer d'un outil à l'autre. Améliorez votre équipement avec des pochettes de ceinture dans une enclume pour augmenter votre capacité."]
+	quest.378C95C18798D413.title: "Ceinture à outils"
+	quest.3A1D07AED2A841E4.title: "&eModule du fourneau automatique"
+	quest.3ADCAD65EA6900BA.quest_desc: ["&2L'archéologie&r permet aux joueurs de trouver des objets à l'intérieur de blocs &aSuspicious&r comme le sable et le gravier.\\n\\nCes blocs peuvent être trouvés dans diverses structures comme les Ruines d'Océan Chaud, les Pyramides du Désert, les Puits du Désert et les &eRuines de Sentier&r.\\n\\nPour découvrir un objet à partir d'un bloc Suspicious, vous devez créer un &aPinceau&r pour brosser le bloc et révéler un objet."]
+	quest.3ADCAD65EA6900BA.title: "&2Archéologie&r !"
+	quest.3B4BF42C55C8BBBF.quest_desc: ["N'est-ce pas agaçant quand vous cassez quelque chose et que les blocs tombent juste hors de votre portée ? \\n\\nNe vous inquiétez plus, car nous avons l'&4Aimant&r ! Il suffit de faire un clic droit tout en tenant l'&4Aimant&r pour l'activer. Tous les objets et blocs tombés dans un rayon de 5 blocs viendront alors vers vous. \\n\\nVous pouvez également équiper l'&4Aimant&r dans votre Curios pour continuer à l'utiliser ! \\n\\nSi vous ne souhaitez ne plus l'utiliser (ce qui arrive souvent près des fermes de mobs), il vous suffit de cliquer à nouveau avec le bouton droit pour le désactiver. Vous pouvez également placer des bobines de démagnétisation dans vos fermes de monstres et autres usines qui impliquent des objets tombés pour éviter cela.\\n\\nIl peut également être amélioré pour augmenter sa portée !"]
+	quest.3B4BF42C55C8BBBF.title: "&l&9Simple &4Aimants"
+	quest.3B6F1BD64C0C570F.quest_desc: ["Tout comme la génération éolienne, cela vous donnera beaucoup de puissance sans utiliser de ressources. Le seul inconvénient est que cela doit être en journée. "]
+	quest.3B6F1BD64C0C570F.title: "Énergie Solaire"
+	quest.3BC0A50886A3222B.quest_desc: ["ATM10 est un pack 'kitchensink' qui vous permet d'explorer le monde de Minecraft moddé à votre manière!\\n\\nSi vous avez des questions ou des problèmes, n'hésitez pas à rejoindre le discord d'ATM!"]
+	quest.3BC0A50886A3222B.title: "&dBienvenue dans All The Mods 10!"
+	quest.45268A619787288F.title: "&eSac à dos en Or"
+	quest.46D756F4DC6CC894.title: "&dSac à dos en Netherite"
+	quest.47043AF7D1FABC43.quest_desc: [
+		"Il y a plusieurs façon d'extraire l'enchantement d'un objet vers un livre. Cette quêtes se concentrera sur plusieurs de ces methodes.\\n\\n&cSuper Factory Manager&r: L'un des moyens le moins couteux que je vous conseil pour désenchanté votre équipement sans &aExperience&r cost et sans rien vous couter. Lacher votre objet enchantée et une pile de livre sur un bloc d'&5Obsidian&r, Ensuite faite tomber une &8Enclume&r sur le dessus de votre objet enchanté et votre pile de livres.\\n\\nLa &bTable de Désenchantement&r: Vous devez simplement poser votre objet enchanté dans la case de gauche et le livre dans celle du millieu. Ensuite, l'enchantement ira dans la case de droite sous la forme d'un livre! l'operation vous coutera de l'&aExperience&r.\\nVous pouvez egalement utiliser des livre enchanté pour separer ses enchantements a la place de l'objet.\\n\\n&6Draconique Evolution Desenchanteur&r: Celui-ci vous laisse choisir quel enchantement vous souhaitez enlever d'un objet et le mettre dans un livre. Cela vous coutera de l'&aExperience&r."
+		"{@pagebreak}"
+		"&cEvilCraft Purifier and Blook&r: Utiliser du &cSang&r Pour extraire les enchantements d'un objet enchanté vers un &cLivre&r.\\n\\n&5&lApothique Enchanting Tomes&r: Quand il est utiliser avec une enclume, cela extrait tout les enchantement de l'objet enchanter.\\nLe &8Tome of Scrapping&r il extrait seulement la moitié des enchantements de l'objet, cela détruit également l'item au cours du processus.\\nLe &8Tome of Superior Scrapping&r extrait tous les enchantements de l'objet, cela détruit également l'item au cours du processus.\\nLe &8Tome of Extraction&r extrait tous les enchantements de l'item, l'objet n'est pas detruit pendant le processus.\\nConsultez le chapitre &5&lApothique Enchanting&r pour en apprendre plus sur comment bien connaitre ces Tomes.\\n\\n&bIndustrial Foregoing Enchantment Extractor&r: Il est recommandé pour le désenchantement automatique. Placer un objet enchanter et un livre dans la machine, et il extraira les enchantements de l'objet vers le livre. Vous pouvez également transformer les enchantements en &aEssence&r, si vous preferez bien sûr.\\n\\n Le &8Corail Tombstone Book of Disenchantment&r: Parfois, des âmes des tombeaux errent dans les tombes décoratives. Vous pouvez faire un clic droit sur cette âme funèbre avec le livre dans votre main secondaire et un objet enchanté dans votre main principale, cela retira ces enchantements et les restitura sous forme de livres. Cela Corrompra légèrement la tombe, faite donc très attention avec cette méthode.\\n\\n&5Actually Additions Lens of Disenchanting&r: Ces lentilles sont utilisées dans un reconstructeur atomique. Lancez un objet enchanté et un seul livre devant le laser émis par le reconstructeur atomique, et il separera 1 seule enchantement de l'item vers le livre."
+	]
+	quest.47043AF7D1FABC43.title: "Méthodes de désenchantement"
+	quest.47358ADC1470C82A.title: "&cFruit du rêve du démon"
+	quest.4869C413646CC4CC.quest_desc: [
+		"Transférer l'énergie de vos générateurs est probablement une bonne idée, mais comment le faire ? "
+		""
+		"Pour commencer, vous pouvez utiliser les &cTuyaux d'Énergie&r du mod &aPipez&r, ou vous pouvez utiliser les &9Câbles d'Énergie&r du mod &cPowah&r si vous avez déjà commencé à utiliser ce mod. "
+		""
+		"Ou si vous voulez un retour en arrière, ce pack a &6EnderIO&r et vous pouvez utiliser les &6Conduits d'Énergie&r de celui-ci."
+	]
+	quest.49EDAA2F57D3BF1D.quest_desc: ["Cette quête a été créée par le personnel de &6AllTheMods&r ou un contributeur de la communauté &2Community contributor&r pour être utilisée dans le modpacks AllTheMods. \\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous les Droits son Réservé&r, cette quête ne peut être utilisée dans aucun pack public non publié par l'équipe &6AllTheMods Team&r sans autorisation explicite. \\n\\nCette quête est intentionnellement masquée. Si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.4A4C71C43519D5FE.quest_desc: [
+		"Pour invoquer le boss du Nether, nous devons d'abord rassembler quelques objets. "
+		""
+		"Nous aurons besoin d'au moins 3 &5Crânes de Wither Skeleton&r. Ce sont des objets rares obtenus en tuant des &7Wither Skeletons&r, ou peuvent être fabriqués avec le drop plus commun, les &3Fragments de Crâne de Wither&r. "
+		""
+		"Vous aurez également besoin d'au moins 4 morceaux de Sable des Âmes, et probablement d'une armure assez bonne."
+	]
+	quest.4A4C71C43519D5FE.title: "&6Invoquer le &5Wither"
+	quest.4C0EAB9F795686D0.title: "&eModule de dépose avancée"
+	quest.4DE1158931F84F22.quest_desc: [
+		"Une fois que vous avez une Pioche de niveau Fer ou supérieur, vous pourrez miner de la &cRedstone&r. "
+		""
+		"La Redstone commence votre voyage dans de nombreux mods techniques, comme la création d'énergie ou la fabrication de gadgets sophistiqués. "
+		""
+		"C'est une ressource dont vous aurez besoin en grande quantité !"
+	]
+	quest.4DE1158931F84F22.title: "&cRedstone&r"
+	quest.4E5238F00CEED8B2.quest_desc: ["La fusion des minerais bruts au début est nécessaire, mais vous passez à côté de ressources supplémentaires !\\n\\nIl existe plusieurs façons de doubler votre production par minerai brut, mais l'une des plus simples est de créer et d'utiliser un &eMarteau à Minerai&r.\\n\\nCela permettra de transformer 1 minerai brut en 2 poussières de minerai, qui peuvent être fondues en lingots, doublant ainsi efficacement votre production de lingots !\\n\\nVous voulez plus par minerai brut ? Découvrez le mod &5Occultism&r !"]
+	quest.4E5238F00CEED8B2.title: "&eDoublement de Minerai de Base"
+	quest.4FBAB3A0FBF8CE2F.title: "&5Tuyau universel"
+	quest.51538F4DCE24E3E7.quest_desc: ["Le &5Multi&f-&2Piston&r peut etre un deroutant mais cette petite machine est d'une grande aide pour deplacer des blocs! \\n\\nFaite un clic droit sur le  &2Piston&r pour ouvrir son interface, dedans vous pouvez y definir ces côtés, l'espacement et la vitesse. \\n\\nLes côtés sont la couleur du piston: &eJaune&r Pour le &edessus&r, &6Orange&r est le &6Dessous&r, &9Bleu&r est le &9Nord&r, &2Vert&r est l'&2Est&r, &4Rouge&r est le &4Sudh&r, et &5Violet&r est &5Ouest&r. \\n\\nVous devez définir la couleur de l'entrée et de la sortie, de quel côté Vous souhaitez bouger le bloc (de ou vers ou)! \\n\\nl'espacement est le nombre de blocs que vous souhaitez déplacé, si vous choisissez 3, il deplacera donc trois blocs situé du côté de l'entrée vers le côté de la sortie. Si vous en choisissez 30, il en deplacera donc 30. \\n\\nLa vitesse est la rapidite a laquelle il deplacera les blocs. \\n\\nIl a besoin d'un &cSignal de Redstone&r pour fonctionner, petite detail certains blocs comme les coffres ne peuvent etre déplacer."]
+	quest.51538F4DCE24E3E7.title: "&l&5Multi&f-&2Piston"
+	quest.53EC96FA0E7C4ED4.title: "&cTuyau d'énergie"
+	quest.56B80A7EBFE21428.title: "&eModule de pompe amélioré"
+	quest.5792CC9E3AFAB229.quest_desc: ["Nous avons également le mod appelé &aGenerators Galore&r ! Ce mod ajoute des générateurs uniques qui utilisent du charbon ou d'autres objets."]
+	quest.5792CC9E3AFAB229.title: "&aFour en Cuivre&r"
+	quest.57CF8C6C867B9BDA.title: "&eModule de filtre avancée"
+	quest.5AC1BE754210429E.quest_desc: ["Si vous souhaitez créer une équipe pour vous et vos amis, utilisez la commande &a/ftbteams party create (nom de l'équipe)&r pour créer l'équipe!"]
+	quest.5CF320E9C4C1B1E1.quest_desc: ["ATM10 est un pack 'kitchensink' qui vous permet d'explorer le monde de Minecraft moddé à votre manière!\\n\\nSi vous avez des questions ou des problèmes, n'hésitez pas à rejoindre le discord d'ATM!\\n\\nCependant, il y a un objectif de fin de jeu : créer l'&6Étoile ATM&r !\\n\\nCette ligne de quêtes sert de guide pour tous les joueurs, que vous soyez nouveau dans Minecraft ou que vous ayez déjà joué aux packs ATM précédents.\\n\\nComme dans presque tous les packs de mods, commencez par récolter du bois !"]
+	quest.5CF320E9C4C1B1E1.title: "&eBienvenue dans la section Pour commencer&r!"
+	quest.5E4FE420B6D2C97F.title: "&eModule compacteur avancée"
+	quest.5E799B92358A8732.quest_desc: ["Dans le &cNether&r, vous rencontrerez des &6Débris Anciens&r. Ceux-ci peuvent être fondus en Éclats qui peuvent être combinés avec de l'Or pour créer des &6Lingots de Netherite&r, un métal de fin de jeu utilisé pour fabriquer certains des outils et armures les plus puissants du jeu."]
+	quest.5E799B92358A8732.title: "&dMétaux Anciens&r"
+	quest.5EE945A1185E8336.quest_desc: ["&l&7Functional Storage&r adds &7Drawers&r that can hold several stacks of an item. These can be upgraded to hold even more stacks!\\n\\nThis is great for items you get a lot of, like Cobblestone or Seeds!"]
+	quest.5EE945A1185E8336.quest_subtitle: "Tiroirs de rangement ?"
+	quest.5EE945A1185E8336.title: "&l&7Stockage Fonctionnel&r"
+	quest.61C49BC2B384FB80.quest_desc: ["Une fois que vous avez rassemblé suffisamment de Perles de l'Ender et de Poudre de Blaze, vous pouvez vous diriger vers le Portail de l'End dans le Monde Normal.\\n\\nPour ce faire, fabriquez des &dYeux de l'Ender&r et faites un clic droit pour les lancer dans le ciel. Ils indiqueront la direction du Portail de l'End le plus proche.\\n\\nDirigez-vous vers la Forteresse, trouvez le Portail de l'End et complétez le cadre en utilisant les Yeux de l'Ender pour créer le portail vers &dL'End&r."]
+	quest.61C49BC2B384FB80.title: "&aTrouver &dL'End&r"
+	quest.637981B64BBE0D92.quest_desc: ["La &aStation de recharge&r est un bloc très utile en début de partie. \\n\\nIl est clairement utilisé pour recharger des objets. Utilisez soit le gaz naturel, soit le combustible de fourneau pour produire de l'énergie sous forme de FE. \\n\\nEnsuite, vous pouvez placer tout élément nécessitant une recharge dans l'emplacement le plus à droite."]
+	quest.637981B64BBE0D92.title: "&l&aChargeur de Gadgets"
+	quest.6501A410F1543C70.title: "&dEngrais Mystique"
+	quest.66ECC26BC81D0093.title: "Tier: &bBasique"
+	quest.672134A1A620EEAB.quest_desc: [
+		"Il y a plusieurs facon de stocker de l'energie! "
+		""
+		"&9Powah&r Vous offre une tres bonne solution en utilisant des &aEnergy Cells&r elles pourons etres ameliorer, ou vous pouvez toujours opter pour le style multibloc de &aRFTools&r en utilisant des &aPowercells&r! Le choix est le votre. "
+		""
+		"Note: Vous aurez besoin que d'un seul objet pour valider la quete."
+	]
+	quest.67704F7341EDCC49.title: "&bSac à dos en Diamant"
+	quest.698A959C9E449592.quest_desc: ["La prochaine etape de votre progression est de fabriquer une pioche en fer.\\n\\nCette pioche vous permet de miner une multitude de Minerais rare dans le jeu, incluant les Diamand!"]
+	quest.698A959C9E449592.title: "Le choix du &aFer&r"
+	quest.69A517AB8A801939.quest_desc: ["Le &5Wither&r est l'un des boss les plus difficiles à tuer dans Minecraft. Principalement parce qu'il vole. Et envoie des explosions. Et est rapide. Vous voyez le tableau.\\n\\nPour l'invoquer, placez les 4 Sables des Âmes en forme de T. Placez les 3 Crânes de Wither Skeleton sur le dessus du 'T' et le &5Wither&r apparaîtra.\\n\\nAstuce : Il explose. Beaucoup. Ne faites pas cela près de votre base."]
+	quest.69A517AB8A801939.title: "&6Tuer le &5Wither"
+	quest.69F7A0DE8D70AC44.quest_desc: ["Le &#DBA15ASteam Drill&r, bien qu'étant originaire d' &#A0DE45Industrialisation Moderne&r, sera votre meilleur allié pour l'exploitation minière en début de partie, il est uniquement requis un &#6E6D6DForge Hammer&r pour pouvoir être fabriqué. Il est capable de faire une zone minière de &53 par 3&r ainsi qu'un &#EEF768activable/désactivable silk touch&r.\\n\\nVous pouvez activer ou désactiver l'exploitation minière &53 par 3&r en appuyant sur la touche \" Activer/désactiver l'exploitation minière 3x3\" qui est réglée par défaut sur &7'Y'&r.\\n\\n&#EEF768Silk Touch&r peut être activé en &7cliquant avec le bouton droit et en furtif&r sur le Steam Drill\\n\\nPour remplir le &#DBA15ASteam Drill&r, vous pouvez maintenir le foret au-dessus d'un &6combustible&r dans votre inventaire et &7cliquer avec le bouton droit&r. &9Water&r peut être soit &7cliqué avec le bouton droit&r dans le monde, soit transporté dans un seau d'eau."]
+	quest.69F7A0DE8D70AC44.quest_subtitle: "Exploitation minière"
+	quest.6D09511D64DDC282.quest_desc: ["Le &dWarden&r peut peut être invoqué en déclenchant au moins trois fois un « capteur Sculk » situé à proximité d'un « hurleur Sculk ».\\n\\nFun Fact: Le Warden est aveugle! Son seul moyen de vous trouver est de vous entendre, alors rester discret!\\n\\nAstuce : Peu importe que vous utilisiez des attaques à distance ou au corps à corps, car il vous trouvera. Et il vous frappera. Si vous allez trop loin, il creusera dans le sol et réapparaîtra à côté de vous ! Bonne chance :D"]
+	quest.6D09511D64DDC282.title: "&5Tuer le Warden"
+	quest.6D88C19F47D0D469.title: "Tier: &7Petit"
+	quest.6E17595887A051C2.quest_desc: ["&l&2Modded Minecraft&r introduit de nouveau villageois muni de professions! \\n\\nForge Hammer: &5Industrialist&r \\n\\nCharger: &bFluix Researcher&r \\n\\nAdvanced Beehive: &6Beekeeper&r \\n\\nCoffee Maker: &9Engineer&r \\n\\nArcane Core: &dShady Wizard&r \\n\\nForagers Table: &aForager&r \\n\\nPowered Rolling Machine: &eCartman&r \\nManual Rolling Machine: &eTrackman&r \\n\\nEngineer's Workbench: &7Gunsmith&r \\nWhite Banner: &7Outfitter&r \\nEngineer's Circuit Workbench: &7Electrician&r \\nEngineer's Crafting Table: &7Machinist&r \\nTurntable: &7Structural Engineer&r \\n\\nCharging Station: &4Pressure Mechanic&r \\n\\nSaw: &8Carpenter&r"]
+	quest.6E17595887A051C2.title: "Mo' Professions"
+	quest.6E3D53D1C4569A89.title: "&aModule de pompe d'expérience"
+	quest.6EDAB29FBD3C60A3.quest_desc: ["Ce biome a été introduit lors de la mise a jours de la nature!\\n\\nAttention! Vous pourriez accidentellement invoquer un nouvel ami..\\n\\nP.S. - Il n'est pas vraiment amical."]
+	quest.6EDAB29FBD3C60A3.title: "&6Visiter le &dDeep Dark&r!"
+	quest.6EE5BE5693E8ACE4.quest_desc: ["Dans l' &dEnd&r, Vous y trouver le Boss de fin de Minecraft Classique: L' &5Ender Dragon&r.\\n\\nAu sommet de chaque pilier d'Obsidienne, vous trouverez un Cristal de l'End qui soigne le Dragon. Assurez-vous de les détruire en premier ! Ils infligent également beaucoup de dégâts lorsqu'ils explosent, alors assurez-vous de créer une certaine distance !\\n\\nUne fois vaincu, un &dŒuf de Dragon&r apparaît au sommet du Portail de Sortie. Cela ne peut pas être miné comme les blocs normaux, mais est affecté par la gravité."]
+	quest.6EE5BE5693E8ACE4.title: "&5l'Ender"
+	quest.70B6C9409AE69284.quest_desc: ["La boussole Nature's Compass vous fournit une liste des biomes que vous pouvez rechercher.\\n\\nSélectionnez un biome, puis cliquez sur « Search » (Rechercher). Des informations s'afficheront en haut à gauche et la boussole indiquera la direction du biome.\\n\\nLa boussole Explorer's Compass fonctionne de la même manière, mais pour les structures plutôt que pour les biomes."]
+	quest.70B6C9409AE69284.quest_subtitle: "Aide à trouver des biomes"
+	quest.70B6C9409AE69284.title: "Boussole de la nature"
+	quest.722978AC0C1B2649.quest_desc: ["Objet simple pour automatiser l'eau infinie. Besoin de plus d'eau? En fabriquer un autre!"]
+	quest.722978AC0C1B2649.quest_subtitle: "Peut être utilisé comme fluide de refroidissement pour le réacteur"
+	quest.722978AC0C1B2649.title: "Eau infinie"
+	quest.72989212DD45DC10.quest_desc: ["Pour trouver cet œuf, vous devrez brosser le &aSable Suspect&r dans les Ruines de l'Océan Chaud.\\n\\nVous pouvez placer l'Œuf dans le monde et il éclora lentement en un &dSnifflet&r. Cela prend environ 20 minutes pour éclore normalement, mais peut être placé sur un bloc de Mousse pour doubler la vitesse d'éclosion, ne prenant que 10 minutes pour éclore.\\n\\nLe Snifflet finira par devenir un &dSniffer&r adulte qui peut renifler des objets comme les &2Graines de Fleur de Torche&r ou les &2Gousses de Pichet&r lorsqu'ils errent sur des blocs qu'ils peuvent creuser.\\n\\nVous pouvez élever 2 Sniffers adultes en utilisant des Fleurs de Torche."]
+	quest.72989212DD45DC10.quest_subtitle: "Le cousin éloigné de Scruff McGruff"
+	quest.72989212DD45DC10.title: "&aLe &5Sniffer"
+	quest.72E1C19156633391.quest_desc: ["Les Seaux et les Réservoirs sont un excellent moyen de déplacer de la lave."]
+	quest.72E1C19156633391.title: "Seau de Lave"
+	quest.76406EFFF8CBA6B4.quest_desc: ["Les Diamants sont l'un des meilleurs matériaux à utiliser pour la fabrication d'outils, mais ils permettent également de visiter de nouvelles dimensions comme la Forêt du Crépuscule !"]
+	quest.76406EFFF8CBA6B4.title: "Nous avons trouvé des &bDiamants&r !"
+	quest.7658C1C663394E85.quest_desc: ["ATM propose de nombreuses commandes utiles. En voici quelques-unes : \\n\\n&e/sethome&r (nom du domicile) | Vous permet de définir un domicile vers lequel vous pouvez vous téléporter à l'aide de la commande /home (nom). Exemple : /sethome farm - puis téléportez-vous avec /home farm.\\n\\n&e/spawn&r | Cela vous téléportera vers le point d'apparition de votre monde.\\n\\n&e/rtp&r | « Random Teleport » vous téléportera vers un endroit aléatoire dans le monde.\\n\\nRemarque : ces commandes ont des temps de recharge et des limites. Si vous souhaitez les modifier, vous pouvez éditer le fichier de configuration qui se trouve ici : - Pour le mode solo | &osaves/(nom de la sauvegarde)/serverconfig/ftbessentials.snbt - Pour les serveurs | &oworld/serverconfig/ftbessentials.snbt"]
+	quest.7741905EA8380B25.quest_desc: ["&aOrnements d'Armure&r sont des objets utilisés pour ajouter des ornements à votre armure ! Cela peut être fait dans les tables de forge.\\n\\nBien qu'ils aient une recette, la plupart des ornements se trouvent rarement dans des coffres au butin ou des fouilles archéologiques. Une fois que vous en trouvez un, vous pouvez dupliquer le modèle en utilisant la recette pour en créer plus !"]
+	quest.7741905EA8380B25.title: "&dOrnements d'Armure"
+	quest.785951190FFDAA21.title: "&eModule d'empillement Niveau 2"
+	quest.790EC3EDC2DB1FB0.quest_desc: ["Comme mentionné précédemment, ce mod ajoute de nombreuses façons amusantes de générer de l'énergie qui nécessitent des constructions spécifiques."]
+	quest.790EC3EDC2DB1FB0.title: "&6Générateurs à gogo"
+	quest.7975C7145572C438.quest_desc: ["Pas de problème si vous êtes inexpérimenté dans le moddé, Ou un complet débutant dans Minecraft, tout le monde doit fabriquer une &2Pioche en Bois&r.\\n\\nLes pioches permettent de casser la plupart des blocs de pierre et de métal. Cette Pioche ne durera pas longtemps, alors assurez-vous de ramasser un peu de &3Pierre&r avec !"]
+	quest.7975C7145572C438.title: "Notre premier choix"
+	quest.7A514E27E1A7FE32.quest_desc: ["Les diamants nous permettent également de créer des gadgets sympas qui nous aident à construire à l'aide du mod &l&cBuilding Gadgets&r.\\n\\nC'est un très bon outil pour vous aider a construire de plus grande bases, il est egalement possible d'utiliser le &cDestruction Gadget&r pour nettoyer la zone.\\n\\nVous pouvez même les connecter à un réseau AE2 en les plaçant dans un point d'accès sans fil !"]
+	quest.7A514E27E1A7FE32.title: "&l&cGadgets pour la construction&r"
+	quest.7AE3C8134F5ED726.title: "&dModule d'empillement Niveau 4"
+	quest.7C0F7A1B3AB9A1A1.title: "&eModule de rechargement avancée"
+	quest.7D38BC3DB3406F51.quest_desc: ["Avec votre pioche en bois, la pierre ne devrait pas poser de problème à casser !\\n\\n&3La pierre concassée&r débloque la prochaine étape de la progression en vous permettant de fabriquer un four pour fondre nos minerais.\\n\\nVous voudrez également améliorer votre pioche en pierre pour miner de meilleurs minerais comme le &bFer&r !"]
+	quest.7D38BC3DB3406F51.title: "Âge de Pierre"
+	quest.7E9E03274A88347D.title: "&fModule d'empillement Niveau 1"
+	quest.7EC01E7DB045DB05.quest_desc: ["Les « Augments » sont des améliorations qui peuvent modifier ou améliorer les fonctionnalités d'un fourneau.\\n\\n - Blasting: Convertit le four pour n'autoriser que les recettes de fusion rapide.\\n\\n - Smoking: Convertit le four pour n'autoriser que les recettes de fumage.\\n\\n - Factory: Convertit le four pour utiliser l'énergie au lieu du carburant, et le transforme en usine, permettant de fondre plusieurs objets à la fois. Cela augmente en fonction du niveau du four.\\n\\n - Speed: Double la vitesse du four au prix du double du carburant.\\n\\n - Fuel Efficiency: Double la quantité d'objets fondus par carburant, mais réduit la vitesse de 25%"]
+	quest.7EC01E7DB045DB05.title: "Améliorations de Four"
+	quest.7EC8814940C4C3D7.quest_desc: ["Utilisez cet objet pour rétrécir. Utile pour travailler sur l'automatisation et aussi juste pour s'amuser en général."]
+	quest.7EC8814940C4C3D7.quest_subtitle: "Chéri(e), j'ai rétréci les dimensions"
+	quest.7EC8814940C4C3D7.title: "Dispositif de rétrécissement personnel"
+	task.0AFA64F1025569A2.title: "Équipement en Netherite"
+	task.0D5203048B6E068C.title: "Trapped Trader Carpets"
+	task.103C42C743E2A2DB.title: "Claims des chunks"
+	task.10A16F89D4AD238D.title: "Commandes Utiles"
+	task.1693B07767081FB3.title: "Ornements d'Armure"
+	task.173044E1C1134A80.title: "Pierre"
+	task.1869893A4F8E9E9C.title: "Marteaux à Minerai"
+	task.1960B985B54B9FBD.title: "Câbles d'Énergie"
+	task.19E660235EADB8AA.title: "Ensembles de raccourcis clavier"
+	task.201F519941A2C7F4.title: "TousDroitsReservés"
+	task.24893D6EDE0BD819.title: "Fragments Porte Bohneur de Creature"
+	task.26CDA4EADF919D5C.title: "Générateurs"
+	task.279AB1DAAFD60C52.title: "Méthodes de désenchantement"
+	task.285A53DB9D54595D.title: "Bûches"
+	task.2C816285392535F0.title: "TousDroitsReservés"
+	task.2CE553B282962E01.title: "Seaux"
+	task.2E49798B39BAA192.title: "Énergie Solaire"
+	task.3209E46C9B05C163.title: "Équipement en Diamant"
+	task.3B1F1A7CAC8B7BC7.title: "dessinateurs"
+	task.3B219688DA1CF9C8.title: "Tous Droits Reservés"
+	task.3BEA6C6A41D5ABEA.title: "Améliorations de Four"
+	task.3C95552D03C16F3D.title: "Stockage d'Énergie"
+	task.3DC008A578A93CCF.title: "Conseils et astuces !"
+	task.41EEE559F6402D81.title: "Module créatif"
+	task.42DA8E971B27ACED.title: "Renversé"
+	task.4410E4942D7C15E9.title: "Passerelles"
+	task.44CEA28EBD6C0898.title: "Tous droits réservés"
+	task.45250DA4433007C6.title: "Capturer des Livres"
+	task.47A1F59A538E3C4B.title: "Gadgets pour la construction"
+	task.4AEB792F6A939B3A.title: "Tous Droits Réservés"
+	task.4F13A02FB0055A62.title: "Créer une Équipe"
+	task.524CBF7058496E7F.title: "Autres Spawners"
+	task.52BB142F044075B4.title: "Quêtes"
+	task.539C6F64C251543B.title: "Charbon"
+	task.58E3131A3EA2661E.title: "Boussoles"
+	task.6038387EA35404CD.title: "l'Artisanat sur un bâton!"
+	task.6A965CD027BF762F.title: "Tous Droits Réservés"
+	task.6CAD0E4CF3577BEB.title: "Tuer 1 Warden"
+	task.6E44925E265DC7E2.title: "Sites d'emploi"
+	task.73B56F2139A98F77.title: "Tous Droits Reservés"
+	task.76C41881A02F2098.title: "Tuer 1 Wither"
+	task.7C6F7EF2B3AC2824.title: "Tous droits réservés"
+	task.7C88F80D05E62AC7.title: "Four en Fer"
+}

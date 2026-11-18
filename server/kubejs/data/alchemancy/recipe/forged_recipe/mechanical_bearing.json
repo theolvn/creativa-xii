@@ -1,0 +1,16 @@
+{
+  "type": "alchemancy:forged_item",
+
+  "properties": [
+    "alchemancy:rotating"
+  ],
+
+  "catalyst": {
+    "item": "create:andesite_casing"
+  },
+
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_bearing"
+  }
+}

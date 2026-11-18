@@ -1,0 +1,24 @@
+{
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+            "item": "ae2:logic_processor"
+            },
+            {
+            "item": "ae2:fluix_crystal"
+            },
+            {
+            "item": "ae2:fluix_crystal"
+            },
+            {
+            "item": "oritech:platinum_ingot"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "oritech:flux_gate"
+            }
+        ],
+        "time": 48
+    }

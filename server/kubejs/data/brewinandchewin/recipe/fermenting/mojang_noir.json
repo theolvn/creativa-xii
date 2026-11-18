@@ -1,0 +1,29 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:red_grapejuice"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "vinery:cherry"
+    },
+    {
+      "item": "vinery:red_wine"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:mojang_noir"
+  },
+  "unit": "millibuckets"
+}

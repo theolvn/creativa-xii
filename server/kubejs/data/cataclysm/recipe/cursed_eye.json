@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 4,
+      "item": "oritech:platinum_ingot"
+    },
+    {
+      "count": 1,
+      "item": "deeperdarker:heart_of_the_deep"
+    },
+    {
+      "count": 2,
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "count": 1,
+    "id": "cataclysm:cursed_eye"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:aerial",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ]
+}

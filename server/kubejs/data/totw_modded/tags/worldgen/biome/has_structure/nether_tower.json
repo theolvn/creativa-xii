@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_nether"
+    },
+    {
+      "id": "#c:is_nether",
+      "required": false
+    }
+  ]
+}

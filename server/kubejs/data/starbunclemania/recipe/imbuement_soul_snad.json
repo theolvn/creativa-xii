@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "sauce:source_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "farmersdelight:rich_soil"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "results": [
+    {
+      "id": "snad:soul_snad"
+    }
+  ]
+}

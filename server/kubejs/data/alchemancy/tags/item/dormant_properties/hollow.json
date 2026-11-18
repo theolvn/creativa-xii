@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create:basin",
+    "create:chute",
+    "create:smart_chute",
+    "create:item_vault",
+    "#create:toolboxes",
+    "#create:postboxes",
+    "create:copper_backtank",
+    "create:netherite_backtank"
+  ]
+}

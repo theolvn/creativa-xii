@@ -1,0 +1,47 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 16,
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "count": 4,
+      "item": "cataclysm:cursed_eye"
+    },
+    {
+      "count": 2,
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "iceandfire:dragonsteel_ice_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "cataclysm:cursium_leggings"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:aerial",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 64
+    }
+  ]
+}

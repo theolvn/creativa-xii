@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "deep_aether:enchanted_blossom"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "tool": {
+    "tag": "farmersdelight:tools/knives"
+  }
+}

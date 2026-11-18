@@ -1,0 +1,80 @@
+{
+	id: "20271F3AD579D7D7"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 2
+			id: "227CA30048F8A12E"
+			item: {
+				count: 1
+				id: "vinery:red_grape_seeds"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "597C80D6C2D2B2AD"
+			item: {
+				count: 1
+				id: "vinery:white_grape_seeds"
+			}
+			random_bonus: 2
+		}
+		{
+			auto: "disabled"
+			count: 2
+			id: "25835936032D1609"
+			item: {
+				count: 1
+				id: "vinery:savanna_grape_seeds_red"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "5AA7AF6677EACE06"
+			item: {
+				count: 1
+				id: "vinery:savanna_grape_seeds_white"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "6E84668B7CCCCADE"
+			item: {
+				count: 1
+				id: "vinery:taiga_grape_seeds_red"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "14AA4F3F63F3A81F"
+			item: {
+				count: 1
+				id: "vinery:taiga_grape_seeds_white"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "2908536BA51CED0D"
+			item: {
+				count: 1
+				id: "vinery:jungle_grape_seeds_red"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "1188D4553016A9F6"
+			item: {
+				count: 1
+				id: "vinery:jungle_grape_seeds_white"
+			}
+			random_bonus: 2
+		}
+	]
+}

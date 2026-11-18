@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:nettle_beer",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "farm_and_charm:oat"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:highland_hearth_whiskey_wort",
+      "amount": 1000
+    }
+  ]
+}

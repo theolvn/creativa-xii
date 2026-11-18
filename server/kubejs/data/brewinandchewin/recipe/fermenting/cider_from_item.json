@@ -1,0 +1,19 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "vinery:apple_juice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:apple_cider"
+  },
+  "unit": "millibuckets"
+}

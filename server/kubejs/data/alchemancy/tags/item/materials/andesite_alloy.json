@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#c:storage_blocks/andesite_alloy",
+
+    "create:andesite_alloy",
+
+    "create:andesite_ladder",
+    "create:andesite_bars",
+    "create:andesite_scaffolding",
+    "create:andesite_door"
+  ]
+}

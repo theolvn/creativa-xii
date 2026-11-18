@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "oritech:deepslate_nickel_ore",
+    "post": [
+        "drop oritech:raw_nickel",
+        "drop oritech:raw_nickel /.5",
+        "drop oritech:raw_nickel /.25",
+        "drop oritech:raw_nickel /.25"
+    ]
+}

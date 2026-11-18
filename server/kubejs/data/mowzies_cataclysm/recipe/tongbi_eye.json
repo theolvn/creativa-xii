@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "BXB",
+    "CAC",
+    "DCD"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:ender_eye"
+    },
+    "B":
+    {
+      "item": "minecraft:feather"
+    },
+    "C":
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "D":
+    {
+      "item": "minecraft:red_terracotta"
+    },
+    "X":
+    {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result":
+  {
+    "id": "mowzies_cataclysm:tongbi_eye",
+    "count": 1
+  }
+}

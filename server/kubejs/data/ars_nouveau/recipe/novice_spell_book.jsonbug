@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "create:brass_sheet"
+    },
+    "b": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "c": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "chicken_roost:chicken_stick",
+    "count": 1
+  }
+}

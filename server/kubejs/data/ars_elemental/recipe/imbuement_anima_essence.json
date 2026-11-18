@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "c:gems/source"
+  },
+  "output": {
+    "count": 1,
+    "id": "sauce:anima_essence"
+  },
+  "pedestalItems": [
+    {
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "tag": "iceandfire:dragon_bloods"
+    },
+    {
+      "item": "alexsmobs:blood_sac"
+    }
+  ],
+  "source": 3000
+}

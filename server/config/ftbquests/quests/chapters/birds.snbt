@@ -1,0 +1,1400 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "rsquare"
+	filename: "birds"
+	group: "1DA520C636BEDEBC"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/parrot"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "79F432A1D01CE04C"
+	images: [
+		{
+			height: 1.0791788856304985d
+			id: "538928B64CF539EB"
+			image: "kubejs:item/tropical"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0791788856304985d
+			id: "4FA9B3637C697C5C"
+			image: "kubejs:item/coastal"
+			rotation: 0.0d
+			width: 5.492537313432836d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0703812316715542d
+			id: "082A91E1F03302ED"
+			image: "kubejs:item/arid"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 0.7888563049853372d
+			id: "1BB4CB0EA24E0F30"
+			image: "kubejs:item/grass"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "582358CE25CE9C94"
+			image: "kubejs:item/wetland"
+			rotation: 0.0d
+			width: 5.779661016949152d
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			id: "24DF52531727788D"
+			image: "kubejs:item/forest"
+			rotation: 0.0d
+			width: 4.506607929515418d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			id: "66FCFC8E27267055"
+			image: "kubejs:item/urban"
+			rotation: 0.0d
+			width: 3.802973977695167d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			color: 8049637
+			height: 100.0d
+			id: "3E65A81E2C1657D5"
+			image: "kubejs:item/backgroundb"
+			order: -500
+			rotation: 0.0d
+			width: 100.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			id: "51E37472E5B822B5"
+			image: "minecraft:block/jungle_sapling"
+			order: -200
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			height: 1.5d
+			id: "577DB03BBFB3DDFA"
+			image: "minecraft:block/dead_bush"
+			order: -200
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			height: 1.5d
+			id: "46F00B6D101C802C"
+			image: "ecologics:block/coconut_seedling"
+			order: -200
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: -5.75d
+		}
+		{
+			height: 2.0d
+			id: "193F1673C8DDF245"
+			image: "minecraft:block/small_dripleaf_stem_top"
+			order: -200
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			id: "04C3964EFE8EB3D2"
+			image: "minecraft:block/small_dripleaf_stem_top"
+			order: -200
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			height: 1.5d
+			id: "4D79CE9EE417A1CF"
+			image: "minecraft:block/spruce_sapling"
+			order: -200
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			id: "1A9974AC2FFAF5BA"
+			image: "quark:block/glow_lichen_growth"
+			order: -10
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			id: "41D28F80DB8723CE"
+			image: "minecraft:block/lilac_top"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "5D508BFDE76E1310"
+			image: "minecraft:block/lily_of_the_valley"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "6EE9FB386D1532B5"
+			image: "supplementaries:block/flax_bottom_1"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "5541BBA186838E03"
+			image: "supplementaries:block/flax_bottom_1"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "74A3FBBE80AE2738"
+			image: "supplementaries:block/flax_bottom_1"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "2ED3F9B94418F61E"
+			image: "supplementaries:block/flax_bottom_1"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "02F623CE17331E94"
+			image: "supplementaries:block/flax_bottom_1"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			id: "238E2774CF9C10F8"
+			image: "minecraft:block/carrots_stage2"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			id: "41626B92D6E8AA67"
+			image: "minecraft:block/carrots_stage2"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			id: "26EF6FCE33F71BCE"
+			image: "minecraft:block/carrots_stage2"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			id: "36DC550D80896DAD"
+			image: "minecraft:block/carrots_stage2"
+			order: -200
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			alpha: 30
+			click_action: "none:"
+			height: 100.0d
+			id: "77D459E99A6F176A"
+			image: "minecraft:textures/environment/clouds.png"
+			order: -500
+			rotation: 0.0d
+			width: 100.0d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			alpha: 50
+			click_action: "none:"
+			height: 100.0d
+			id: "694AF82ECCD91581"
+			image: "minecraft:textures/environment/clouds.png"
+			order: -500
+			rotation: 90.0d
+			width: 100.0d
+			x: -2.0d
+			y: -8.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/emublack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "306AE0A3B7A6687D"
+			rewards: [
+				{
+					count: 3
+					id: "33D46F47F6AC2731"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "282464D04A885189"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "037A37B172B59A29"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/penguinblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "130F96768E2CF1A8"
+			rewards: [
+				{
+					count: 3
+					id: "23A0FBB2E2939264"
+					item: {
+						count: 1
+						id: "ecologics:seashell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2125491122F0BA71"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ACDB8345E25BAD7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ecologics:penguin"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/hummingbirdblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B1C1C006E9EAB91"
+			rewards: [
+				{
+					count: 2
+					id: "785E7F44B5191D43"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "262AF8345FCB8916"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13B46B7076D70B4F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/parrotblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "78DA2DFB860877C8"
+			rewards: [
+				{
+					count: 2
+					id: "45F329B4F75127F8"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "41223200ADDDC635"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "206E9BFE944198BA"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:parrot"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/seagullblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "773862437AA47900"
+			rewards: [
+				{
+					count: 3
+					id: "0892C7F3336C692B"
+					item: {
+						count: 1
+						id: "ecologics:seashell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7994E3D3D522875C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71164CA17118C9DA"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:seagull"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roadrunnerblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1131438B53FBA2A9"
+			rewards: [
+				{
+					count: 3
+					id: "7D189B5A2EE6834D"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5790126116B595DC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE43BA273AB0187"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/bald_eagleblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "325FB2DD17605158"
+			rewards: [
+				{
+					count: 16
+					id: "68AD7D33995C9862"
+					item: {
+						count: 1
+						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E1E1743F405B9BF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24BAD18B0891C59E"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bald_eagle"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/shoebillblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0691D5357EBAB683"
+			rewards: [
+				{
+					count: 3
+					id: "1E62C8BBEB8EBB38"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27A85F380ADB160E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A765FBCB40121CE"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/blue_jayblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4F99213696C4E8B0"
+			rewards: [
+				{
+					count: 3
+					id: "748FE0E4AD76FC6A"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27F4F97BF45195C3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DE53C3F3867CFAA"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blue_jay"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/crowblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16ACD2D5C777E2C5"
+			rewards: [
+				{
+					count: 3
+					id: "58D6FC7DFA4EDB92"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C47A634498722A6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59319FA28E53B590"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crow"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/potooblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D7AB7D98656BB0D"
+			rewards: [
+				{
+					count: 3
+					id: "78DA06972AAD48EE"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "280BA7B0A64F08A2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "113B8EAE79F95F97"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:potoo"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78DA2DFB860877C8"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/parrot"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7F5306098039A122"
+			tasks: [{
+				id: "0E8EFFE349D4B987"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B1C1C006E9EAB91"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/hummingbird"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "105DAB061B78F52E"
+			tasks: [{
+				id: "29659EB1201F1791"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["130F96768E2CF1A8"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/penguin"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7324EAB9C56BCC9E"
+			tasks: [{
+				id: "3FA825EBE90B99C5"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["773862437AA47900"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/seagull"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1837CE3D2BD20C01"
+			tasks: [{
+				id: "2205498D9EA6B8BC"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["325FB2DD17605158"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/bald_eagle"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "72743549B1AAD37C"
+			tasks: [{
+				id: "25EDF4BD0602DCDA"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1131438B53FBA2A9"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roadrunner"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6F46B833D903A68B"
+			tasks: [{
+				id: "0014535A0CBAE415"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["306AE0A3B7A6687D"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/emu"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "253014C55C077D31"
+			tasks: [{
+				id: "2A192910D7C81239"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0691D5357EBAB683"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/shoebill"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "40743D28C0754C11"
+			tasks: [{
+				id: "6BFF31ADAA3F7279"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F99213696C4E8B0"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/blue_jay"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "245AE530C0478718"
+			tasks: [{
+				id: "2F029B16F8A765F5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16ACD2D5C777E2C5"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/crow"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "253F54ACE9639AAE"
+			tasks: [{
+				id: "5D07494832082AF3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7AB7D98656BB0D"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/potoo"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "781EA33B14F2E0D7"
+			tasks: [{
+				id: "06D8D1FEA7677620"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/chickenblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3BDAC0E23F0913F4"
+			rewards: [
+				{
+					count: 16
+					id: "3B231637972939B7"
+					item: {
+						count: 1
+						id: "minecraft:tuff"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DA2E33252234A08"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "193A079CD182937C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BDAC0E23F0913F4"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/chicken"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7623623EB8B081E5"
+			tasks: [{
+				id: "57D57A6614B0BE02"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78DA2DFB860877C8"
+				"2B1C1C006E9EAB91"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "086B53904DE6FEA8"
+			rewards: [
+				{
+					id: "71D83913EE0FD3EE"
+					item: {
+						count: 1
+						id: "alexsmobs:music_disc_thime"
+					}
+					type: "item"
+				}
+				{
+					id: "797831E657105A54"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "6766E996AF940031"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "523CC6DE91D9FFD4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76E4335D86666541"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"130F96768E2CF1A8"
+				"773862437AA47900"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "4FBF5965A07A28C9"
+			rewards: [
+				{
+					id: "1C8866292621C4E2"
+					item: {
+						count: 1
+						id: "ecologics:music_disc_coconut"
+					}
+					type: "item"
+				}
+				{
+					id: "44474F60AC5A2870"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "001727C472D66946"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "586C9ED88D224935"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41534CC957D4D202"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BDAC0E23F0913F4"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "34A388DB1A7CE758"
+			rewards: [
+				{
+					id: "40E52D0A723895B3"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_stal"
+					}
+					type: "item"
+				}
+				{
+					id: "7180154B190E1714"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B4D47B1EF46ABE8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "776CCE52C4E18A06"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2067D8CD97FDDCBE"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["325FB2DD17605158"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "2A438F61F2BA6026"
+			rewards: [
+				{
+					id: "5396F3A8DACB0A1B"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "0A33E475B3810855"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "37DEDAAE27C1256E"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_cat"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "703E3D7B8F0FB733"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26809BC522ECB5E3"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"306AE0A3B7A6687D"
+				"1131438B53FBA2A9"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "77D556871F2EFDE5"
+			rewards: [
+				{
+					id: "34C083A5327EF818"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "7CEA5B54AC0C8B07"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "45D4EF2BC5F237B4"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_bounce"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0A5A3D2516E81EFC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1952EB85A7454DF9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0691D5357EBAB683"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "4611FC95CB99B691"
+			rewards: [
+				{
+					id: "4458135A5FCF0F06"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_wait"
+					}
+					type: "item"
+				}
+				{
+					id: "1426F9436C0CA102"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "01CA87746B325BF6"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "65F1E78292020396"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D85DA999D567487"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5D7AB7D98656BB0D"
+				"4F99213696C4E8B0"
+				"16ACD2D5C777E2C5"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "278A145C9452C776"
+			rewards: [
+				{
+					id: "7E7051AF78DC3887"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "5D31BEC1856D3127"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "43F489FD2C4708DC"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_mall"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6C9CDE0C7111162A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "737354C4E7E078F9"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/flamingoblack"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "10618C41ED5ADCEF"
+			rewards: [
+				{
+					count: 3
+					id: "55BFB9C1B08D1D1F"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C5DA0526D4FF378"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33F80E05EC390C7A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:flamingo"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10618C41ED5ADCEF"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/flamingo"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "055DE9D17D90AB1E"
+			tasks: [{
+				id: "1DD0BE422F934752"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "mekanism:lead_ore",
+    "post": [
+        "drop mekanism:raw_lead",
+        "drop mekanism:raw_lead /.5",
+        "drop mekanism:raw_lead /.25",
+        "drop mekanism:raw_lead /.25"
+    ]
+}

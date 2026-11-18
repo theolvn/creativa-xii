@@ -1,0 +1,19 @@
+{
+	id: "1F0BCF05B82F9C27"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "61767C7F53197B0E", item: { count: 1, id: "starcatcher:worm" } }
+		{ id: "2FE0470C06626E35", item: { count: 1, id: "starcatcher:almighty_worm" } }
+		{ id: "06BBC59CC11115EC", item: { count: 1, id: "starcatcher:seeking_worm" } }
+		{ id: "037CA80E03A27260", item: { count: 1, id: "starcatcher:gunpowder_bait" } }
+		{ id: "3BE53CA6AB881E09", item: { count: 1, id: "starcatcher:cherry_bait" } }
+		{ id: "2AE43A172703E9B9", item: { count: 1, id: "starcatcher:lush_bait" } }
+		{ id: "3A025FE8B33A7764", item: { count: 1, id: "starcatcher:sculk_bait" } }
+		{ id: "7A6D66FB1BFFB189", item: { count: 1, id: "starcatcher:dripstone_bait" } }
+		{ id: "5FAED46FB68F838E", item: { count: 1, id: "starcatcher:murkwater_bait" } }
+		{ id: "75CACC12F42CA108", item: { count: 1, id: "starcatcher:legendary_bait" } }
+		{ id: "192870BBB7747195", item: { count: 1, id: "starcatcher:meteorological_bait" } }
+		{ id: "3375ACE6E7B9C27F", item: { count: 1, id: "starcatcher:targeted_bait" } }
+	]
+}

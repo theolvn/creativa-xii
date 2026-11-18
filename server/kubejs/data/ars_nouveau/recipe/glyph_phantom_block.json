@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
+  "inputs": [
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_phantom_block"
+  }
+}

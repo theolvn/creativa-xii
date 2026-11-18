@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 500,
+    "id": "kubejs:domaine_emmalex_wine"
+  },
+  "container": {
+    "id": "vinery:wine_bottle",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "vinery:jo_special_mixture"
+  },
+  "unit": "millibuckets"
+}

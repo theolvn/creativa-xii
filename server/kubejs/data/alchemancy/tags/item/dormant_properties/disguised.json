@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:placard",
+    "create:depot",
+    "create:copycat_step",
+    "create:copycat_panel",
+    "#create:table_cloths"
+  ]
+}

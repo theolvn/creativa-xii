@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:wheat_beer",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "item": "brewinandchewin:kimchi"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:annyeong_haseyo_whiskey_wort"
+    }
+  ]
+}

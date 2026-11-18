@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:spider_eye"
+    },
+    "B":
+    {
+      "item": "minecraft:snow_block"
+    },
+    "C":
+    {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result":
+  {
+    "id": "mowzies_cataclysm:frostmaw_eye",
+    "count": 1
+  }
+}

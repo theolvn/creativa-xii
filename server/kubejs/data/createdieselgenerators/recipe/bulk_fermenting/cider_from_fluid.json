@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:apple_juice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:apple_cider",
+      "amount": 1000
+    }
+  ]
+}

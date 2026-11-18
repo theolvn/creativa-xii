@@ -1,0 +1,29 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:salty_folly",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "brewinandchewin:withering_dross",
+      "amount": 1000
+    }
+  ]
+}

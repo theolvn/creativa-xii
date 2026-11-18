@@ -1,0 +1,23 @@
+{
+	id: "68C458074ED0733E"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "54A82EBB54860C77", item: { count: 1, id: "starcatcher:hook" } }
+		{ id: "32867862AD8E1997", item: { count: 1, id: "starcatcher:amethyst_hook" } }
+		{ id: "5EBA604D55E49A4A", item: { count: 1, id: "starcatcher:shiny_hook" } }
+		{ id: "7C7A4A633B78AC78", item: { count: 1, id: "starcatcher:gold_hook" } }
+		{ id: "30EEDB5005467912", item: { count: 1, id: "starcatcher:mossy_hook" } }
+		{ id: "78EA539FFF1300B0", item: { count: 1, id: "starcatcher:stone_hook" } }
+		{ id: "5EB2BB923AEB327B", item: { count: 1, id: "starcatcher:split_hook" } }
+		{ id: "3A073C2C5AEC57EA", item: { count: 1, id: "starcatcher:heavy_hook" } }
+		{ id: "6561C1795966BA79", item: { count: 1, id: "starcatcher:vanilla_hook" } }
+		{ id: "747141808F76C77E", item: { count: 1, id: "starcatcher:copper_hook" } }
+		{ id: "283ACD523C68F41D", item: { count: 1, id: "starcatcher:exposed_copper_hook" } }
+		{ id: "36B80D3BB4B28E7D", item: { count: 1, id: "starcatcher:weathered_copper_hook" } }
+		{ id: "7D445CFB947F7D1A", item: { count: 1, id: "starcatcher:oxidised_copper_hook" } }
+		{ id: "2A284464BE72BF82", item: { count: 1, id: "starcatcher:echoing_hook" } }
+		{ id: "7BA4BE9D217F493D", item: { count: 1, id: "starcatcher:frozen_hook" } }
+		{ id: "37C1B24976DAAED9", item: { count: 1, id: "starcatcher:rusty_hook" } }
+	]
+}

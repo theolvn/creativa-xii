@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:white_savanna_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:kelp_cider",
+      "amount": 1000
+    }
+  ]
+}

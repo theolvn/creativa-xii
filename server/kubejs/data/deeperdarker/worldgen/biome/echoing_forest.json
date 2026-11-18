@@ -1,0 +1,109 @@
+{
+  "carvers": {
+    "air": "deeperdarker:cave"
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 3152448,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "deeperdarker:ambient.otherside.additions",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.04
+    },
+    "sky_color": 8168447,
+    "water_color": 4330347,
+    "water_fog_color": 3742046
+  },
+  "features": [
+    [],
+    [],
+    [
+	  "abyss:osmium_deep_down",
+      "abyss:osmium_down",
+      "abyss:osmium_middle",
+      "abyss:osmium_up",
+      "abyss:platinum_deep_down",
+      "abyss:platinum_down",
+      "abyss:platinum_middle",
+      "abyss:platinum_up",
+      "abyss:fluorite_deep_down",
+      "abyss:fluorite_down",
+      "abyss:fluorite_middle",
+      "abyss:fluorite_up"
+	],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [
+	  "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark",
+      "deeperdarker:sculk",
+      "deeperdarker:echo_soil",
+      "deeperdarker:infested_sculk",
+      "deeperdarker:sculk_jaw"
+    ],
+    [
+      "deeperdarker:sculk_gleam_forest"
+    ],
+    [],
+    [
+      "deeperdarker:echo_tree",
+      "deeperdarker:sculk_tendrils",
+      "deeperdarker:sculk_vines"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "deeperdarker:sculk_snapper",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 20
+      },
+      {
+        "type": "deeperdarker:shattered",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 60
+      },
+	  {
+        "type": "minecraft:phantom",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 100
+      },
+	  {
+        "type": "alexsmobs:skreecher",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 60
+      },
+	  {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 20
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.3
+}

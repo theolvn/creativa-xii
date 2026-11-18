@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:steam_whistle",
+    "create:desk_bell",
+    "create:peculiar_bell",
+    "create:haunted_bell"
+  ]
+}

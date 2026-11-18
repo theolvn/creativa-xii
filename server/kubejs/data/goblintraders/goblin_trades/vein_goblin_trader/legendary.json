@@ -1,0 +1,943 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "waystones:warp_stone"
+      },
+      "payment_item": {
+        "count": 32,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "reliquified_artifacts:mimi_dust"
+      },
+      "payment_item": {
+        "count": 16,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_13"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_cat"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_blocks"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_chirp"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_far"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_mall"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_mellohi"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_stal"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_strad"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_ward"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_11"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_creator_music_box"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_wait"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_creator"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_precipice"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_otherside"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_relic"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_tears"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_lava_chicken"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_bounce"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_5"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:music_disc_pigstep"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "ars_nouveau:music_disc_aria_biblio"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "ars_nouveau:music_disc_firel_the_wild_hunt"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "ars_technica:music_disc_pocket_factory"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "betterarcheology:music_disc_swings"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "aeronautics:music_disc_cloud_skipper"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "create_connected:music_disc_elevator"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "create_connected:music_disc_interlude"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "ecologics:music_disc_coconut"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "friendsandfoes:music_disc_around_the_corner"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "mowziesmobs:music_disc_petiole"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "quark:music_disc_endermosh"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "supplementaries:music_disc_heave_ho"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "vista:music_disc_sojourn"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "create_confectionery:the_bright_side"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "idas:music_disc_slither"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "idas:music_disc_calidum"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "integrated_stronghold:music_disc_sight"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "integrated_stronghold:music_disc_forlorn"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_netherite_monstruosity"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_ender_guardian"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_ignis"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_the_harbinger"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_the_leviathan"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_ancient_remnant"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_maledictus"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_scylla"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cataclysm:music_disc_the_cataclysmfarer"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "beachparty:music_disc_beachparty"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "beachparty:music_disc_caribbean_beach"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "beachparty:music_disc_pridelands"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "beachparty:music_disc_vocalista"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "beachparty:music_disc_wild_veins"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "furniture:cphs_pride"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "furniture:letsdo_theme"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "nirvana:music_disc_jam"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "alexsmobs:music_disc_thime"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "alexsmobs:music_disc_daze"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_3"
+      },
+      "payment_item": {
+        "count": 12,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cgs:gatling"
+      },
+      "payment_item": {
+        "count": 48,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cgs:blazegun"
+      },
+      "payment_item": {
+        "count": 48,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "cgs:launcher"
+      },
+      "payment_item": {
+        "count": 48,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "id": "minecraft:netherite_ingot"
+      },
+      "payment_item": {
+        "count": 64,
+        "id": "minecraft:emerald"
+      },
+      "price_multiplier": 0.5
+    }
+  ]
+}

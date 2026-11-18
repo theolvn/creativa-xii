@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result": {
+    "id": "createornithopterglider:wing_mesh_magenta",
+    "count": 2
+  }
+}

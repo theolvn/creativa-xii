@@ -1,0 +1,19 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:sculk"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 100,
+            "fluid": "create_enchantment_industry:experience"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "id": "minecraft:sculk"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create:empty_blaze_burner",
+    "create:blaze_burner",
+    "create:blaze_cake_base",
+    "create:cinder_flour",
+    {"id": "create_enchantment_industry:blaze_enchanter", "required": false},
+    {"id": "create_enchantment_industry:blaze_forger", "required": false}
+    
+  ]
+}

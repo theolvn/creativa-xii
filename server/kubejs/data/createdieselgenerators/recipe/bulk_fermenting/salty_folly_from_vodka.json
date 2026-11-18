@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:vodka",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:salty_folly",
+      "amount": 1000
+    }
+  ]
+}

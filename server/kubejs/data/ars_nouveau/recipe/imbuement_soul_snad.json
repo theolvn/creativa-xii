@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:soul_sand"
+  },
+  "output": {
+    "count": 1,
+    "id": "snad:soul_snad"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "farmersdelight:rich_soil"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "source": 5000
+}

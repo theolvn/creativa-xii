@@ -1,0 +1,14 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:deepslate_redstone_ore",
+    "post": [
+        "drop minecraft:redstone",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50",
+        "drop minecraft:redstone /.50"
+    ]
+}

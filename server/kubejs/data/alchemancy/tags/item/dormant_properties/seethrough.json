@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#alchemancy:materials/wooden_windows",
+    "#alchemancy:materials/iron_windows",
+    "create:framed_glass_door",
+    "create:framed_glass_trapdoor"
+  ]
+}

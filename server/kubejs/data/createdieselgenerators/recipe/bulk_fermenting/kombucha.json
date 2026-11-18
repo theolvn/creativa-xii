@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:vodka",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    }
+  ],
+  "processing_time": 9600,
+  "results": [
+    {
+      "id": "brewinandchewin:kombucha",
+      "amount": 1000
+    }
+  ]
+}

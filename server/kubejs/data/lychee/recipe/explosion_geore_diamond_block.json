@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in": "geore:diamond_block",
+    "post": [
+        "drop geore:diamond_shard /.5",
+        "drop geore:diamond_shard /.5",
+        "drop geore:diamond_shard /.5",
+        "drop geore:diamond_shard /.5"
+    ]
+}

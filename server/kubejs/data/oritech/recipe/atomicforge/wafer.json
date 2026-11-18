@@ -1,0 +1,21 @@
+{
+  "type": "oritech:atomic_forge",
+  "ingredients": [
+    {
+      "tag": "c:carbon_fibre"
+    },
+    {
+      "tag": "c:silicon"
+    },
+    {
+      "tag": "c:silicon"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "ae2:printed_silicon"
+    }
+  ],
+  "time": 5
+}

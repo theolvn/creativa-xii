@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:wheat"
+      "count": 9
+    },
+    {
+      "chance": 0.01,
+      "id": "cgs:nail"
+    }
+  ]
+}

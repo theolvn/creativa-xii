@@ -1,0 +1,494 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/1.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/2.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/3.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/4.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/5.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/6.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/7.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/8.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/9.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/10.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/11.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/12.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/13.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/14.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/15.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/16.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/17.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/18.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/19.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/20.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/21.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/22.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/23.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/24.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/25.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/26.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/27.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/28.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": {
+                    "texture": "creativax:textures/exposure/29.png"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:aged_photograph",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "exposure:photograph_frame": {
+                  "identifier": "creativax:textures/exposure/30.png"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

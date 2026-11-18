@@ -1,0 +1,79 @@
+{
+	id: "530215A81BED5175"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 2
+			id: "603ACB20D6F9C315"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "7056FE835352898C"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "374D7EE26DF77042"
+			item: {
+				count: 1
+				id: "mekanism:raw_tin"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "24624CBC2A053F31"
+			item: {
+				count: 1
+				id: "mekanism:raw_lead"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "4494CD720CE7D008"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "2928E8E9ECA35D0C"
+			item: {
+				count: 1
+				id: "oritech:raw_nickel"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "591F3B896BF9B0D4"
+			item: {
+				count: 1
+				id: "create:raw_zinc"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "3D857233DC74B042"
+			item: {
+				count: 1
+				id: "iceandfire:raw_silver"
+			}
+			random_bonus: 2
+		}
+	]
+}

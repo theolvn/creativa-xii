@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create:wooden_bracket",
+    "#alchemancy:materials/wooden_windows"
+  ]
+}

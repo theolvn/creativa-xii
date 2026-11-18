@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#c:plates/cardboard",
+    "#c:storage_blocks/cardboard",
+    "#create:packages",
+    "create:cardboard_sword",
+    "create:cardboard_helmet",
+    "create:cardboard_chestplate",
+    "create:cardboard_leggings",
+    "create:cardboard_boots"
+  ]
+}

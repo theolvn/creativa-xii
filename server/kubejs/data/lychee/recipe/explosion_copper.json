@@ -1,0 +1,14 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:copper_ore",
+    "post": [
+        "drop minecraft:raw_copper",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25",
+        "drop minecraft:raw_copper /.25"
+    ]
+}

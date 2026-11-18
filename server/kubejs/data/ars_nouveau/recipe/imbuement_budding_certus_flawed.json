@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "ae2:chipped_budding_quartz"
+  },
+  "output": {
+    "count": 1,
+    "id": "ae2:flawed_budding_quartz"
+  },
+  "pedestalItems": [
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "source": 2000
+}

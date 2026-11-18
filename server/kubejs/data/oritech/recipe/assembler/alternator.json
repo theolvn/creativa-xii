@@ -1,0 +1,24 @@
+{
+    "type": "oritech:assembler",
+    "ingredients": [
+        {
+        "item": "create:iron_sheet"
+        },
+        {
+        "item": "createaddition:copper_spool"
+        },
+        {
+        "item": "create:andesite_alloy"
+        },
+        {
+        "item": "oritech:nickel_ingot"
+        }
+    ],
+    "results": [
+        {
+            "count": 1,
+            "id": "createaddition:alternator"
+        }
+    ],
+    "time": 48
+}

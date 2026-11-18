@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create:analog_lever",
+    "create:rose_quartz_lamp",
+    "create:powered_toggle_latch",
+    "create:powered_latch",
+    "create:stockpile_switch",
+    "create:sticker"
+  ]
+}

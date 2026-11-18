@@ -1,0 +1,3041 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "23983F4DC524B14B"
+	images: [ ]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["488DBE69595F38F8"]
+			id: "162CE44400A63575"
+			rewards: [
+				{
+					count: 2
+					id: "52FEA6D9C1258DA8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6295F3759D4FEB52"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					id: "264E42713756A368"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FD1A9872759D51A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "28277BA9F319240D"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "08DDE018A804BFE7"
+			rewards: [
+				{
+					count: 3
+					id: "4DF8BB733E3987AA"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7581AEE09026E85B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AE233B4CCFE99F7"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1112E4E2CCEB2467"]
+			id: "195729280394ABFB"
+			rewards: [
+				{
+					count: 4
+					id: "678DB51C677BC06B"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "239D2169C4D04472"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6934C61AFEB0443D"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C25D42C36175BF4"]
+			id: "7AE502EDB73BD57A"
+			rewards: [
+				{
+					count: 4
+					id: "62B555EE0C1159EA"
+					item: {
+						count: 1
+						id: "mekanism:dirty_dust_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42021EE0E4182CC6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "431D7329CFCAF880"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BDE773C3359D584"]
+			id: "7EA6B942D1294ED6"
+			rewards: [
+				{
+					id: "7C57840E160B0198"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "19790506DFD14C6D"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "36FE95268A543F7C"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "6DB1AAAD926486BC"
+			rewards: [
+				{
+					id: "2DF1E2F8B6BF2589"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61A355AF6464DF69"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "54BEF9EA9F1D4374"
+				item: { count: 1, id: "mekanism:basic_fluid_tank" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1FC7E9DBF92BE6AA"
+				"4204702AA6FBF40B"
+			]
+			hide_dependency_lines: false
+			id: "4BDE773C3359D584"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 2
+					id: "3E673FFE71B34FE5"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "588BDCC1603939B2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "171E6682D1578C63"
+				item: { count: 1, id: "mekanism:robit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "37D4E5ACB35D8BF1"
+			progression_mode: "linear"
+			rewards: [{
+				count: 8
+				id: "123DCDD9F530FFA4"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "71E922FC5BBF154C"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "07AD45DCF9EE3C2E"
+			rewards: [{
+				count: 2
+				id: "6A704852ED11FF06"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "28A769E7676E358F"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07AD45DCF9EE3C2E"]
+			hide_dependency_lines: true
+			id: "493FAE3A6088518E"
+			rewards: [{
+				count: 2
+				id: "5AC1DEEDD8FFA996"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "646785A06E01D173"
+				item: { count: 1, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["493FAE3A6088518E"]
+			id: "3E30EC9CA875A1F9"
+			rewards: [{
+				count: 2
+				id: "000B4B08BD526C93"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AA211725EA97D18"
+				item: { count: 1, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E30EC9CA875A1F9"]
+			id: "220C38510116BF36"
+			rewards: [{
+				count: 2
+				id: "6E331BB2D6BA643B"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "56A8A51990C7F0A1"
+				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "7CC49360D07086B8"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "18DB85CED00A8626"
+					item: {
+						count: 1
+						id: "mekanism:teleportation_core"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "35C9A4C0DA890DCC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0526878F9506FB48"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "09408C6DCAC90318"
+			rewards: [
+				{
+					count: 4
+					id: "5AEA9F7A2E2B9D3A"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4419790F9AB32A30"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "19C3A9D5E656FAA5"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["09408C6DCAC90318"]
+			hide_dependency_lines: true
+			id: "10909A87C1953F7C"
+			rewards: [
+				{
+					id: "703A409814DE3052"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D1D1925E7466414"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3939A98E3276095B"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["10909A87C1953F7C"]
+			id: "1DA058C68CF437DC"
+			rewards: [
+				{
+					id: "09FC5BA20B38EA59"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2259FB0501C03406"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0485F28A3916A974"
+				item: { count: 1, id: "mekanism:elite_energy_cube" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1DA058C68CF437DC"]
+			id: "7AF982B6D8FD6C03"
+			rewards: [
+				{
+					id: "667CB0A698B70FCE"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "505D0D29BE59F553"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "50A250703B09FA5A"
+				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "166971866A9234C7"
+			rewards: [
+				{
+					id: "553CF82B4CDE5085"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76862A5406FB24AE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "72CE838EFDDE6479"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			id: "7940E814260C556F"
+			rewards: [
+				{
+					id: "5FA097D4BF2A2654"
+					item: {
+						count: 1
+						id: "mekanism:enriched_diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2BA844DF376D1CD3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FE06FDA0A3A66C7"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7940E814260C556F"]
+			id: "019D5A05A2134C7E"
+			rewards: [
+				{
+					id: "6C480517028750E3"
+					item: {
+						count: 1
+						id: "mekanism:dust_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "250BBA7B88917A9D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DD9B2119BB50C80"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "0498A578D0EC3254"
+			rewards: [
+				{
+					id: "44A42C932205CED3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "182256CA63A32043"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E51F5B17F77573E"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0498A578D0EC3254"
+				"166971866A9234C7"
+			]
+			id: "6D7CABCFB50D8B0D"
+			rewards: [
+				{
+					id: "29E77041082DD2E9"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E682170B367F95C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "05F2EEE4DE21E2ED"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6D7CABCFB50D8B0D"
+				"7940E814260C556F"
+			]
+			id: "347C16F0F7CFAACF"
+			rewards: [
+				{
+					id: "5A285211E7D37512"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "142A9BEA93254438"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "48AC2274973C4509"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"347C16F0F7CFAACF"
+				"019D5A05A2134C7E"
+			]
+			id: "4AA150A009E904DA"
+			rewards: [
+				{
+					id: "2EAE017B367B43AF"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5C2DB00F05103FF3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E9FCA38BA758B41"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "1B6DDF50D00CBB31"
+			rewards: [
+				{
+					count: 4
+					id: "16CA6E046804153A"
+					item: {
+						count: 1
+						id: "oritech:steel_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0FE45BD5C5131A2D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0CFD8DBFAEB4CADD"
+					item: { count: 1, id: "mekanism:enriched_iron" }
+					type: "item"
+				}
+				{
+					id: "6C507030AF1776E1"
+					item: { count: 1, id: "oritech:steel_dust" }
+					type: "item"
+				}
+				{
+					id: "487D522C1808BF45"
+					item: { count: 1, id: "oritech:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "23F165DEAD225B10"
+			rewards: [
+				{
+					count: 4
+					id: "33E6BC2DA88E92EE"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2CA0F53CD84682A8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "56F8A49135418FD8"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23F165DEAD225B10"]
+			hide_dependency_lines: true
+			id: "618ECDB3FB534A8A"
+			rewards: [
+				{
+					id: "4251112B0D1DD407"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "045B490424D0D338"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "445F3D8AA18A518A"
+				item: { count: 1, id: "mekanism:advanced_universal_cable" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["618ECDB3FB534A8A"]
+			id: "7553689BC9202E14"
+			rewards: [
+				{
+					id: "36CEFD3C4C911810"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CD1F2C53675FD29"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6EC6D1463C65EBF2"
+				item: { count: 1, id: "mekanism:elite_universal_cable" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7553689BC9202E14"]
+			id: "32E093F004E8CAC6"
+			rewards: [
+				{
+					id: "79176D14EF3B83EA"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3124DFB9F7E2C80F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1ECDAF49CF1BC952"
+				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "2EF4DD5CC254CC80"
+			rewards: [
+				{
+					count: 4
+					id: "011785CCEDC7688E"
+					item: {
+						count: 1
+						id: "mekanism:basic_mechanical_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4518263EC375E440"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "45B151086147D98D"
+				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF4DD5CC254CC80"]
+			hide_dependency_lines: true
+			id: "1A72F7DA24E1BB09"
+			rewards: [
+				{
+					id: "037C1CE7070C0B32"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C7B90DEDC62B289"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "131392325AEB228E"
+				item: { count: 1, id: "mekanism:advanced_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1A72F7DA24E1BB09"]
+			id: "5B3FDF651D845DF1"
+			rewards: [
+				{
+					id: "4ACAD9AFAD866911"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B9E110BE53968D2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "78C482BF65B20673"
+				item: { count: 1, id: "mekanism:elite_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B3FDF651D845DF1"]
+			id: "01C3B23461807007"
+			rewards: [
+				{
+					id: "1E6AF12777A3DC15"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E455599CE7309D0"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "25D5626BBA7615F0"
+				item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "4434D7B66521D69A"
+			rewards: [
+				{
+					count: 4
+					id: "43C7CBD7952BAF44"
+					item: {
+						count: 1
+						id: "mekanism:basic_pressurized_tube"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "732CBCCAC1EF3387"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "685BFFC7BDA40FC3"
+				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "5B681BC43371CC5C"
+			rewards: [
+				{
+					count: 4
+					id: "75E2FFA83AB6A12A"
+					item: {
+						count: 1
+						id: "mekanism:basic_logistical_transporter"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D6707FEFC3140E5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3F972BE9DFCA1EB5"
+				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "531E3FF1F2865C67"
+			rewards: [
+				{
+					count: 4
+					id: "434BA009CC22D188"
+					item: {
+						count: 1
+						id: "mekanism:basic_thermodynamic_conductor"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DF6A7E6AFD359DE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5F4FEC0FD7C5CC33"
+				item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4434D7B66521D69A"]
+			hide_dependency_lines: true
+			id: "768F9EBD3E115CA6"
+			rewards: [
+				{
+					id: "26BB24141C9B2ABE"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D16E17A78FD5E07"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2E82ABE762A77F41"
+				item: { count: 1, id: "mekanism:advanced_pressurized_tube" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["768F9EBD3E115CA6"]
+			id: "6424D99CBA76895B"
+			rewards: [
+				{
+					id: "77D533A2F38CB569"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7BF01DE3A33C0CA3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "460D2FF854258953"
+				item: { count: 1, id: "mekanism:elite_pressurized_tube" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6424D99CBA76895B"]
+			id: "546F7FF099D2696E"
+			rewards: [
+				{
+					id: "1108A2C889716FB9"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02677EF56D833F86"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E066CC63A95B288"
+				item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B681BC43371CC5C"]
+			hide_dependency_lines: true
+			id: "30B3469DAA8D5A0A"
+			rewards: [
+				{
+					id: "14992A8BAD388D62"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B592A66FD333954"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "631FDADA57127F2E"
+				item: { count: 1, id: "mekanism:advanced_logistical_transporter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30B3469DAA8D5A0A"]
+			id: "46AB23E922C51517"
+			rewards: [
+				{
+					id: "65AF9109AA1628B1"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54C05C39741F9EFC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F7689D1D5DB5E8C"
+				item: { count: 1, id: "mekanism:elite_logistical_transporter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46AB23E922C51517"]
+			id: "6C8431C216A66C1F"
+			rewards: [
+				{
+					id: "104833FCB1B6DC9E"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "548B88781C2F8EBB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62A00D9DD3A8CA8E"
+				item: { count: 1, id: "mekanism:ultimate_logistical_transporter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["531E3FF1F2865C67"]
+			hide_dependency_lines: true
+			id: "7522F2DC9038ED92"
+			rewards: [
+				{
+					id: "6320408A77A35271"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "208DEAC73B141B87"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B1C318ACC88ED60"
+				item: { count: 1, id: "mekanism:advanced_thermodynamic_conductor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7522F2DC9038ED92"]
+			id: "55E2F8C6A71E7328"
+			rewards: [
+				{
+					id: "49E7514605C6EA5E"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2F9D44E574E441B6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "72F178B9B6C32B15"
+				item: { count: 1, id: "mekanism:elite_thermodynamic_conductor" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55E2F8C6A71E7328"]
+			id: "5E2F9E27E6B4DF74"
+			rewards: [
+				{
+					id: "10063AB362447989"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D480B466924A626"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "744EA1745278F562"
+				item: { count: 1, id: "mekanism:ultimate_thermodynamic_conductor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			id: "31B73D16C0199785"
+			rewards: [
+				{
+					id: "66D918CA2A6FE21B"
+					item: {
+						count: 1
+						id: "mekanism:enriched_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1420B21CB55DCCB5"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69CEEFADCFA28675"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			id: "58445E5B3957ACC8"
+			rewards: [
+				{
+					count: 2
+					id: "356543506AA2B6B0"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "154D49272745546B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "532EE85D4748D50D"
+				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18D88932916C7A98"
+				"407EFAF528871014"
+			]
+			id: "6C25D42C36175BF4"
+			rewards: [
+				{
+					count: 4
+					id: "258304336DF472BB"
+					item: {
+						count: 1
+						id: "mekanism:clump_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E8387B2DDD8F6E6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4983AE3B954BF2FE"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6F62B5510FA881CD"
+				"59B4CC697BA6F431"
+			]
+			id: "488DBE69595F38F8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "43FE96E4A4A00D5C"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53DCEA8A52CC6B32"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A081977DB9407EA"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "18D88932916C7A98"
+			rewards: [
+				{
+					id: "58B361AC94AEB36D"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56FC4EC4398CC736"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "054CC6FB5173F8A3"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["407EFAF528871014"]
+			id: "3EC9D0DA61B45328"
+			rewards: [
+				{
+					count: 2
+					id: "5E48D3BDD3BDAF4C"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DFBEDF209805ABF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C13E8B67BC61E34"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["263220DCCDB90E29"]
+			id: "4F1C04C0F6769825"
+			rewards: [
+				{
+					count: 2
+					id: "241F3906AE9BC520"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2133E044A6F5606B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "443DCB7E2E45F3DD"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			id: "04E2D539E33B7B0F"
+			rewards: [
+				{
+					id: "705B375C9325097E"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "577D4ADF44B45F7E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31D203EC92BEA66F"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F1C04C0F6769825"]
+			id: "603877AB96321F1A"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "4100CC9EB7A59223"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2819EED18A2E9DDC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "716D483EFC35F6F3"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "33D7942176AD257D"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BAD2AADFE32215A"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			id: "4F436770D30D8520"
+			rewards: [
+				{
+					count: 2
+					id: "168E7AFB6769C922"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "389BB8357BCFFD95"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22B427BE25E35D2D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FE5AA0FF1F9BB51"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "4236B9F071BE18F3"
+			rewards: [{
+				count: 8
+				id: "1AFB7FE0EC9451BB"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50D9504BFFB97A27"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "2E274BEEF2B0B8C7"
+			rewards: [
+				{
+					count: 4
+					id: "492B1684540856C4"
+					item: {
+						count: 1
+						id: "mekanism:dust_sulfur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "474757F16DEA4F52"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21BFDF262D2A9DB3"
+					item: { count: 1, id: "mekanism:chemical_oxidizer" }
+					type: "item"
+				}
+				{
+					id: "7224282CD650AF12"
+					item: { count: 1, id: "mekanism:dust_sulfur" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			id: "027084AE2DF5EBA6"
+			optional: true
+			rewards: [
+				{
+					id: "3EF65B888EC38888"
+					item: {
+						count: 1
+						id: "mekanism:thermal_evaporation_valve"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B20E60927DDDA87"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2F261C636C9AB525"
+					item: { count: 1, id: "mekanism:resistive_heater" }
+					type: "item"
+				}
+				{
+					id: "0285CFB7E9969FFC"
+					item: { count: 1, id: "mekanism:fuelwood_heater" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "7B0DFA55B4D8B16D"
+			rewards: [
+				{
+					id: "1BF6EFE93A37AF5C"
+					item: {
+						count: 1
+						id: "mekanism:teleportation_core"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7A38FAD36E1529E6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 9L
+					id: "2C1730C4F7CB8377"
+					item: { count: 1, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+				{
+					id: "68FE61A81A5C1390"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "1FC7E9DBF92BE6AA"
+			rewards: [
+				{
+					count: 2
+					id: "1C80927AD35981DC"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00BDB4A1EA4F1EE1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "79EF9001D76FD91D"
+				item: { count: 1, id: "mekanism:energy_tablet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "3C8D9278B81BB37A"
+			rewards: [{
+				count: 2
+				id: "67C317838B7D20F7"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "46C5C0922839BDCA"
+				item: { count: 1, id: "mekanism:upgrade_speed" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "0ACE573560A19309"
+			rewards: [{
+				count: 2
+				id: "77FBBECA4A39C81F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1B5CF4B0B6D3F6F9"
+				item: { count: 1, id: "mekanism:upgrade_energy" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "763FB27929E053BE"
+			rewards: [{
+				count: 2
+				id: "62BD844EBDFBF923"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "43E4874F23459DB1"
+				item: { count: 1, id: "mekanism:upgrade_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "001DE8028CAF0A08"
+			rewards: [{
+				count: 2
+				id: "4E55AD65BCB6B30A"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "126FB3CA8F2CCF11"
+				item: { count: 1, id: "mekanism:upgrade_muffling" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "09830BB2A23E94B4"
+			rewards: [{
+				count: 2
+				id: "703D2DAFBE1D3298"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "70A4BDDF6392DC9D"
+				item: { count: 1, id: "mekanism:upgrade_chemical" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "515A60B89ED5440D"
+			rewards: [{
+				count: 2
+				id: "4C765113C991DC36"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0872B5A950703C8A"
+				item: { count: 1, id: "mekanism:upgrade_stone_generator" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FC7E9DBF92BE6AA"]
+			hide_dependency_lines: true
+			id: "5E116409DC7D30BB"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 2
+					id: "0ED347A0F4E13511"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "068D5F7610648D35"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2612CACBDDF9AD1A"
+				item: { count: 1, id: "mekanism:configurator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18D88932916C7A98"]
+			id: "407EFAF528871014"
+			rewards: [{
+				id: "5F4E37BD22336518"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16DAFC5C5846015A"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DB1AAAD926486BC"]
+			hide_dependency_lines: true
+			id: "30F8BA43B1BB9035"
+			rewards: [
+				{
+					id: "00CDBE4821328DA1"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71C323D5014A5B6A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FFEF5D6055A67B1"
+				item: { count: 1, id: "mekanism:advanced_fluid_tank" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["30F8BA43B1BB9035"]
+			id: "5F94483E05D2F528"
+			rewards: [
+				{
+					id: "7F6A9FAF38A5D2BC"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "328BF705DC090AFF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05059B48A8F56BC5"
+				item: { count: 1, id: "mekanism:elite_fluid_tank" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F94483E05D2F528"]
+			id: "712CB147B5873121"
+			rewards: [
+				{
+					id: "08BCA7595E1FCCA5"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0FBD56117A472D81"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "33F9C615B944909A"
+				item: { count: 1, id: "mekanism:ultimate_fluid_tank" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "41EB0C570FC54F43"
+			rewards: [
+				{
+					count: 2
+					id: "619F2864C80A72C1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05E106DE4C033851"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "665B9818855C0028"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41EB0C570FC54F43"]
+			hide_dependency_lines: true
+			id: "1162544BA1B2B0F3"
+			rewards: [
+				{
+					id: "2C5A55BA98B06B73"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04F971633F208EDA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "78CFB8D559DA92AE"
+				item: { count: 1, id: "mekanism:advanced_chemical_tank" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1162544BA1B2B0F3"]
+			id: "4C4B1602E2AFC314"
+			rewards: [
+				{
+					id: "6D2016B2AC651AC9"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "57147D3D5335A809"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1D2AE44FA5391B71"
+				item: { count: 1, id: "mekanism:elite_chemical_tank" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C4B1602E2AFC314"]
+			id: "0C0D0B80B3FA26F2"
+			rewards: [
+				{
+					id: "444CC7C6B07C4B6C"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FAA186E9CF60F0D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FD0078940E64A4C"
+				item: { count: 1, id: "mekanism:ultimate_chemical_tank" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "74200A48498DD7F8"
+			rewards: [
+				{
+					count: 2
+					id: "1980E2C2F1BE5EFA"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7724C71A058C1615"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "22ACFEB806D68385"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "0650996C7818ADB5"
+			rewards: [
+				{
+					id: "7072D079156C2A44"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1E8DCF602C003DB1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "7BA12BAB8271E170"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74200A48498DD7F8"]
+			id: "4EDD96EB60EF5814"
+			rewards: [
+				{
+					count: 4
+					id: "7516A10A924255FD"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "749A97B954E8A490"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B1E28AA234CDE40"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "4F0B3CA66BE1AEE1"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "7778937DF377C1B4"
+			rewards: [
+				{
+					count: 2
+					id: "02524F0D8A7A3B72"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21C1E2429DFAF8FF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "50624A39AD15A8A6"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "58B125BD4876054C"
+			rewards: [{
+				count: 2
+				id: "4C43E14F11D1E07A"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7BEE980CE7128433"
+				item: { count: 1, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			id: "6F62B5510FA881CD"
+			rewards: [
+				{
+					id: "52CF295425D3C2B9"
+					item: {
+						count: 1
+						id: "mekanism:raw_osmium"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07F4A963BDE3D1A9"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F7884CBBA2DE758"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			id: "263220DCCDB90E29"
+			rewards: [
+				{
+					count: 2
+					id: "07F4FEA9CD91FB7B"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "30B6CD3A5FA23043"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B3940951684C67D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "46C4C1AD9FA5BEE2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4F1C04C0F6769825"
+				"04E2D539E33B7B0F"
+			]
+			id: "1112E4E2CCEB2467"
+			rewards: [{
+				count: 8
+				id: "66AD4C06B9364CE9"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57F40CFA03BD36EF"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "587A19FC348387C5"
+			rewards: [
+				{
+					count: 2
+					id: "7F4F10CD3B125E3A"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "46666A10A89D64E1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C162E39F2ACA72F"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			id: "3B43DB1A6B0A7B44"
+			rewards: [{
+				count: 2
+				id: "55149584B8D5240E"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "05138E2E906020F3"
+				item: { count: 1, id: "createaddition:biomass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B43DB1A6B0A7B44"]
+			id: "5047792C6EF6D2AD"
+			rewards: [
+				{
+					id: "4501F6A232456167"
+					item: {
+						count: 1
+						id: "mekanism:substrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "167C1075CB526F54"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "1F6A5B58DF94730B"
+				item: { count: 1, id: "mekanism:substrate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5047792C6EF6D2AD"]
+			id: "76A38CCA5816CDAD"
+			rewards: [
+				{
+					count: 2
+					id: "16F49D5355A06C1B"
+					item: {
+						count: 1
+						id: "mekanism:substrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "634D3D3241D02598"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "62E8F3CC847BBD3D"
+				item: { count: 1, id: "mekanism:hdpe_pellet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76A38CCA5816CDAD"]
+			id: "47106CE1937C4340"
+			rewards: [
+				{
+					count: 3
+					id: "7860A1534035D1A4"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B674695D8D1CECE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "373FB8A41036E373"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "49675EA8CBCA1388"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4E1AED4AF2EC03AB"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07589E6442837DAB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "79F38A9428A0A23D"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "0F326EEEC2EBE4E5"
+			rewards: [
+				{
+					count: 2
+					id: "1B7E6CC9019F43AB"
+					item: {
+						count: 1
+						id: "mekanism:enriched_carbon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C2F27EC753594B4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B60ACBCC3B46D1D"
+				item: { count: 1, id: "mekanism:enriched_carbon" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "4AFF81D3D0E78255"
+			rewards: [
+				{
+					id: "1DBAC783344ADE74"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "098B311CF9976318"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DA159AA61B37545"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "3999760881C855FA"
+			rewards: [
+				{
+					id: "65F42DB771F045C7"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E41B2067C3381EB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F2B3A4206C129B0"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3999760881C855FA"
+				"4AFF81D3D0E78255"
+			]
+			id: "3C49F2EEDCCAF1DF"
+			min_width: 300
+			rewards: [
+				{
+					id: "687EEE12D84E25B2"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "6DBBACE68DF25FC7"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B20809000C4C37F"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B3B58C438FD4397"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "4204702AA6FBF40B"
+			rewards: [
+				{
+					count: 2
+					id: "4F7916E99F08320A"
+					item: {
+						count: 1
+						id: "createaddition:electrum_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B7C8D169A8DD38F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6190BE8B67130AB5"
+				item: { count: 1, id: "mekanism:chargepad" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4236B9F071BE18F3"
+				"2E274BEEF2B0B8C7"
+			]
+			id: "7E4A95B6443F23BC"
+			rewards: [
+				{
+					id: "055F8A2155FA533C"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "1BFC07942AF435C7"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "069E361C5E069DFE"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "60BF6E0420C91050"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			id: "59B4CC697BA6F431"
+			rewards: [
+				{
+					count: 2
+					id: "6ABED56794B052AF"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2123A755317FA26C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48D5EE944D08AF02"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+	]
+}

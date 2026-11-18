@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in": "minecraft:amethyst_block",
+    "post": [
+        "drop minecraft:amethyst_shard /.50",
+        "drop minecraft:amethyst_shard /.50",
+        "drop minecraft:amethyst_shard /.50",
+        "drop minecraft:amethyst_shard /.50"
+    ]
+}

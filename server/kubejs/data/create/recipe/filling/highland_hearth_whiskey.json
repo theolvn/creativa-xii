@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:bdd_signature_whiskey"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewery:whiskey_highland_hearth"
+    }
+  ]
+}

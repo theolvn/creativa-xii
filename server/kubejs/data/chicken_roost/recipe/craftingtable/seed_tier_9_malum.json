@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "count": 3,
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "chicken_roost:chicken_food_tier_8"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_9"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 48
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 48
+    },
+    {
+      "type": "malum:arcane",
+      "count": 48
+    },
+    {
+      "type": "malum:infernal",
+      "count": 48
+    }
+  ]
+}

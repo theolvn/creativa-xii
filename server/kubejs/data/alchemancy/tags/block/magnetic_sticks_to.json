@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "create:blaze_burner",
+    "create:industrial_iron_block",
+    "create:weathered_iron_block",
+    "create:ornate_iron_window",
+    "create:industrial_iron_window",
+    "create:weathered_iron_window",
+    "create:ornate_iron_window_pane",
+    "create:industrial_iron_window_pane",
+    "create:weathered_iron_window_pane",
+    {"id": "create_enchantment_industry:blaze_enchanter", "required": false},
+    {"id": "create_enchantment_industry:blaze_forger", "required": false},
+    {"id": "createaddition:barbed_wire", "required": false}
+  ]
+}

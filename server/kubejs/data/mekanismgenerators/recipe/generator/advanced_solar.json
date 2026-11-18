@@ -1,0 +1,30 @@
+{
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "A": {
+            "item": "mekanismgenerators:solar_generator"
+            },
+            "B": {
+            "item": "mekanism:alloy_infused"
+            },
+            "C": {
+            "item": "cgs:steel_sheet"
+            },
+            "D": {
+            "item": "mekanism:basic_control_circuit"
+            }
+        },
+        "pattern": [
+            "ABA",
+            "ABA",
+            " C ",
+            "CDC"
+        ],
+        "result": {
+            "count": 1,
+            "id": "mekanismgenerators:advanced_solar_generator"
+        },
+        "show_notification": false
+    }

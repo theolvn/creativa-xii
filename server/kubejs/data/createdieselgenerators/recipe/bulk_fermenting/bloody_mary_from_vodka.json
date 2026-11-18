@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:vodka",
+      "amount": 1000
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:bloody_mary",
+      "amount": 1000
+    }
+  ]
+}

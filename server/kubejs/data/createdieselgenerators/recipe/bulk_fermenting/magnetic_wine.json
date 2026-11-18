@@ -1,0 +1,20 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:red_jungle_grapejuice",
+      "amount": 1000
+    },
+    {
+      "item": "oritech:magnetic_coil"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "kubejs:magnetic_wine",
+      "amount": 1000
+    }
+  ]
+}

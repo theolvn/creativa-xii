@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "create:brass_ingot"
+    },
+    "y": {
+      "item": "ars_nouveau:archwood_slab"
+    },
+    "z": {
+      "item": "supplementaries:jar"
+    }
+  },
+  "pattern": [
+    "yyy",
+    "xzx",
+    "yyy"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:source_jar"
+  }
+}

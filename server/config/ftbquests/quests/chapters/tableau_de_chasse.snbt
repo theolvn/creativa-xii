@@ -1,0 +1,2547 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tableau_de_chasse"
+	group: ""
+	id: "3415D37B4BAE280E"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5CFBF1342897E4A6"
+			rewards: [
+				{
+					id: "560D461BC35C750B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "719B1C86B6E17362"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0186CA5DACBDF0DC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "1284C820FE940DE7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "3F720F3684DA7DFE"
+			rewards: [
+				{
+					id: "6DF08D8E7CF52497"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6584C629FBEBE4AC"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C09B76556A64FC8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "25D996D00FA53086"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "3DFDDAEAE148AEB5"
+			rewards: [
+				{
+					id: "0E6D8F12F98A0522"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "68E3A120E65A8792"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B3EBAF1A3C9A4AE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					id: "iceandfire:gorgon_head"
+				}
+				id: "4D009FA34DAC1C48"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "550B19D89A8F7046"
+			rewards: [
+				{
+					id: "5FD4577008565F9B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0C09BEBF027B6988"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "655C427DF228523E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+				id: "433C0330829BCFF1"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "70BC75B4F3ECA3DC"
+			rewards: [
+				{
+					id: "401EF2596D8FA1F0"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3113EC7213FD5D02"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22E2687B61073EAD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "72E01EFB42A382B4"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "599E02B723C2919A"
+			rewards: [
+				{
+					id: "5A97F2C0F6642EEF"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "05A4CC6D325293F1"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B6715C534E91DB2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "0E89583087EF6180"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "5789B356C292E39D"
+			rewards: [
+				{
+					id: "2E99E0238E75F13E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4C0803B9CF04A778"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "516EDAC1E722439D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "5030AEA2841B2FB1"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "4921371B4EEAFC0F"
+			rewards: [
+				{
+					id: "353865F413E131B8"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "61170A27FD9B042A"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "43ACCE0E63AC457F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "1AE728BA73E82DD7"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			id: "70A6ED93E71F0FA8"
+			rewards: [
+				{
+					id: "5E17F9647F6F77B6"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1DCC4E2EF5D0D9EB"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DD28E6D9622471D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+				id: "50D9280BF9C4D146"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "19462C5606F02027"
+			rewards: [
+				{
+					id: "7F6527E499AB0FE6"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "30AA4188D522E9E5"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19AC7E16BB27DE1A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "5759D51C90EFD37A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "746A6BA99F4A6A8B"
+			rewards: [
+				{
+					id: "3910445EC925478A"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7AFE30093FF16D4D"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "326A6BED27755D81"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "6117179C0D0E283B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "125FA2C99D3CF502"
+			rewards: [
+				{
+					id: "2D6D0CBD253ECF02"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0CB5BFCE5E5C971C"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6068CB1C36E7D305"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "4255B53EA020F782"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "5A5747312F3D91B9"
+			rewards: [
+				{
+					id: "6AB8C96C78F991E3"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6AA0478467A046F2"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1ED239723212C37C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7A1632D292E9AF3C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "3583B4AD263327B0"
+			rewards: [
+				{
+					id: "586588F1D089B237"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4F5EDA88CE5115B3"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D89FFC891426433"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "0871E7AFB00A2A26"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			id: "778244CCE04FE33A"
+			rewards: [
+				{
+					id: "4A008E43020E88C7"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0FABA1C3BE6BBBCB"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D9451196C6A08BB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "55AA0C5915EA2957"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "0CEE448A9FE2E1C4"
+			rewards: [
+				{
+					id: "7447ACBCFFF9CB6C"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4C21F8C58F33188A"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AF3029AF3F1151C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "mowziesmobs:kill_foliaath"
+				criterion: ""
+				id: "61EBB41EC2C0DFE4"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "34F6C35A6E182347"
+			rewards: [
+				{
+					id: "67EB247E2AC9F6A2"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "578016148C8B1AF6"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "602E5B32371462AC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "mowziesmobs:kill_bluff"
+				criterion: ""
+				id: "4430FB89BEE06C98"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "203A542E01FDB691"
+			rewards: [
+				{
+					id: "3908E00C040F207F"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1764CAFD11FDC468"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15D42EBD012AFE90"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "mowziesmobs:kill_elokosa_howler"
+				criterion: ""
+				id: "79F59C89608EE5C7"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			id: "65383EEEAF3D8D3D"
+			rewards: [
+				{
+					id: "2400D8B124E37EE5"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "56B9E2C20DA0BF93"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DDE5E34B8687EFA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthana_raptor"
+				criterion: ""
+				id: "71898861F8BDDE32"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "2106B58B6127525D"
+			rewards: [
+				{
+					id: "3813213CC5448473"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "48D016705EB78BD1"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C1B840B21C04FA6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "mowziesmobs:kill_naga"
+				criterion: ""
+				id: "32E6AF7F99E6B717"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "315B126354075D2D"
+			rewards: [
+				{
+					id: "3DE71A3694203D13"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "658106C113170649"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3193334CDFFD09BD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "cataclysm:kill_clawdian"
+				criterion: ""
+				id: "1A65D878CBAC4475"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "592A25D5E8B63114"
+			rewards: [
+				{
+					id: "3FD9BB7C31D4EFC8"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3A24ACC9E7CA96A2"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DFAA0B737220C86"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ignited_berserker"
+				id: "365CB19FE41DDC06"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "24B42333AF5D0FE7"
+			rewards: [
+				{
+					id: "0F5FA9E07F5BE3F8"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "23BBC5D74788A405"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "033B9F44AEE81D5C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "0387F8BD2ACF9F69"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "2387D61909AFD38B"
+			rewards: [
+				{
+					id: "292CCE0769D2446B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "617FFD6FFA016097"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "782C29790769EA81"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "4B887B176DD0EE43"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "4AF5664A8B474D30"
+			rewards: [
+				{
+					id: "40FB7D4EF5B123DD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "75C5128F620979EF"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4747D5AB10B30D95"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "0E6EB166C38DEBF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "11B22942F475B515"
+			rewards: [
+				{
+					id: "3F68F44A7A20F336"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4126F2B7F2949377"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EF07EC3DB978E59"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "3C91299CAC2EFC9B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "6D476714D9BBF103"
+			rewards: [
+				{
+					id: "7371A14ED90946CD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "48E4C0CEC98F0A73"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38244E51C670AF0D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				id: "1D4E6F373CC53C65"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "5B6E260B4C9290FB"
+			rewards: [
+				{
+					id: "51CF0824F1E98F9B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "16B89196D1B09951"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07D5A77C5E3C030C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "408A8FA130EF3479"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["301FD74D16131B49"]
+			id: "5AC762DCD70E4E6E"
+			rewards: [
+				{
+					id: "080DF4DC0B1CC850"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C84F24BC841DE5A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "086B6B6A29B41851"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["412684A6BF0AFD90"]
+			id: "0DD59A128B834A62"
+			rewards: [
+				{
+					id: "2AC1DFCED61197C4"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5DF0B98E810B69EE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "425C232E58194E3A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["03BBACE3241F76C1"]
+			id: "6889B1A7CE82F141"
+			rewards: [
+				{
+					id: "1785DBC1E076CE8E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "239E735524F2613B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "190AE89438296E7F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B7FE81893993C46"]
+			id: "695460D77B50776F"
+			rewards: [
+				{
+					id: "20D284B7EE77B042"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F8E25B2F52DB545"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "36A7C313C16577C0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["445F86B9268489A7"]
+			id: "7CB3A343CD5BD7E7"
+			rewards: [
+				{
+					id: "3031F2544D3FF496"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "005D16E278F222BF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "506BB09BA1152CC2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E31057A9784A275"]
+			id: "1FFAF6472807F6A4"
+			rewards: [
+				{
+					id: "40878F23B11B31BD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15A14C90506A9124"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "632CA673EE503433"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5741D01BB02BCA2F"]
+			id: "14F7FC96A8097896"
+			rewards: [
+				{
+					id: "3DCC59967C813103"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3AA3AD68AEB9B751"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "7EC1E06851A1CD04"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3868AD248609F1EE"]
+			id: "65E3FE7C908C4739"
+			rewards: [
+				{
+					id: "68BC42160F962DAF"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F4A81D1E0001CDF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6EBA781B2B4DDC36"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B2C28D496CCAA45"]
+			id: "58CA6C5780D4F7ED"
+			rewards: [
+				{
+					id: "01A01698C0D27CA6"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E740F80065CAD9B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "72496DFC0576605F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70045422BBDB15C9"]
+			id: "2F8E3C698C1C4F06"
+			rewards: [
+				{
+					id: "71FC0A04A77E65E4"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E9AF6EACB980F60"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "1A05157615902E64"
+				type: "kill"
+				value: 100L
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7837D05F7714E591"]
+			id: "301FD74D16131B49"
+			rewards: [
+				{
+					id: "12390785D90B6617"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "049BC653B50E2164"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "158569DC835F81E7"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "7837D05F7714E591"
+			rewards: [
+				{
+					id: "0C7E34F53B6B6CFD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A63E0B4DF947317"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "4FF12E1ECE45F8B8"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43EDCD6033C937B2"]
+			id: "412684A6BF0AFD90"
+			rewards: [
+				{
+					id: "05350AC4A08D648D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A8274DD3693F4AA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "7CADC6B03D1ABD20"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "43EDCD6033C937B2"
+			rewards: [
+				{
+					id: "4394E919F79139B8"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09E2426EBF45845E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "0D0A5B050887B39D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B82823F4EF069DA"]
+			id: "03BBACE3241F76C1"
+			rewards: [
+				{
+					id: "458021044DED8B19"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C8D68686652E72B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2E6B221E7419D5A2"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "3B82823F4EF069DA"
+			rewards: [
+				{
+					id: "04B7C0E78AB0046B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1573D1F3DD076B86"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2441EF28459696AA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F275BB0A9B1611E"]
+			id: "6B7FE81893993C46"
+			rewards: [
+				{
+					id: "13B722D2D8A1CC6A"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DAAE9A3D1BE6BD1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "0590A81EA4AEC8C2"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63DF15245EC1AC4A"]
+			id: "445F86B9268489A7"
+			rewards: [
+				{
+					id: "08DB76C4A1CF7EAD"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0626FA2DF6331DF7"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "1666B1F1ACF152FB"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A964ED33BE6741B"]
+			id: "6E31057A9784A275"
+			rewards: [
+				{
+					id: "0C39195663313672"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EDAD2BCF048CB10"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7ED464F37C82EAC5"
+				type: "kill"
+				value: 50L
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09771255D35C1921"]
+			id: "5741D01BB02BCA2F"
+			rewards: [
+				{
+					id: "5CEC433EE1FF70A5"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "673D8D05C1A03F55"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "10478117939CCED1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["383C6CC114922FB9"]
+			id: "3868AD248609F1EE"
+			rewards: [
+				{
+					id: "0434108AFA4C412B"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53A2592CFFB9C52F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "740BBFAFCB01FB40"
+				type: "kill"
+				value: 50L
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15722FCD31E4A4B6"]
+			id: "6B2C28D496CCAA45"
+			rewards: [
+				{
+					id: "26A75618723B23BC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "423B634AF0D06C5C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "4E4F5DF58DA2CE5F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09C164513B2B93DB"]
+			id: "70045422BBDB15C9"
+			rewards: [
+				{
+					id: "58086CDEE39661F1"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "282C06D2A9A5A883"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "38BB6885C1771818"
+				type: "kill"
+				value: 50L
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			id: "2F275BB0A9B1611E"
+			rewards: [
+				{
+					id: "11260E194A376839"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E4D803923513F4B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "7C0A2AE5319C048D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "63DF15245EC1AC4A"
+			rewards: [
+				{
+					id: "7688DDC7FD90C7EC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "054BB15299A6C2EA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "1DC2650B0E9EA854"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "5A964ED33BE6741B"
+			rewards: [
+				{
+					id: "2189ED842AD5E9D4"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24046766531A6399"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5306F9C1FF1C223B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "09771255D35C1921"
+			rewards: [
+				{
+					id: "4FF6331B8584A262"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20EC8EA863C18D24"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "159DDACBFE3C5AAE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "383C6CC114922FB9"
+			rewards: [
+				{
+					id: "1CABC70D02955845"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F8185BE0075B572"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "5B1A9B26550E407D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			id: "15722FCD31E4A4B6"
+			rewards: [
+				{
+					id: "082EB7A1D6582809"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C462ECAAB33CC59"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "7662CCF66D9012BA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			id: "09C164513B2B93DB"
+			rewards: [
+				{
+					id: "611313B41C7F8837"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7536F9E5B6470174"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "1E3AECAD3B2B07CE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AC762DCD70E4E6E"]
+			id: "1D8750E505963816"
+			rewards: [
+				{
+					id: "518D45394DA31F8D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "4C9E70351E8011A7"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23B4903D5DD8B98A"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1B54A78911F25F89"
+				type: "kill"
+				value: 250L
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DD59A128B834A62"]
+			id: "162ED1D4892FB446"
+			rewards: [
+				{
+					id: "78A8CF6F15A01CD9"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "25EACDE4F0451765"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E1243E5E110A96A"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "57DA0CAFB421C9B3"
+				type: "kill"
+				value: 250L
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6889B1A7CE82F141"]
+			id: "48A87AF02DD3CA61"
+			rewards: [
+				{
+					id: "4DDCC50DF80799D2"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "3EF69D248589EEDF"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "766BD61D820527F7"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "39CD1921EA97A6B7"
+				type: "kill"
+				value: 250L
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["695460D77B50776F"]
+			id: "5230B7F15318AE42"
+			rewards: [
+				{
+					id: "24E1A9A7C3D17226"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "2D4CA40725B7CAA3"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26EFEF148E4F9E99"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "7BE3AA49E8897548"
+				type: "kill"
+				value: 250L
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CB3A343CD5BD7E7"]
+			id: "637DD4753538D3C1"
+			rewards: [
+				{
+					id: "64C0D22A48E3BA77"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "204EDB5968E456CC"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3EC41503F23E141A"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "576FBBE664823B1E"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1FFAF6472807F6A4"]
+			id: "49741F44A4589ED0"
+			rewards: [
+				{
+					id: "510C165B67BC8326"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "578AFD437F76E64A"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "575F04CE908B8955"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "4DCE1D09110726C5"
+				type: "kill"
+				value: 250L
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14F7FC96A8097896"]
+			id: "25A7D1F33509923B"
+			rewards: [
+				{
+					id: "466C3D82920CB73E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "118F4D2692A5C3A5"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FE4993B00B6BD86"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "34229B108A2F307D"
+				type: "kill"
+				value: 250L
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65E3FE7C908C4739"]
+			id: "05C5EA7BF60702E5"
+			rewards: [
+				{
+					id: "356C997E16B3D866"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "578D89D51EDF15F3"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4089F0C4C55DBCD1"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7AE83F9AA7758046"
+				type: "kill"
+				value: 250L
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["58CA6C5780D4F7ED"]
+			id: "148DA12DDE2BAC44"
+			rewards: [
+				{
+					id: "122A701B5332A174"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "1E3033D48C8D3812"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B8626147834C949"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "3D4EB97C7D252FFE"
+				type: "kill"
+				value: 250L
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F8E3C698C1C4F06"]
+			id: "701FFE9DBA4140FF"
+			rewards: [
+				{
+					id: "263525FF7F00D0AC"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "3F772C39FC57EE64"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A2A23AA8A1A3CC6"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "23C4F3C1F95EF4F9"
+				type: "kill"
+				value: 250L
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			id: "69110F7B0ABC5957"
+			rewards: [
+				{
+					id: "01C7A4634376ED3D"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "235166F8CC3BB18F"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "36EBEC87953CCEAC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "1031FE7C45771258"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "0BE1C40C14E563AA"
+			rewards: [
+				{
+					id: "539DAAE7A3416562"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2DACE6E0D615103C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "friendsandfoes:nether/obtain_wildfire_crown"
+				criterion: ""
+				id: "0B1E0ABD509010FD"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+	]
+}

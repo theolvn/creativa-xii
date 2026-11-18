@@ -1,0 +1,27 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "chicken_roost:chicken_essence_tier_2"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "chicken_roost:chicken_food_tier_2"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_3"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 4
+    },
+    {
+      "type": "malum:earthen",
+      "count": 4
+    }
+  ]
+}

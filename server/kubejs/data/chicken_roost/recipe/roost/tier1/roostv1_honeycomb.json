@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": { 
+    "tag": "c:seeds/tier4orup"
+  },
+  "chicken": {
+      "item": "chicken_roost:c_honeycomb"
+  },
+  "time": 100,
+  "output": {
+    "item": "minecraft:honeycomb"
+  }
+}

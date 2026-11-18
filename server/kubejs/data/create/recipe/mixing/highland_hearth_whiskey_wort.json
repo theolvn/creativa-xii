@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:nettle_beer",
+      "amount": 1000
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "farm_and_charm:oat"
+    },
+    {
+      "item": "minecraft:poppy"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:bdd_signature_whiskey_wort"
+    }
+  ]
+}

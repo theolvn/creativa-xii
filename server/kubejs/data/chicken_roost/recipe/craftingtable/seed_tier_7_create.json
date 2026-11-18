@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_6"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_6"
+    },
+    {
+      "item": "deeperdarker:reinforced_echo_shard"
+    },
+    {
+      "item": "deeperdarker:reinforced_echo_shard"
+    },
+    {
+      "item": "deeperdarker:reinforced_echo_shard"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:chicken_food_tier_7"
+    }
+  ]
+}

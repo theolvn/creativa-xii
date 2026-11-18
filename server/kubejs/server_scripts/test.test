@@ -1,0 +1,7 @@
+MoreJS.villagerTrades(event => {
+    event.removeVanillaTypedTrades();
+    event.removeModdedTypedTrades();
+
+    //event.addTrade('minecraft:farmer', 1, TradeItem.of('minecraft:wheat', 3, 10), TradeItem.of('minecraft:emerald', 6));
+    event.addTrade("minecraft:farmer", 1, TradeItem.of("minecraft:diamond", 3), TradeItem.of('minecraft:emerald', 6))
+});

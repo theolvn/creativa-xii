@@ -1,0 +1,6 @@
+{
+    "type": "lychee:dripstone_dripping",
+    "source_block": "lava",
+    "target_block": "grass_block",
+    "post": "place dirt"
+}

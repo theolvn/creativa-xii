@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:doub_pissyak_whiskey_wort",
+      "amount": 100
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 60,
+  "results": [
+    {
+      "id": "kubejs:doub_pissyak_whiskey",
+      "amount": 20
+    },
+    {
+      "id": "createbb:methanol",
+      "amount": 50
+    },
+    {
+      "id": "oritech:still_biofuel",
+      "amount": 30
+    }
+  ]
+}

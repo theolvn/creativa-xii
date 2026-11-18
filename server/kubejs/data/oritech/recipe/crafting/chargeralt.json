@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "c:chests/wooden"
+    },
+    "c": {
+      "item": "ae2:logic_processor"
+    },
+    "f": {
+      "tag": "c:ingots/steel"
+    },
+    "m": {
+      "item": "oritech:energy_pipe"
+    },
+    "s": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "pattern": [
+    "fsf",
+    "mcm",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:charger_block"
+  }
+}

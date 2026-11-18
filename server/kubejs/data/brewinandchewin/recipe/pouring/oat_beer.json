@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 250,
+    "id": "kubejs:oat_beer"
+  },
+  "container": {
+    "id": "brewinandchewin:tankard",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "brewery:beer_oat"
+  },
+  "unit": "millibuckets"
+}

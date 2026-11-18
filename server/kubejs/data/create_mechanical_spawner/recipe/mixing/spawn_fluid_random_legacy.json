@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "sauce:source_fluid"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_mechanical_spawner:spawn_fluid_random"
+    }
+  ]
+}

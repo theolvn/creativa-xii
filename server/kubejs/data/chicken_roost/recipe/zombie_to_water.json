@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "chicken_roost:c_zombie"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:c_water"
+    }
+  ]
+}

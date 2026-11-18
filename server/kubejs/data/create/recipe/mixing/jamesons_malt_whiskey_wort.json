@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:hops_beer",
+      "amount": 1000
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "farm_and_charm:oat"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:valentines_whiskey_wort"
+    }
+  ]
+}

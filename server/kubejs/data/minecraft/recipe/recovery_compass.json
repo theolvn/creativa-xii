@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "S": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "S",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass",
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "ars_elemental:soulbound": 1
+        }
+      }
+    }
+  }
+}

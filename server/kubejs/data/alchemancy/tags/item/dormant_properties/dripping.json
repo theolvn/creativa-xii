@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create:stone_types/dripstone",
+    "#alchemancy:materials/create_slabs/dripstone"
+  ]
+}

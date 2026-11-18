@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_5"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "createaddition:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:chicken_food_tier_6"
+    }
+  ]
+}

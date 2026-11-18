@@ -1,0 +1,5 @@
+{
+    "type": "lychee:lightning_channeling",
+    "item_in" : "ae2:certus_quartz_crystal",
+    "post": "drop ae2:charged_certus_quartz_crystal"
+}

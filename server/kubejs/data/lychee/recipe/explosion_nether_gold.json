@@ -1,0 +1,16 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:nether_gold_ore",
+    "post": [
+        "drop 4x minecraft:gold_nugget",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50",
+        "drop 2x minecraft:gold_nugget /.50"
+    ]
+}

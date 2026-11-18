@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:oat_beer",
+      "amount": 1000
+    },
+    {
+      "item": "farm_and_charm:oat"
+    },
+    {
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:midlane_ganks_whiskey_wort"
+    }
+  ]
+}

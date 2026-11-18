@@ -1,0 +1,37 @@
+{
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "A": {
+            "item": "create:propeller"
+            },
+            "B": {
+            "item": "createaddition:alternator"
+            },
+            "C": {
+            "item": "oritech:basic_battery"
+            },
+            "D": {
+            "item": "mekanism:basic_control_circuit"
+            },
+            "E": {
+            "item": "mekanism:ingot_osmium"
+            },
+            "F": {
+            "item": "mekanism:alloy_infused"
+            }
+        },
+        "pattern": [
+            "ABF",
+            " E ",
+            " E ",
+            " E ",
+            "CDC"
+        ],
+        "result": {
+            "count": 1,
+            "id": "mekanismgenerators:wind_generator"
+        },
+        "show_notification": false
+    }

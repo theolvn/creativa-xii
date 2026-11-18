@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "quark:bottled_cloud"
+    },
+    "Y": {
+      "item": "naturescompass:naturescompass"
+    }
+  },
+  "pattern": [
+    "X",
+    "Y"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:meteorite_compass"
+  }
+}

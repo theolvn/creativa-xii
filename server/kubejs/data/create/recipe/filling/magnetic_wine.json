@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:magnetic_wine"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:magnetic_wine"
+    }
+  ]
+}

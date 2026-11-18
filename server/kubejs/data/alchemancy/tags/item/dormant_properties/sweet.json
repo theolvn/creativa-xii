@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "create:honey_bucket",
+    "create:honeyed_apple",
+    "create:bar_of_chocolate",
+    "create:chocolate_glazed_berries",
+    "create:chocolate_bucket",
+    "create:sweet_roll",
+    "create:builders_tea",
+    "create:blaze_cake_base",
+    "create:blaze_cake",
+    {"id": "create_enchantment_industry:experience_cake_base", "required": false},
+    {"id": "create_enchantment_industry:experience_cake", "required": false},
+    {"id": "create_enchantment_industry:experience_cake_slice", "required": false},
+    {"id": "createaddition:chocolate_cake", "required": false},
+    {"id": "createaddition:honey_cake", "required": false}
+  ]
+}

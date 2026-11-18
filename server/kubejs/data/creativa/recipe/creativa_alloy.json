@@ -1,0 +1,63 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 64,
+      "item": "minecraft:pearlescent_froglight"
+    },
+    {
+      "count": 32,
+      "item": "malum:paracausal_flame"
+    },
+    {
+      "count": 8,
+      "item": "alchemancy:pocket_black_hole"
+    },
+    {
+      "count": 16,
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "count": 32,
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    {
+      "count": 15,
+      "item": "ars_elemental:mark_of_mastery"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "oritech:prometheum_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "kubejs:creativa_alloy"
+  },
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 48
+    },
+    {
+      "type": "malum:wicked",
+      "count": 48
+    },
+    {
+      "type": "malum:arcane",
+      "count": 48
+    },
+     {
+      "type": "malum:eldritch",
+      "count": 48
+    },
+    {
+      "type": "malum:aerial",
+      "count": 48
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 48
+    }
+  ]
+}

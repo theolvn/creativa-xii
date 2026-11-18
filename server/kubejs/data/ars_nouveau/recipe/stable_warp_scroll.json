@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "pedestalItems": [
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "tag": "c:ender_pearls"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:warp_scroll"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:stable_warp_scroll"
+  },
+  "sourceCost": 10000
+}

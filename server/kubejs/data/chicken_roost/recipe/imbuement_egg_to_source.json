@@ -1,0 +1,12 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:egg"
+  },
+  "output": {
+    "count": 1,
+    "id": "chicken_roost:c_source"
+  },
+  "pedestalItems": [],
+  "source": 500
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "#c:dusts/diamond", "required": false},
+    {"id": "createaddition:diamond_grit_sandpaper", "required": false}
+  ]
+}

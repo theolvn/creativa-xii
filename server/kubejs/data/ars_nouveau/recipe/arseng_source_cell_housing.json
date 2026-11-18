@@ -1,0 +1,38 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "reagent": {
+    "item": "ae2:item_cell_housing"
+  },
+  "result": {
+    "count": 1,
+    "id": "arseng:source_cell_housing"
+  },
+  "sourceCost": 10000
+}

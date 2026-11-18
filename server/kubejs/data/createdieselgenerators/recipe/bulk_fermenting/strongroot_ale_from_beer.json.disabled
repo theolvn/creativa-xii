@@ -1,0 +1,29 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "brewinandchewin:beer",
+      "amount": 1000
+    },
+    {
+      "tag": "c:crops/beetroot"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "brewinandchewin:jerky"
+    }
+  ],
+  "processing_time": 4800,
+  "results": [
+    {
+      "id": "brewinandchewin:strongroot_ale",
+      "amount": 1000
+    }
+  ]
+}

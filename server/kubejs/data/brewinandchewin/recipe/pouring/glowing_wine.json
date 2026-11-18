@@ -1,0 +1,16 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "fluid": {
+    "amount": 500,
+    "id": "kubejs:vivipiss_wine"
+  },
+  "container": {
+    "id": "vinery:wine_bottle",
+    "count": 1
+  },
+  "output": {
+    "count": 1,
+    "id": "vinery:glowing_wine"
+  },
+  "unit": "millibuckets"
+}

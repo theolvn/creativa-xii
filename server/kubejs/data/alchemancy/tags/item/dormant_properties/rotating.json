@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "create:shaft",
+    "create:cogwheel",
+    "create:large_cogwheel",
+    "create:turntable",
+    "create:windmill_bearing",
+    "create:clockwork_bearing",
+    "create:mechanical_bearing",
+    "create:flywheel",
+    "#create:valve_handles",
+    "create:hand_crank",
+    "create:gantry_shaft",
+    "create:water_wheel",
+    "create:large_water_wheel"
+  ]
+}

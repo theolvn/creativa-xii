@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "oritech:reactor_wall"
+    },
+    "r": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    "   ",
+    "rcr",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:reactor_controller"
+  }
+}

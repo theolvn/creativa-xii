@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create:stone_types/scorchia",
+    "#alchemancy:materials/create_slabs/scorchia"
+  ]
+}

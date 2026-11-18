@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:wheat_beer"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:flutchov_whiskey_wort"
+  },
+  "temperature": 4,
+  "unit": "millibuckets"
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "B": {
+            "item": "createaddition:electric_motor"
+        },
+        "O": {
+            "tag": "c:ingots/osmium"
+        },
+        "X": {
+            "item": "create:mechanical_pump"
+        },
+        "C": {
+            "item": "cgs:steel_sheet"
+        }
+    },
+    "pattern": [
+        "CBC",
+        "AXA",
+        "OOO"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:electric_pump"
+    }
+}

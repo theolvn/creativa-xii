@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:tankard"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:nettle_beer"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewery:beer_nettle"
+    }
+  ]
+}

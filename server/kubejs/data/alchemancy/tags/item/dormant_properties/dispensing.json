@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:deployer",
+    "create:mechanical_roller",
+    "create:schematicannon",
+    "create:potato_cannon"
+  ]
+}

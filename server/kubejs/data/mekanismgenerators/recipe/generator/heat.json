@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "C": {
+            "item": "cgs:steel_sheet"
+        },
+        "F": {
+            "item": "create:fluid_tank"
+        },
+        "I": {
+            "item": "create:iron_sheet"
+        },
+        "O": {
+            "item": "create:steam_engine"
+        },
+        "A": {
+            "item": "createaddition:alternator"
+        },
+        "B": {
+            "item": "mekanism:basic_control_circuit"
+        }
+    },
+    "pattern": [
+        "III",
+        "AOB",
+        "CFC"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanismgenerators:heat_generator"
+    }
+}

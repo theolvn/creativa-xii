@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:snowy_plains"
+    },
+    {
+      "id": "minecraft:snowy_slopes"
+    },
+    {
+      "id": "minecraft:snowy_taiga"
+    },
+    {
+      "id": "minecraft:frozen_peaks"
+    },
+    {
+      "id": "minecraft:ice_spikes"
+    }
+  ]
+}

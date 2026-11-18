@@ -1,0 +1,22 @@
+MoreJS.villagerTrades(event => {
+    // event.removeVanillaTypedTrades();
+    // event.removeModdedTypedTrades();
+
+    // simplehats:hatbag_common
+    event.addTrade('betterarcheology:archeologist', 2, TradeItem.of('minecraft:emerald', 1, 8),  TradeItem.of('simplehats:hatbag_common', 1, 2));
+    // simplehats:hatbag_uncommon
+    event.addTrade('betterarcheology:archeologist', 3, TradeItem.of('minecraft:emerald', 8, 16),  TradeItem.of('simplehats:hatbag_uncommon', 1, 2));
+    // simplehats:hatbag_rare
+    event.addTrade('betterarcheology:archeologist', 4, TradeItem.of('minecraft:emerald', 16, 32),  TradeItem.of('simplehats:hatbag_rare', 1, 2));
+    // simplehats:hatbag_epic
+    event.addTrade('betterarcheology:archeologist', 5, TradeItem.of('minecraft:emerald', 32, 64),  TradeItem.of('simplehats:hatbag_epic', 1, 2));
+    // createbb:white_meth
+    event.addTrade('betterarcheology:archeologist', 5, TradeItem.of('createbb:white_meth', 1, 4),  TradeItem.of('minecraft:emerald', 4, 8));
+    // createbb:blue_meth
+    event.addTrade('betterarcheology:archeologist', 5, TradeItem.of('createbb:blue_meth', 1, 4),  TradeItem.of('minecraft:emerald', 4, 8));
+    // nirvana:weed_brownie
+    event.addTrade('betterarcheology:archeologist', 5, TradeItem.of('nirvana:weed_brownie', 1, 4),  TradeItem.of('minecraft:emerald', 4, 16));
+    // nirvana:joint
+    event.addTrade('betterarcheology:archeologist', 5, TradeItem.of('nirvana:joint', 1, 4),  TradeItem.of('minecraft:emerald', 4, 16));
+
+});

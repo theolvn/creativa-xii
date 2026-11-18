@@ -1,0 +1,16 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:deepslate_lapis_ore",
+    "post": [
+        "drop 4x minecraft:lapis_lazuli",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50",
+        "drop 2x minecraft:lapis_lazuli /.50"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "createaddition:electric_motor"
+    },
+    "p": {
+      "tag": "oritech:plating"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "pcp",
+    "p p"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:exo_leggings"
+  }
+}

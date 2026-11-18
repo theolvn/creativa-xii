@@ -1,0 +1,38 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "tag": "c:logs/archwood"
+    },
+    {
+      "tag": "c:logs/archwood"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    }
+  ],
+  "reagent": {
+    "tag": "c:storage_blocks/source"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:enchanters_mirror"
+  },
+  "sourceCost": 0
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:plates/gold",
+    "create:crushed_raw_gold",
+    {"id": "#c:wires/gold", "required": false},
+    {"id": "#c:rods/gold", "required": false}
+  ]
+}

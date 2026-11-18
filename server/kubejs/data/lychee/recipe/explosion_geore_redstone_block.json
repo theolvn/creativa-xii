@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in": "geore:redstone_cluster",
+    "post": [
+        "drop geore:redstone_shard /.5",
+        "drop geore:redstone_shard /.5",
+        "drop geore:redstone_shard /.5",
+        "drop geore:redstone_shard /.5"
+    ]
+}

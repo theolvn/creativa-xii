@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:cinnabar"
+      },
+      "entries": [
+          {
+            "weight": 7,
+            "data": {
+              "Name": "minecraft:cinnabar"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:potent_sulfur"
+            }
+          }
+        ]
+    }
+  }
+}

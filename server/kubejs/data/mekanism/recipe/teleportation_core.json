@@ -1,0 +1,38 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:fluix_pearl"
+    },
+    {
+      "item": "ae2:fluix_pearl"
+    },
+    {
+      "tag": "mekanism:alloys/atomic"
+    },
+    {
+      "tag": "mekanism:alloys/atomic"
+    }
+  ],
+  "reagent": {
+    "item": "waystones:warp_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "mekanism:teleportation_core"
+  },
+  "sourceCost": 5000
+}

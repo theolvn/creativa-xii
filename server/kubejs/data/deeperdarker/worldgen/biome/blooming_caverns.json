@@ -1,0 +1,117 @@
+{
+  "carvers": {
+    "air": "deeperdarker:cave"
+  },
+  "downfall": 0.2,
+  "effects": {
+    "fog_color": 1716032,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "deeperdarker:ambient.otherside.additions",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:sculk_charge_pop"
+      },
+      "probability": 0.002
+    },
+    "sky_color": 8560639,
+    "water_color": 2601177,
+    "water_fog_color": 2189448
+  },
+  "features": [
+    [],
+    [
+      "deeperdarker:blooming_water_edge",
+      "deeperdarker:blooming_pool"
+    ],
+    [
+	  "abyss:osmium_deep_down",
+      "abyss:osmium_down",
+      "abyss:osmium_middle",
+      "abyss:osmium_up",
+      "abyss:platinum_deep_down",
+      "abyss:platinum_down",
+      "abyss:platinum_middle",
+      "abyss:platinum_up",
+      "abyss:fluorite_deep_down",
+      "abyss:fluorite_down",
+      "abyss:fluorite_middle",
+      "abyss:fluorite_up"
+	],
+    [],
+    [],
+    [],
+    [
+	  "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark",
+      "deeperdarker:blooming_moss",
+      "deeperdarker:sculk",
+      "deeperdarker:infested_sculk",
+      "deeperdarker:sculk_jaw"
+    ],
+    [],
+    [],
+    [
+      "deeperdarker:blooming_sculk_vegetation",
+      "deeperdarker:blooming_plant",
+      "deeperdarker:glowing_roots",
+      "deeperdarker:glowing_vines",
+      "deeperdarker:glowing_vines_short",
+      "deeperdarker:sculk_vines_caverns"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "deeperdarker:sculk_snapper",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 20
+      },
+      {
+        "type": "deeperdarker:sludge",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 80
+      },
+	  {
+        "type": "minecraft:phantom",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 100
+      },
+	  {
+        "type": "alexsmobs:skreecher",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 40
+      },
+	  {
+        "type": "minecraft:enderman",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 20
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": [
+      {
+        "type": "deeperdarker:angler_fish",
+        "maxCount": 5,
+        "minCount": 3,
+        "weight": 2
+      }
+    ]
+  },
+  "temperature": -0.3
+}

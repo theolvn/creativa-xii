@@ -1,0 +1,22 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "category": "meals",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    []
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fermented_spider_eye"
+  },
+  "temperature": 4
+}

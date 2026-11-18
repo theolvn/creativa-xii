@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:stock_ticker",
+    "create:packager",
+    "create:repackager",
+    "create:mechanical_arm",
+    "create:package_frogport"
+  ]
+}

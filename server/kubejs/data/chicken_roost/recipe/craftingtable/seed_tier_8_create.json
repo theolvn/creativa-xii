@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_7"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_7"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:chicken_food_tier_8"
+    }
+  ]
+}

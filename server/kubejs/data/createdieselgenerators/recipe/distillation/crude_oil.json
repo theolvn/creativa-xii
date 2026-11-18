@@ -1,0 +1,22 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "oritech:still_oil"
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 60,
+  "results": [
+    {
+      "id": "oritech:still_diesel",
+      "amount": 50
+    },
+    {
+      "id": "createdieselgenerators:gasoline",
+      "amount": 50
+    }
+  ]
+}

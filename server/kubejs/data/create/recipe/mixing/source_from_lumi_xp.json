@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "supplementaries:lumisene",
+      "amount": 250
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "sauce:source_fluid"
+    }
+  ]
+}

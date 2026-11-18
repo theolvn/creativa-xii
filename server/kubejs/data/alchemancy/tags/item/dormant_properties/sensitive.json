@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:weighted_ejector",
+    "create:content_observer",
+    "create:redstone_contact"
+  ]
+}

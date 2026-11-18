@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:iron_ore",
+    "post": [
+        "drop minecraft:raw_iron",
+        "drop minecraft:raw_iron /.5",
+        "drop minecraft:raw_iron /.25",
+        "drop minecraft:raw_iron /.25"
+    ]
+}

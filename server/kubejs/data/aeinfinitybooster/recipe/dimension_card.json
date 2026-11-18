@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "N": {
+      "item": "mekanism:teleportation_core"
+    },
+    "R": {
+      "item": "aeinfinitybooster:infinity_card"
+    }
+  },
+  "pattern": [
+    "RNR",
+    "NEN",
+    "RNR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aeinfinitybooster:dimension_card"
+  }
+}

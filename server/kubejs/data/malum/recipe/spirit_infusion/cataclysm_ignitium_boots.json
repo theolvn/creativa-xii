@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 16,
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "count": 32,
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "count": 2,
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "iceandfire:dragonsteel_fire_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "cataclysm:ignitium_boots"
+  },
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 48
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 64
+    }
+  ]
+}

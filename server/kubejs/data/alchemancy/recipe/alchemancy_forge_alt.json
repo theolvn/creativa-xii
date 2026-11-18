@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:logs/archwood"
+    },
+    "B": {
+      "item": "alchemancy:alchemical_extract"
+    },
+    "A": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "D": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "DAD",
+    "#B#",
+    "#B#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alchemancy:alchemancy_forge"
+  }
+}

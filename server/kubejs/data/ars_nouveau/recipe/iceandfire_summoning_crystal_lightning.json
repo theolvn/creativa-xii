@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    },
+    {
+      "item": "malum:warp_flux"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "reagent": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "count": 1,
+    "id": "iceandfire:summoning_crystal_lightning"
+  },
+  "sourceCost": 1000
+}

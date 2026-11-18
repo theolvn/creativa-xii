@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:extendo_grip",
+    "create:mechanical_piston",
+    "create:sticky_mechanical_piston",
+    "create:pulse_extender"
+  ]
+}

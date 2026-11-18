@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "oritech:magnetic_coil"
+    },
+    "w": {
+      "item": "ecologics:coconut_husk"
+    }
+  },
+  "pattern": [
+    "w",
+    "e",
+    "w"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mobcatcher:net"
+  }
+}

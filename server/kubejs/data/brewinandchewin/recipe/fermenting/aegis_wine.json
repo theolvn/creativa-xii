@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#kubejs:white_taiga_grapejuice"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 4800,
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "iceandfire:silver_ingot"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:chateau_kaer_morhen_wine"
+  },
+  "temperature": 4,
+  "unit": "millibuckets"
+}

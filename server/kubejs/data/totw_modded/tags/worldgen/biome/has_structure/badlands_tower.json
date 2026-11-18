@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_badlands"
+    },
+    {
+      "id": "#c:is_badlands",
+      "required": false
+    }
+  ]
+}

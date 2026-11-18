@@ -1,0 +1,109 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "chicken_roost:c_feather",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_honeycomb",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_apple",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_glowberries",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_sweetberries",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_copper",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_netherwart",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_silver",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_tin",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_rotten",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_zinc",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_niter",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_coke",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_tar",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_apatite",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_bitumen",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_constantan",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_blazepowder",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_signalum",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_amber",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_energeticalloy",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_saltpeter",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_soularium",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_richslag",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_salt",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_voidcrystal",
+      "required": false
+    }
+  ]
+}

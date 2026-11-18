@@ -1,0 +1,959 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_aeronautics"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "aeronautics:aviators_goggles"
+	}
+	id: "1EBB7B735A407FCB"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4213D6EE6E4C326E"
+			rewards: [
+				{
+					id: "78C79072476A55AF"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					id: "0897301C043566B0"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A6B783186FC1DB1"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1CB2D3C285FB7261"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "74C998AEF270CE80"
+			rewards: [
+				{
+					id: "63E1B18DE99AC090"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "572C42A9B5751345"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BAAB5867E6D64EF"
+				item: { count: 1, id: "simulated:honey_glue" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74C998AEF270CE80"]
+			id: "170294E602C2DC46"
+			rewards: [
+				{
+					id: "53D7D3174AD02963"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C85DF239854755C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7475801F07F2A252"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "028C8844F1EE5142"
+			rewards: [
+				{
+					count: 4
+					id: "22E7880ADB53D362"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25452708B3917EED"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12CD87276D89B260"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78D1907BD740133E"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					id: "53A875DB6F8C561E"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "6345A6BC1FDEDEC0"
+			rewards: [
+				{
+					count: 2
+					id: "023B55D26A82C40E"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03D62665A5D3B619"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A285A7DDED61289"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "78FDA8052A172878"
+			rewards: [{
+				count: 2
+				id: "0748AC542F3C9A36"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15E02F16804E536A"
+				item: { count: 1, id: "create:white_seat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EB3762C981D99B9"]
+			id: "52BF35D46B4D0EAC"
+			rewards: [
+				{
+					id: "252E455D1A3B7A85"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E018ADF88C6C06E"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2EAC8D7ABFAA7AAA"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C2F4D617F467A85"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F6500F7A665C219"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52BF35D46B4D0EAC"]
+			id: "3B66F7567F7E1301"
+			rewards: [{
+				count: 4
+				id: "4BE8D854CB5A29FA"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BF3C67D73D22C2F"
+					item: { count: 1, id: "offroad:tire" }
+					type: "item"
+				}
+				{
+					id: "406C67AE336DC2D2"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52BF35D46B4D0EAC"]
+			id: "350AD87F78BCA2E7"
+			rewards: [
+				{
+					count: 2
+					id: "41BCC6CE2750FDDC"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110064766EE36C9D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00D43E47FBDD2F06"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52BF35D46B4D0EAC"]
+			id: "4D10BA77A40A1FF7"
+			rewards: [{
+				count: 2
+				id: "0B765084B8B4429B"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DD2A398124DE72F"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52BF35D46B4D0EAC"]
+			id: "69C185DC8E9BAC6C"
+			rewards: [
+				{
+					id: "6B6C26C67448AA25"
+					item: {
+						count: 1
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7CEF2E458B8E93E2"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D8E78B0A517835E"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["350AD87F78BCA2E7"]
+			id: "4AFAC8D2C6E37FDD"
+			rewards: [
+				{
+					count: 2
+					id: "3C2C80D8047004F3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5BF4A1F3808A3350"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22EA2D43AFC16642"
+					item: { components: { "ftbquests:missing_item": "create:redstone_link" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "081896B99BE66BA1"
+					item: { count: 1, id: "create:linked_controller" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BA693AE27E40F9C"]
+			id: "04D57580A8E53951"
+			rewards: [
+				{
+					count: 4
+					id: "4F1FC1FB23422B4F"
+					item: {
+						count: 1
+						id: "simulated:rope_coupling"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6DC17D853B1E2181"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FECBE1428221E99"
+				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:rope_connector_launcher" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "073546B2C838D9A3"
+			rewards: [{
+				count: 2
+				id: "048FD2007912350D"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "150C36AA12D82D8D"
+					item: { count: 1, id: "vista:viewfinder" }
+					type: "item"
+				}
+				{
+					id: "5BF730961AFDDF54"
+					item: { count: 1, id: "vista:television" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "570680DC1B3E5D01"
+			rewards: [{
+				count: 2
+				id: "19FBF4BCE7E3B6EC"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63EC95098422693F"
+				item: { count: 1, id: "simulated:white_nameplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["170294E602C2DC46"]
+			id: "5EB3762C981D99B9"
+			rewards: [{
+				count: 2
+				id: "6798B74129E6D8D8"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E8FE527134F8A7"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D10BA77A40A1FF7"]
+			id: "683B6B2B844793CD"
+			rewards: [
+				{
+					count: 4
+					id: "66BB4525C786D4AE"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16011BB183DD7E2A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37AA673A8D9E9225"
+					item: { count: 1, id: "createpropulsion:solid_fuel_thruster" }
+					type: "item"
+				}
+				{
+					id: "296C0F133F2FE881"
+					item: { count: 1, id: "createpropulsion:thruster" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C185DC8E9BAC6C"]
+			id: "38BA407B505BA94D"
+			rewards: [
+				{
+					count: 2
+					id: "6C85016EC173B241"
+					item: {
+						count: 1
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "076859A2BB104977"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FAA461C6F1724E9"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["683B6B2B844793CD"]
+			id: "2515D33601E7DF10"
+			rewards: [
+				{
+					count: 2
+					id: "5C3432F0D8996D40"
+					item: {
+						count: 1
+						id: "oritech:raw_platinum"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "519BDAB35B36001F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71C508B30781F976"
+				item: { count: 1, id: "createpropulsion:vector_thruster" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4AFAC8D2C6E37FDD"]
+			id: "48174E57DF684EA3"
+			rewards: [
+				{
+					count: 2
+					id: "08000C0F5F7E8331"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6013ED478A63179B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55F77E022E19C172"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6345A6BC1FDEDEC0"]
+			id: "199F3CF5FF02E166"
+			rewards: [
+				{
+					count: 2
+					id: "02DE499000EEE79A"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B2590148D9F768C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B11CCECD7F603D3"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+				{
+					id: "3D12BD2E53BCF71D"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["199F3CF5FF02E166"]
+			id: "2BA693AE27E40F9C"
+			rewards: [
+				{
+					count: 4
+					id: "145B9384AC00F07E"
+					item: {
+						count: 1
+						id: "simulated:rope_coupling"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52FE2A53BF2E15EC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33917EBF81DF92A2"
+				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:throwable_rope_connector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["028C8844F1EE5142"]
+			id: "010255C90DF98846"
+			rewards: [
+				{
+					count: 4
+					id: "77200CD4B55983B5"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53F47FAB6FA028F6"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EBB37D57D56BFFC"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["010255C90DF98846"]
+			id: "4979DF5FEFE81B51"
+			rewards: [
+				{
+					count: 4
+					id: "2957824C759ABD25"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B9125AE4D51EC01"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "551C36054C76705B"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4213D6EE6E4C326E"]
+			id: "5D47AC3B56D0AF23"
+			rewards: [
+				{
+					count: 4
+					id: "53E4A4D021465523"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0238B4416C6EC368"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CA74BCAE28B68A5"
+				item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D47AC3B56D0AF23"]
+			id: "00BCAB7AF9AB1617"
+			rewards: [
+				{
+					count: 4
+					id: "270AB509DB3EB323"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "64B0C11974E1DFEE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4953C569A2F0C261"
+					item: { count: 1, id: "createbigcannons:basin_foundry_lid" }
+					type: "item"
+				}
+				{
+					id: "29EAA9BAAF853D11"
+					item: { count: 1, id: "createbigcannons:casting_sand" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00BCAB7AF9AB1617"]
+			id: "3E1C0A771B5E2613"
+			rewards: [
+				{
+					count: 2
+					id: "2ABDC95BFAFAB660"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5763B1170B0C95FB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CE74FB967374F83"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E1C0A771B5E2613"]
+			id: "5EA6C3629099B960"
+			rewards: [
+				{
+					count: 2
+					id: "50D70501A6BE9D65"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B1BD788A13F346F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6756EB66FF403E01"
+					item: { count: 1, id: "createbigcannons:powder_charge" }
+					type: "item"
+				}
+				{
+					id: "2F3C9B56325AC759"
+					item: { count: 1, id: "createbigcannons:he_shell" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EA6C3629099B960"]
+			id: "4A000423355D1765"
+			rewards: [
+				{
+					count: 2
+					id: "0A06D78E58715775"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3340691D08277D60"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33D992276EECA760"
+					item: { count: 1, id: "createbigcannons:cast_iron_autocannon_breech" }
+					type: "item"
+				}
+				{
+					id: "0E0202A6F2357490"
+					item: { count: 1, id: "createbigcannons:autocannon_ammo_container" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.5d
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "oritech:atomic_forge",
+  "ingredients": [
+    {
+      "item": "oritech:duratium_ingot"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "oritech:super_ai_chip"
+    }
+  ],
+  "time": 50
+}

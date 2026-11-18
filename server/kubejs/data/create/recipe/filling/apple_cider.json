@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:apple_cider"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:apple_cider"
+    }
+  ]
+}

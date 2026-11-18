@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "deep_aether:golden_aspees"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "tool": {
+    "tag": "farmersdelight:tools/knives"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:bulk_fermenting",
+  "ingredients": [
+    {
+      "tag": "brewinandchewin:foods/jerky_meat"
+    },
+    {
+      "tag": "brewinandchewin:foods/jerky_meat"
+    },
+    {
+      "tag": "brewinandchewin:foods/jerky_meat"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "count": 3,
+      "id": "brewinandchewin:jerky"
+    }
+  ]
+}

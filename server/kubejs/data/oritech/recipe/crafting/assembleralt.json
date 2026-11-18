@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "oritech:plating"
+    },
+    "c": {
+      "item": "oritech:adamant_ingot"
+    },
+    "f": {
+      "tag": "c:ingots/copper"
+    },
+    "m": {
+      "item": "create:mechanical_crafter"
+    },
+    "s": {
+      "item": "createaddition:electric_motor"
+    }
+  },
+  "pattern": [
+    "fff",
+    "mcm",
+    "sbs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:assembler_block"
+  }
+}

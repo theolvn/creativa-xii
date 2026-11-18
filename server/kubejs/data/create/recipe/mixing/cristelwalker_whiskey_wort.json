@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "kubejs:hops_beer",
+      "amount": 1000
+    },
+    {
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "kubejs:odakivas_regal_scotch_whiskey_wort"
+    }
+  ]
+}

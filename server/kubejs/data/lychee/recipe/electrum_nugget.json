@@ -1,0 +1,5 @@
+{
+    "type": "lychee:lightning_channeling",
+    "item_in" : "minecraft:gold_nugget",
+    "post": "drop createaddition:electrum_nugget"
+}

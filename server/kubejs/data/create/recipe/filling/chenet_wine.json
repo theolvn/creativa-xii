@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "kubejs:rose_mateus_wine"
+    }
+  ],
+  "results": [
+    {
+      "id": "vinery:chenet_wine"
+    }
+  ]
+}

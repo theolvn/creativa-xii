@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_8"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "chicken_roost:chicken_food_tier_9"
+    }
+  ]
+}

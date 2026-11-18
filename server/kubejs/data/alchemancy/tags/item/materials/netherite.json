@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:netherite_backtank",
+    "create:netherite_diving_helmet",
+    "create:netherite_diving_boots"
+  ]
+}

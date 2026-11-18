@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "create:iron_sheet"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "createaddition:tesla_coil"
+    }
+  },
+  "pattern": [
+    "aba",
+    "b b",
+    "aca"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:charger"
+  }
+}

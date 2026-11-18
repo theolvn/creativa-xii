@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "oritech:deepslate_uranium_ore",
+    "post": [
+        "drop oritech:raw_uranium",
+        "drop oritech:raw_uranium /.5",
+        "drop oritech:raw_uranium /.25",
+        "drop oritech:raw_uranium /.25"
+    ]
+}

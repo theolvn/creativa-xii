@@ -1,0 +1,728 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_archeologie"
+	group: "752CDE464613A1ED"
+	icon: {
+		id: "minecraft:brush"
+	}
+	id: "01F64D3E629E0A33"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "18472F7F053AFBC1"
+			rewards: [
+				{
+					count: 4
+					id: "15A2F2EE47225954"
+					item: {
+						count: 1
+						id: "betterarcheology:bomb"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4536CD7368A555FE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "608A01F08A7799E8"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18472F7F053AFBC1"]
+			id: "38AE4B3088C601F1"
+			rewards: [
+				{
+					count: 2
+					id: "1C323B46753B5B44"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AD3EA3822693E81"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C7239C1A2E1171B"
+				item: { count: 1, id: "betterarcheology:artifact_shards" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05333F1419C7DD0F"]
+			id: "7404CE240841CC8C"
+			rewards: [
+				{
+					id: "2224A3E8FC5A22DE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F58F04EBA78BF6A"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11EEE6CC89675CBE"
+					item: {
+						count: 1
+						id: "betterarcheology:bomb"
+					}
+					type: "item"
+				}
+				{
+					id: "08B22029A3C025CF"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70C6A644DCF3465E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "469494B4B9E07E6A"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38AE4B3088C601F1"]
+			id: "05333F1419C7DD0F"
+			rewards: [
+				{
+					count: 2
+					id: "726E7A9EB7FDD776"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "295F3ABC6AB57E29"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02D5AEFF8CF774EB"
+				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "181956890867DBB6"
+			rewards: [
+				{
+					id: "1670ED5F2B99F385"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1CB3AE8EEFB8E5AC"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "18B416909A8CEE62"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "562FAC9206438FF5"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6C3274A07659C4FB"
+				item: { count: 1, id: "betterarcheology:creeper_fossil" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "5F47C8A5C2353AD5"
+			rewards: [
+				{
+					id: "1551447C3A691CCB"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "02AC5F26134AB291"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "4E1E9E3325E68E19"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AF178A50BDDBDE8"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0FFE24C37DDA58A9"
+				item: { count: 1, id: "betterarcheology:villager_fossil" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "44335F47489CA335"
+			rewards: [
+				{
+					id: "258A70067286A94E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3AD0C7F91B43D7CC"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "5E2FB5B157D1D28F"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5208A9AF20DE4170"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "40395403A48EA501"
+				item: { count: 1, id: "betterarcheology:chicken_fossil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "7D04EAA9BD077E9C"
+			rewards: [
+				{
+					id: "25DF1ED41F6C22DE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "247FB8C64752E121"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "36825CC91F75AAEB"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1BD6AEDF0B1C9802"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "24A058EBF36CA913"
+				item: { count: 1, id: "betterarcheology:ocelot_fossil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "4D250B5C566B46C3"
+			rewards: [
+				{
+					id: "41C4CA3F05290D9E"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "58AC6A18A0B39A76"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "01DA668F72ADD4BF"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F76092447AA4F95"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "18392AC932331133"
+				item: { count: 1, id: "betterarcheology:wolf_fossil" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "63B3482107B15D2A"
+			rewards: [
+				{
+					id: "2EF36668496EF0E5"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "27E0762C774995EF"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "52853B009F752127"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5AF4D26E8D8590B8"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7D88F5F056AE984D"
+				item: { count: 1, id: "betterarcheology:sheep_fossil" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["624CB34EC8A7F920"]
+			id: "6196F4D804A2789B"
+			rewards: [
+				{
+					id: "1FC53D35898EB0C2"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6073E920A3A6CBF0"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "628F0392BF21EF7F"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FDB323BB357343C"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3A3F642852619FF7"
+				item: { count: 1, id: "betterarcheology:guardian_fossil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7404CE240841CC8C"]
+			id: "624CB34EC8A7F920"
+			rewards: [
+				{
+					count: 2
+					id: "21762ADE400CA449"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BA8100BCF1E7595"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "betterarcheology:fossil_found"
+				criterion: ""
+				id: "1AE0A9E5EFD0A607"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7404CE240841CC8C"]
+			id: "08474092680CD6D9"
+			rewards: [
+				{
+					id: "191EB84F51120FEF"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A7EDD23CF332ACC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65608CAC92CF8B6A"
+				item: { count: 1, id: "betterarcheology:torrent_totem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7404CE240841CC8C"]
+			id: "254DEE1F8D846CD1"
+			rewards: [
+				{
+					id: "20A0FB67C72FFBB3"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7EDA520453198509"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "639CE3A6E57D0BB2"
+				item: { count: 1, id: "betterarcheology:soul_totem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7404CE240841CC8C"]
+			id: "68C17DFD108E799F"
+			rewards: [
+				{
+					id: "53710B891F89DCC8"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "292F06742FBBA32F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E7EDE24A542D20A"
+				item: { count: 1, id: "betterarcheology:growth_totem" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7404CE240841CC8C"]
+			id: "2A2BDF5E3891B58D"
+			rewards: [
+				{
+					id: "143627C073DB1A92"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "053557AACCF1DB0D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2EA92CF9879FC739"
+				item: { count: 1, id: "betterarcheology:radiance_totem" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18472F7F053AFBC1"]
+			id: "2E6F9440D78973B9"
+			rewards: [
+				{
+					count: 2
+					id: "47F1675BCAF0602F"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77FA8A3E54BED205"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "521570E86B22396A"
+				item: { count: 1, id: "betterarcheology:iron_brush" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18472F7F053AFBC1"]
+			id: "6C4C4565CDFAFE8C"
+			rewards: [
+				{
+					id: "4ED8519FC5E274FF"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_uncommon"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00B8ABC8506AE672"
+					item: {
+						count: 1
+						id: "betterarcheology:artifact_shards"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36EE6AB19E1B8042"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FA22F5B1528BEFF"
+				item: { count: 1, id: "minecraft:sniffer_egg" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+	]
+}

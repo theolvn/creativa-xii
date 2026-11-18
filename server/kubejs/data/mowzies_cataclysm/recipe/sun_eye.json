@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "BBB",
+    "CAC",
+    "DDD"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:spider_eye"
+    },
+    "B":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "C":
+    {
+      "item": "minecraft:feather"
+    },
+    "D":
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result":
+  {
+    "id": "mowzies_cataclysm:sun_eye",
+    "count": 1
+  }
+}

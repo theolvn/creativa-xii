@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:tankard"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "kubejs:hops_beer"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewery:beer_hops"
+    }
+  ]
+}

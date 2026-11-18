@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    },
+    {
+      "item": "kubejs:creativa_alloy"
+    }
+  ],
+  "reagent": {
+    "item": "chicken_roost:chicken_food_tier_8"
+  },
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:chicken_food_tier_9"
+  },
+  "sourceCost": 9000
+}

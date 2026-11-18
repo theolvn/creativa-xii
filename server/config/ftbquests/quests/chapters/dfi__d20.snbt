@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dfi__d20"
+	group: "02FE661031A105D8"
+	id: "790C9CDE75AE3DDC"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6BD98395FB3EDEFA"
+				"6050BCB27013CD2D"
+				"15C4B0224861BE07"
+			]
+			id: "268E61141366A6C5"
+			rewards: [
+				{
+					id: "1940259C7BCE2355"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "0AAC16F7E0BC63CA"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00BB21966C183316"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A7B7CE08E97EAFA"
+				item: { count: 1, id: "kubejs:creativa_alloy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C82C4FCA396B9B3"
+				"268E61141366A6C5"
+				"6050BCB27013CD2D"
+				"4A78EEF932B7E017"
+				"7C1E44F223D801C3"
+			]
+			id: "7BCE4855A435C80C"
+			rewards: [
+				{
+					id: "737ADD2E38D6011F"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "2E973C5722A7B948"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7EC760B226530FDC"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5B855AC696E3559E"
+				item: { count: 1, id: "chicken_roost:c_creativa" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"268E61141366A6C5"
+				"6BD98395FB3EDEFA"
+				"372E11B22C2855F3"
+				"7C1E44F223D801C3"
+			]
+			id: "3C82C4FCA396B9B3"
+			rewards: [
+				{
+					id: "6F6FF58BE8B19577"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_epic"
+					}
+					type: "item"
+				}
+				{
+					id: "13CE50AD69471923"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5FEEDF18C0B0402C"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "370DF5D4ADAC3D95"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A78EEF932B7E017"
+				"15C4B0224861BE07"
+			]
+			id: "6050BCB27013CD2D"
+			rewards: [
+				{
+					id: "5EB66638F4EF5416"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3D54FE75F0BA0F8A"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "523668771AA44ADD"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "43D0170825E0EB69"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"372E11B22C2855F3"
+				"15C4B0224861BE07"
+			]
+			id: "6BD98395FB3EDEFA"
+			rewards: [
+				{
+					id: "7A2099C34703BFB5"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3F904DDF955C74A4"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27EA89ED32488EB8"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "735022B2F927753E"
+				item: { count: 1, id: "ars_elemental:mark_of_mastery" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4A78EEF932B7E017"
+			rewards: [
+				{
+					id: "322C5838A0ECE8C0"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "011827138E027936"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B87913A5B1C55AE"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				id: "51D7790823F60B1C"
+				item: { count: 1, id: "minecraft:pearlescent_froglight" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "372E11B22C2855F3"
+			rewards: [
+				{
+					id: "7A914A838120D46F"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4C06E3665EE94F0D"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53C8C780214F6A72"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "124DCC8540767EF2"
+				item: { count: 1, id: "malum:paracausal_flame" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "15C4B0224861BE07"
+			rewards: [
+				{
+					id: "2914EC8E65F617D2"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "13EBEF6C5CF5E17E"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1531AF0CD35EBEAD"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "67DBAABE82C5F543"
+				item: { count: 1, id: "alchemancy:pocket_black_hole" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A78EEF932B7E017"
+				"372E11B22C2855F3"
+			]
+			id: "7C1E44F223D801C3"
+			rewards: [
+				{
+					id: "6935AD12D846D7DE"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7B73FFC1C9333B32"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A3E435984B0B409"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "16804521B1928E65"
+				item: { count: 1, id: "mekanism:teleportation_core" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_exploding",
+    "block_in" : "minecraft:coal_ore",
+    "post": [
+        "drop minecraft:coal",
+        "drop minecraft:coal /.5",
+        "drop minecraft:coal /.5",
+        "drop minecraft:coal /.5"
+    ]
+}

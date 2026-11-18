@@ -1,0 +1,29 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#c:water"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "farm_and_charm:oat"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    []
+  ],
+  "result": {
+    "amount": 1000,
+    "id": "kubejs:oat_beer"
+  },
+  "temperature": 4,
+  "unit": "millibuckets"
+}
